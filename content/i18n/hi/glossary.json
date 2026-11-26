@@ -1,0 +1,29 @@
+{
+ "_about": "How names and recurring terms are written in this language, so they are always spelled the same. Names are written by sound, never translated (the author's rule). Spellings come from HusbandOutWorld's content/i18n/<lang>/glossary.json where it has them, so the series reads the same on every site; correct a name there and here together. Add this project's own names here the first time you translate them.",
+ "rule": "Standard Hindi. Story names in Devanagari, by sound. First versions here; HusbandOutWorld has no Hindi glossary yet, so copy these there when it does. Anything marked translate=\"no\" (Vraki-typeface text, code, sample output) stays as it is.",
+ "keep_as_is": [
+  "A Husband Out of This World",
+  "#HusbandOutWorld",
+  "Deovandski",
+  "Deovandski Skibinski Junior",
+  "A.G.",
+  "GitHub",
+  "MIT"
+ ],
+ "names": {
+  "Vraki": "व्राकी",
+  "Finaies": "फ़िनाइएस",
+  "Ganyrami": "गनिरामी",
+  "Paulin": "पॉलिन",
+  "Harry": "हैरी",
+  "The Prosperity Treaty": "समृद्धि संधि"
+ },
+ "terms": {
+  "Vraki typeface": "व्राकी टाइपफ़ेस",
+  "Vraki script": "व्राकी लिपि",
+  "converter": "कन्वर्टर",
+  "Settings": "सेटिंग्स",
+  "Text size": "टेक्स्ट का आकार",
+  "Language": "भाषा"
+ }
+}

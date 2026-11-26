@@ -1,0 +1,22 @@
+name: Add a language
+description: Ask for the website in another language. (The Settings menu's "Want a language added?" link opens this form.)
+title: "Language request: "
+labels: ["translations"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Translations are written ahead of time by AI (Claude) from the English original, reviewed by the author, and every translated page says so. Thanks for asking!
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: The language, and the variant if it matters (for example Portuguese (Portugal), Traditional Chinese, Swiss German).
+      placeholder: "e.g. Polski"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: Spelling conventions, names you would expect written a certain way, or whether you could help check the translation.

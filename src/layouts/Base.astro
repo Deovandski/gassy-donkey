@@ -1,0 +1,103 @@
+---
+// Every page uses this layout: head, header with the gear, footer, the Settings dialog and #ui-strings.
+// Pages pass a title and description; script-written text goes in the "ui-strings" slot (see CLAUDE.md).
+import '../styles/site.css';
+import Gear from '../components/Gear.astro';
+import SettingsDialog from '../components/SettingsDialog.astro';
+import PhotoViewer from '../components/reusable/PhotoViewer.astro';
+import { BASE, NAV, REPO_URL, SITE_NAME, STORAGE_KEY, THEME_COLOR, url } from '../lib/site';
+
+interface Props {
+  title: string;
+  description: string;
+  /** Shown in the browser tab after the title; leave out on the home page. */
+  section?: string;
+}
+const { title, description, section } = Astro.props;
+const fullTitle = section ? `${title} · ${section}` : title;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+// Every page at <path>/ has a Markdown copy at <path>/index.md, written by tools/llms.ts (the 404 page doesn't).
+const markdownTwin = Astro.url.pathname.endsWith('/') && !/\/404\/?$/.test(Astro.url.pathname) ? `${Astro.url.pathname}index.md` : null;
+---
+<!doctype html>
+<html lang="en" data-base={BASE} data-store={STORAGE_KEY}>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{fullTitle}</title>
+  <meta name="description" content={description}>
+  <meta property="og:title" content={fullTitle}>
+  <meta property="og:description" content={description}>
+  <link rel="icon" href={url('icon.svg')} type="image/svg+xml">
+  <!-- Installable app (PWA): the manifest (src/pages/manifest.webmanifest.ts), icons (public/icons/) and the worker
+       that keeps pages readable offline (public/sw.js). The worker's scope is the base path, so it covers every language. -->
+  <meta name="theme-color" content={THEME_COLOR}>
+  <link rel="manifest" href={url('manifest.webmanifest')}>
+  <link rel="apple-touch-icon" href={url('icons/apple-touch-icon.png')}>
+  <script is:inline>
+    if ("serviceWorker" in navigator) addEventListener("load", function () {
+      // This page loaded before the worker existed on a first visit, so ask the worker to save it too.
+      var b = document.documentElement.dataset.base || "", first = !navigator.serviceWorker.controller;
+      navigator.serviceWorker.register(b + "/sw.js", { scope: b + "/" })
+        .then(function () { return first && navigator.serviceWorker.ready; })
+        .then(function (r) { if (r && r.active) r.active.postMessage({ type: "save-page", url: location.href }); })
+        .catch(function () { /* no worker (private mode, old browser): the site works as before */ });
+    });
+  </script>
+  <link rel="canonical" href={canonical}>
+  <!-- For AI tools and crawlers: this page as Markdown, and the index of every page (both written by tools/llms.ts). -->
+  {markdownTwin && <link rel="alternate" type="text/markdown" href={markdownTwin}>}
+  <link rel="alternate" type="text/markdown" href={url('llms.txt')}>
+  <script is:inline>
+    // Before first paint: text size, and on a first visit the browser's language (once it's 90% translated).
+    // The storage key matches src/scripts/settings.ts.
+    try {
+      var d = document.documentElement, s = JSON.parse(localStorage.getItem(document.documentElement.dataset.store || "") || "{}");
+      if (s.size) d.style.setProperty("--scale", s.size / 17);
+      if (!d.dataset.lang) {
+        var ok = (d.dataset.langs || "").split(" "), w = s.lang, n = navigator.languages || [navigator.language || ""];
+        for (var i = 0; i < n.length && !w; i++) { var c = String(n[i]).toLowerCase().split("-")[0]; if (c === "en" || ok.indexOf(c) >= 0) w = c; }
+        var b = d.dataset.base || "";
+        if (w && w !== "en" && ok.indexOf(w) >= 0) location.replace(b + "/" + w + location.pathname.slice(b.length) + location.search + location.hash);
+      }
+    } catch (e) { /* private mode: no saved settings */ }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href={url()} translate="no">{SITE_NAME}</a>
+      <div class="top-end">
+        <nav aria-label="Main">
+          {NAV.map((n) => <a href={n.href}>{n.label}</a>)}
+          <a href={REPO_URL} translate="no">GitHub</a>
+        </nav>
+        <Gear />
+      </div>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer>
+      <p>Made by <a href="https://github.com/Deovandski">Deovandski</a>. © 2026 Deovandski Skibinski Junior. Code under the <a href={`${REPO_URL}/blob/master/LICENSE`}>MIT license</a>.</p>
+      <p>Built with AI assistance from the author's originals: <a href={`${REPO_URL}/blob/master/AI-DISCLOSURE.md`}>AI disclosure</a>. <a href={url('#privacy')}>Privacy</a>.</p>
+      <p translate="no"><a href={url('llms.txt')}>llms.txt</a> · <a href={url('llms-full.txt')}>llms-full.txt</a></p>
+    </footer>
+  </div>
+
+  <!-- Text the scripts write, kept in the page so it is translated with it. Read it with t("key") from src/scripts/i18n.ts. -->
+  <div id="ui-strings" hidden>
+    <slot name="ui-strings" />
+  </div>
+
+  <SettingsDialog />
+  <!-- Every picture opens bigger here ("Pictures are clickable" in CLAUDE.md). -->
+  <PhotoViewer />
+  <script>
+    import '../scripts/settings.ts';
+  </script>
+</body>
+</html>

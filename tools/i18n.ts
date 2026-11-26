@@ -219,6 +219,8 @@ function translatePage(src: string, page: string, lang: Language): { document: D
     else el.innerHTML = t;
   }
   for (const el of document.querySelectorAll('[href], [action]')) {
+    // data-lang-keep: the link points at something built once for every language (the game at play/).
+    if (el.hasAttribute('data-lang-keep')) continue;
     for (const a of ['href', 'action']) {
       const v = el.getAttribute(a);
       if (v && el.getAttribute('rel') !== 'canonical') el.setAttribute(a, langLink(v, code));

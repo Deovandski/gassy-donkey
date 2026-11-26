@@ -1,0 +1,103 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  site:
+    name: Site checks and builds
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Type check (TypeScript, .astro files, content schemas)
+        run: npm run check
+      - name: Build the site in every language
+        run: npm run build
+
+  game:
+    name: Game tests (Godot, headless)
+    runs-on: ubuntu-latest
+    env:
+      GODOT_VERSION: "4.7.2"
+    steps:
+      - uses: actions/checkout@v7
+      - name: Cache Godot
+        id: godot-cache
+        uses: actions/cache@v6
+        with:
+          path: ~/godot
+          key: godot-${{ env.GODOT_VERSION }}-editor-v1
+      - name: Download Godot
+        if: steps.godot-cache.outputs.cache-hit != 'true'
+        run: |
+          set -euo pipefail
+          mkdir -p ~/godot
+          curl -sSL -o /tmp/godot.zip "https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          unzip -q /tmp/godot.zip -d ~/godot
+          mv ~/godot/Godot_v${GODOT_VERSION}-stable_linux.x86_64 ~/godot/godot
+      - name: Import
+        run: ~/godot/godot --headless --path game --import
+      - name: Tests
+        run: ~/godot/godot --headless --path game -- --scene=tests
+      - name: The bot finishes every stage with mid-game stats
+        run: |
+          for stage in amazon_1 amazon_2 amazon_3 desert_1 desert_2 desert_3; do
+            out=$(~/godot/godot --headless --path game --fixed-fps 60 -- --scene=run --param=stage:$stage --param=autoplay:1 --param=quit:1 --param=stats:5,5,5,5 | grep AUTOPLAY)
+            echo "$out" | tee -a "$GITHUB_STEP_SUMMARY"
+            echo "$out" | grep -q "finished=true" || { echo "::error::the bot couldn't finish $stage"; exit 1; }
+          done
+
+  translations:
+    name: Translations (reports only, never blocks)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+      - name: How much of the site is translated
+        run: |
+          npm ci
+          npx astro build
+          node tools/i18n.ts status | tee -a "$GITHUB_STEP_SUMMARY"
+
+  placeholders:
+    name: Template placeholders (reports only)
+    if: github.repository != 'Deovandski/Deovandski-repo-template'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Look for gassy-donkey left over from the template
+        shell: bash
+        run: |
+          left=$(git grep -l 'gassy-donkey' -- ':!README.md' || true)
+          if [ -n "$left" ]; then
+            echo "::warning::gassy-donkey is still in these files; see 'Starting a new repo' in README.md:"
+            echo "$left"
+          fi
+
+  secrets:
+    name: No secrets or signing keys
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - shell: bash
+        run: |
+          bad=$(git ls-files | grep -Ei '(^|/)\.env(\.|$)|\.(pfx|cer|pem|key|p12)$' || true)
+          if [ -n "$bad" ]; then
+            echo "::error::These files must not be committed:"
+            echo "$bad"
+            exit 1
+          fi

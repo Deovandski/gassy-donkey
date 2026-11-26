@@ -1,0 +1,29 @@
+{
+ "_about": "How names and recurring terms are written in this language, so they are always spelled the same. Names are written by sound, never translated (the author's rule). Spellings come from HusbandOutWorld's content/i18n/<lang>/glossary.json where it has them, so the series reads the same on every site; correct a name there and here together. Add this project's own names here the first time you translate them.",
+ "rule": "Story names in Arabic letters, by sound (ف for v, غ for hard g), as in HusbandOutWorld. Right to left. Anything marked translate=\"no\" (Vraki-typeface text, code, sample output) stays as it is.",
+ "keep_as_is": [
+  "A Husband Out of This World",
+  "#HusbandOutWorld",
+  "Deovandski",
+  "Deovandski Skibinski Junior",
+  "A.G.",
+  "GitHub",
+  "MIT"
+ ],
+ "names": {
+  "Vraki": "فراكي",
+  "Finaies": "فينايس",
+  "Ganyrami": "غانيرامي",
+  "Paulin": "باولين",
+  "Harry": "هاري",
+  "The Prosperity Treaty": "معاهدة الرخاء"
+ },
+ "terms": {
+  "Vraki typeface": "خط فراكي الطباعي",
+  "Vraki script": "خط فراكي",
+  "converter": "المحوِّل",
+  "Settings": "الإعدادات",
+  "Text size": "حجم النص",
+  "Language": "اللغة"
+ }
+}

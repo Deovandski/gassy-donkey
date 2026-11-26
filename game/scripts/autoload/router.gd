@@ -23,6 +23,7 @@ const SCENES := {
 var params := {}
 var dev := {}
 var _frames_left := -1
+var _hash_callback = null  # keeps the JavaScript callback alive
 
 
 func _ready() -> void:
@@ -38,6 +39,16 @@ func _ready() -> void:
 	if dev.has("screenshot"):
 		_frames_left = int(dev.get("frames", "90"))
 	SaveManager.achievement_unlocked.connect(_on_achievement)
+	if OS.has_feature("web"):
+		# Following a #original-2016 link while the game is already open switches to the 2016 port too.
+		_hash_callback = JavaScriptBridge.create_callback(_on_hash_change)
+		JavaScriptBridge.get_interface("window").addEventListener("hashchange", _hash_callback)
+
+
+func _on_hash_change(_args: Array) -> void:
+	var hash := str(JavaScriptBridge.eval("window.location.hash", true))
+	if hash.begins_with("#original-2016") or hash.begins_with("#2016"):
+		go("original_2016")
 
 
 ## A small banner when an achievement unlocks, on any screen.

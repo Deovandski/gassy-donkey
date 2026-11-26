@@ -1,0 +1,29 @@
+{
+ "_about": "How names and recurring terms are written in this language, so they are always spelled the same. Names are written by sound, never translated (the author's rule). Spellings come from HusbandOutWorld's content/i18n/<lang>/glossary.json where it has them, so the series reads the same on every site; correct a name there and here together. Add this project's own names here the first time you translate them.",
+ "rule": "Story names in Hangul, by sound, as in HusbandOutWorld. Anything marked translate=\"no\" (Vraki-typeface text, code, sample output) stays as it is.",
+ "keep_as_is": [
+  "A Husband Out of This World",
+  "#HusbandOutWorld",
+  "Deovandski",
+  "Deovandski Skibinski Junior",
+  "A.G.",
+  "GitHub",
+  "MIT"
+ ],
+ "names": {
+  "Vraki": "브라키",
+  "Finaies": "피나이에스",
+  "Ganyrami": "가니라미",
+  "Paulin": "파울린",
+  "Harry": "해리",
+  "The Prosperity Treaty": "《번영 조약》"
+ },
+ "terms": {
+  "Vraki typeface": "브라키 서체",
+  "Vraki script": "브라키 문자",
+  "converter": "변환기",
+  "Settings": "설정",
+  "Text size": "글자 크기",
+  "Language": "언어"
+ }
+}

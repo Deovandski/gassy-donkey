@@ -1,0 +1,25 @@
+# Auto detect text files and perform LF normalization (Godot writes LF on every platform)
+* text=auto eol=lf
+
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.gif   binary
+*.mp4   binary
+*.pdf   binary diff=astextplain
+*.woff2 binary
+*.otf   binary
+*.ttf   binary
+*.wav   binary
+*.ogg   binary
+*.mp3   binary
+*.xcf   binary
+*.docx  binary
+# Originals in legacy/: Unity's binary scene, animation and settings files, Audacity audio blocks
+*.unity binary
+*.asset binary
+*.anim  binary
+*.controller binary
+*.au    binary
+*.dll   binary

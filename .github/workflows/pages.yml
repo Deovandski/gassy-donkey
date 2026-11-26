@@ -1,0 +1,111 @@
+name: Website
+
+# Builds the website (Astro, then a translated copy per language from content/i18n/), exports the Godot game
+# into _site/play/ as an installable app (PWA), finishes it with tools/web_postexport.py, and deploys _site/ to
+# GitHub Pages. The game is built once and shared by every language (play/).
+# One-time setup: repo Settings > Pages > Build and deployment > Source = "GitHub Actions".
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  GODOT_VERSION: "4.7.2"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Build the site in every language
+        run: |
+          npm ci
+          npm run build
+
+      - name: Cache Godot and web templates
+        id: godot-cache
+        uses: actions/cache@v6
+        with:
+          path: |
+            ~/godot
+            ~/.local/share/godot/export_templates/${{ env.GODOT_VERSION }}.stable
+          key: godot-${{ env.GODOT_VERSION }}-web-v1
+
+      - name: Download Godot and web templates
+        if: steps.godot-cache.outputs.cache-hit != 'true'
+        run: |
+          set -euo pipefail
+          mkdir -p ~/godot ~/.local/share/godot/export_templates/${GODOT_VERSION}.stable
+          base="https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable"
+          curl -sSL -o /tmp/godot.zip "$base/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          unzip -q /tmp/godot.zip -d ~/godot
+          mv ~/godot/Godot_v${GODOT_VERSION}-stable_linux.x86_64 ~/godot/godot
+          curl -sSL -o /tmp/templates.tpz "$base/Godot_v${GODOT_VERSION}-stable_export_templates.tpz"
+          unzip -q /tmp/templates.tpz 'templates/web_*' 'templates/version.txt' -d /tmp/t
+          mv /tmp/t/templates/* ~/.local/share/godot/export_templates/${GODOT_VERSION}.stable/
+          rm -f /tmp/godot.zip /tmp/templates.tpz
+
+      - name: Import the game
+        run: ~/godot/godot --headless --path game --import
+
+      - name: Game tests
+        run: ~/godot/godot --headless --path game -- --scene=tests
+
+      - name: Export the game (installable app at /play/)
+        run: |
+          mkdir -p _site/play
+          ~/godot/godot --headless --path game --export-release "Web" ../_site/play/index.html
+          python3 tools/web_postexport.py _site/play
+          for f in index.html index.wasm index.pck index.manifest.json index.service.worker.js \
+                   index.offline.html index.144x144.png index.180x180.png index.512x512.png; do
+            test -f "_site/play/$f" || { echo "::error::missing _site/play/$f"; exit 1; }
+          done
+          grep -q "Gassy Donkey: network first" _site/play/index.service.worker.js || { echo "::error::the game's worker isn't network first"; exit 1; }
+          grep -q 'src="index.js?v=' _site/play/index.html || { echo "::error::index.js isn't versioned"; exit 1; }
+
+      - name: Fake-deploy check (new page and script on the first visit, offline still works)
+        run: |
+          pip install --quiet playwright
+          python3 tools/check_fresh_deploy.py _site --chrome "$(command -v google-chrome || command -v chromium)"
+
+      - name: Site size
+        # GitHub Pages warns past 1 GB and may refuse the deploy. tools/prune-originals.ts keeps unused picture
+        # originals out; this shows the size on every run, and warns early if the site is getting close.
+        run: |
+          mb=$(du -sm _site | cut -f1)
+          {
+            echo "### Deployed site size"
+            echo "| What | Size |"
+            echo "| --- | --- |"
+            echo "| Whole site (\`_site/\`) | ${mb} MB |"
+            echo "| Game engine (\`play/index.wasm\`) | $(du -h _site/play/index.wasm | cut -f1) |"
+            echo "| Game data (\`play/index.pck\`) | $(du -h _site/play/index.pck | cut -f1) |"
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ "$mb" -gt 800 ]; then echo "::warning::The site is ${mb} MB, close to GitHub Pages' 1 GB limit. See 'Building and deploying' in CLAUDE.md."; fi
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v5

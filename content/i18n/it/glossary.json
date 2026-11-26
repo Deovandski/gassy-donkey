@@ -1,0 +1,24 @@
+{
+ "_about": "How names and recurring terms are written in this language, so they are always spelled the same. Names are written by sound, never translated (the author's rule). Spellings come from HusbandOutWorld's content/i18n/<lang>/glossary.json where it has them, so the series reads the same on every site; correct a name there and here together. Add this project's own names here the first time you translate them.",
+ "rule": "Story names stay exactly as in English. Anything marked translate=\"no\" (Vraki-typeface text, code, sample output) stays as it is.",
+ "keep_as_is": [
+  "A Husband Out of This World",
+  "#HusbandOutWorld",
+  "Deovandski",
+  "Deovandski Skibinski Junior",
+  "A.G.",
+  "GitHub",
+  "MIT"
+ ],
+ "names": {
+  "The Prosperity Treaty": "il Trattato della Prosperità"
+ },
+ "terms": {
+  "Vraki typeface": "carattere Vraki",
+  "Vraki script": "scrittura Vraki",
+  "converter": "convertitore",
+  "Settings": "Impostazioni",
+  "Text size": "Dimensione del testo",
+  "Language": "Lingua"
+ }
+}

@@ -1,0 +1,64 @@
+# Website builds (astro build -> dist/, tools/i18n.ts build -> _site/, the Godot web export -> _site/play/) and tooling
+dist/
+_site/
+.astro/
+node_modules/
+work*.json
+
+# ---------------------------------------------------------------------------
+# Godot
+# ---------------------------------------------------------------------------
+# Editor cache. Also holds export_credentials.cfg (keystore passwords), so it
+# must never be committed.
+.godot/
+**/.godot/
+# Android build template, installed per machine for Gradle builds
+game/android/
+# Mono/C# leftovers (the project is GDScript-only)
+.mono/
+mono_crash.*.json
+*.translation
+# Build output
+build/
+*.apk
+*.aab
+*.idsig
+*.pck
+*.zip
+*.tpz
+
+# ---------------------------------------------------------------------------
+# Secrets and signing keys: never commit these. See docs/BUILDING.md.
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pfx
+*.cer
+*.pem
+*.p12
+*.key
+*.keystore
+*.jks
+keystore.properties
+signing.properties
+release-keystore*
+export_credentials.cfg
+*service-account*.json
+*-credentials.json
+play-store-*.json
+google-services.json
+client_secret*.json
+secrets/
+credentials/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+# The 2016 Unity project keeps its own .vscode/launch.json
+!legacy/2016-unity/.vscode/

@@ -12,6 +12,9 @@ Writes game/art/legacy/ (committed, so CI and Godot never need this script):
 - menu/text_background.png, logo.png: the unused 2016 text panel and the logo;
 - world1/: the World 1 platform pieces (dirt blocks, grass top, water top), cut out of
   "World 1 Platforms.xcf" (flattened with ImageMagick's `convert`).
+- the website's history pictures (src/assets/history/): the five pages of the 2016 game-idea PDF
+  (rendered with poppler's `pdftoppm`) and the 2014 BIDU sketch;
+- app icons from the logo: game/web/icon_144/180/512.png, public/icons/*.png and public/icon.svg.
 Half size keeps the web download small; the 2016 port scales them back up (game/original_2016/unity.gd, HALF).
 Needs Pillow (and ImageMagick for the .xcf).
 """
@@ -78,6 +81,53 @@ def main() -> None:
         w1 = Image.open(flat).convert("RGBA")
         for name, (x, y, w, h) in WORLD1.items():
             save(w1.crop((x, y, x + w, y + h)), f"world1/{name}.png")
+    icons()
+    history()
+
+
+def icons() -> None:
+    """The 2016 logo (donkey head) on the 2016 title orange, for the game and the website."""
+    import base64
+    import io
+    logo = Image.open(U / "docs/logo.png").convert("RGBA")
+    orange = (255, 166, 8, 255)
+
+    def icon(size: int, margin: float) -> Image.Image:
+        im = Image.new("RGBA", (size, size), orange)
+        inner = int(size * (1 - 2 * margin))
+        im.alpha_composite(logo.resize((inner, inner), Image.LANCZOS), ((size - inner) // 2, (size - inner) // 2))
+        return im
+
+    for n in (144, 180, 512):
+        path = ROOT / f"game/web/icon_{n}.png"
+        icon(n, 0.06).save(path, optimize=True)
+        print(f"  game/web/icon_{n}.png")
+    pub = ROOT / "public/icons"
+    pub.mkdir(parents=True, exist_ok=True)
+    icon(192, 0.06).save(pub / "icon-192.png", optimize=True)
+    icon(512, 0.06).save(pub / "icon-512.png", optimize=True)
+    icon(512, 0.18).save(pub / "icon-maskable-512.png", optimize=True)
+    icon(180, 0.06).save(pub / "apple-touch-icon.png", optimize=True)
+    buf = io.BytesIO()
+    icon(96, 0.04).save(buf, format="PNG", optimize=True)
+    b64 = base64.b64encode(buf.getvalue()).decode()
+    (ROOT / "public/icon.svg").write_text(
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">'
+        f'<image width="96" height="96" href="data:image/png;base64,{b64}"/></svg>\n', encoding="utf-8")
+    print("  public/icons/*.png, public/icon.svg")
+
+
+def history() -> None:
+    out = ROOT / "src/assets/history"
+    out.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory() as tmp:
+        subprocess.run(["pdftoppm", "-r", "110", "-png", str(U / "docs/GassyDonkeyGameIdea.pdf"), str(pathlib.Path(tmp) / "p")], check=True)
+        for i, page in enumerate(sorted(pathlib.Path(tmp).glob("p-*.png")), 1):
+            Image.open(page).convert("RGB").save(out / f"2016-07-17-design-page-{i}.png", optimize=True)
+            print(f"  src/assets/history/2016-07-17-design-page-{i}.png")
+    sketch = Image.open(ROOT / "legacy/2014-bidu-concept/BIDU the farting donkey.png").convert("RGB")
+    sketch.save(out / "2014-03-16-bidu-sketch.png", optimize=True)
+    print("  src/assets/history/2014-03-16-bidu-sketch.png")
 
 
 if __name__ == "__main__":

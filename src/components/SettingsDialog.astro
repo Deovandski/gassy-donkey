@@ -1,0 +1,24 @@
+---
+// The Settings menu the gear opens: Language, "Want a language added?" and Text size.
+// The Language list is read from content/i18n/<code>/meta.json, in the order of site.config.json.
+import { REPO_URL, site } from '../lib/site';
+
+interface LanguageMeta { name: string; html_lang?: string }
+const metas = import.meta.glob<LanguageMeta>('../../content/i18n/*/meta.json', { eager: true, import: 'default' });
+const byCode = new Map(Object.entries(metas).map(([p, m]) => [p.split('/').at(-2)!, m]));
+const languages = site.languages.filter((c) => byCode.has(c)).map((code) => ({ code, ...byCode.get(code)! }));
+---
+<dialog id="site-settings" class="site-settings" aria-labelledby="site-settings-title">
+  <form method="dialog">
+    <h2 id="site-settings-title">Settings</h2>
+    <label class="setting"><span>Language</span>
+      <select data-setting="lang" translate="no">
+        <option value="en" lang="en">English</option>
+        {languages.map((l) => <option value={l.code} lang={l.html_lang ?? l.code}>{l.name}</option>)}
+      </select>
+    </label>
+    <p class="setting-link"><a href={`${REPO_URL}/issues/new?template=language-request.yml`} rel="noopener">Want a language added?</a></p>
+    <label class="setting"><span>Text size</span><input data-setting="size" type="range" min="13" max="26" step="1" value="17"></label>
+    <div class="done"><button value="close">Done</button></div>
+  </form>
+</dialog>

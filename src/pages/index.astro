@@ -1,0 +1,117 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import { credits, PLAY_2016_URL, PLAY_URL, REPO_URL, SITE_DESCRIPTION, SITE_NAME, url } from '../lib/site';
+import logo from '../../legacy/2016-unity/docs/logo.png';
+import menu from '../assets/screenshots/menu.png';
+import worlds from '../assets/screenshots/worlds.png';
+import runAmazon from '../assets/screenshots/run_amazon.png';
+import runDesert from '../assets/screenshots/run_desert.png';
+import character from '../assets/screenshots/character.png';
+import original from '../assets/screenshots/o16_menu.png';
+
+const shots = [
+  { src: runAmazon, alt: 'Running through World 1, Earth – Amazon: hearts, gas, distance and level at the top, the fart and headbutt buttons on the left.' },
+  { src: runDesert, alt: 'World 2, Earth – Desert: the donkey on a sandstone ledge above the cactus.' },
+  { src: worlds, alt: 'Picking a world and a stage, with "Level 1 recommended" under the planet.' },
+  { src: character, alt: 'The Character menu: one point per level for health, farting power, jump power and headbutt power.' },
+  { src: menu, alt: 'The main menu, over the 2016 sky with the Sun and the flying vessel.' },
+  { src: original, alt: 'The 2016 Unity main menu, ported to Godot.' },
+];
+---
+<Base title={SITE_NAME} description={SITE_DESCRIPTION}>
+  <div class="hero gd-hero">
+    <Image src={logo} alt="" width={180} height={180} class="gd-logo" data-no-zoom loading="eager" />
+    <div>
+      <span class="badge">Started in 2016 · finished in 2026</span>
+      <h1><span translate="no">{SITE_NAME}</span>
+        <span class="sub">{credits.tagline}</span>
+      </h1>
+      <p class="lead">A side-scrolling runner made for touch screens and keyboards. The donkey runs on its own; you jump, double jump up a level, swipe down a level, fart away whatever chases you and headbutt whatever stands in the way. It plays right here in the browser and can be installed as an app.</p>
+      <div class="actions">
+        <a class="btn gd-play" href={PLAY_URL} data-lang-keep>Play Gassy Donkey</a>
+        <a class="btn ghost" href={PLAY_2016_URL} data-lang-keep>Play the 2016 original</a>
+        <a class="btn ghost" href={url('history/')}>From 2014 to now</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="play">
+    <h2>How to play</h2>
+    <p class="lede">Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.</p>
+    <div class="gd-controls">
+      <div>
+        <h3>Touch</h3>
+        <ul>
+          <li>Tap the right side of the screen to jump. Tap again in the air to double jump up to the next level.</li>
+          <li>Swipe down on the right side to drop down a level.</li>
+          <li>The buttons on the left fart and headbutt.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Keyboard</h3>
+        <ul>
+          <li><kbd>Space</kbd>, <kbd>W</kbd> or <kbd>↑</kbd> jump (twice to double jump).</li>
+          <li><kbd>S</kbd> or <kbd>↓</kbd> drop down a level.</li>
+          <li><kbd>A</kbd>, <kbd>←</kbd> or <kbd>Z</kbd> fart; <kbd>D</kbd>, <kbd>→</kbd> or <kbd>X</kbd> headbutt.</li>
+          <li><kbd>P</kbd> or <kbd>Esc</kbd> pause. A game controller works too.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="game">
+    <h2>What's in the game</h2>
+    <ul class="gd-list">
+      <li><strong>Two worlds, three stages each:</strong> Earth – Amazon and Earth – Desert, the first phase of the 2016 plan. The other planets say "Coming soon!", as they did in 2016.</li>
+      <li><strong>Gas:</strong> eat corn in the Amazon and beans in the desert to fill the gas tank. A fart pushes the donkey forward and scares off whatever is behind it; with a full tank you get a super fart. Collect every one in a stage for a little fanfare.</li>
+      <li><strong>Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.</li>
+      <li><strong>Things behind you:</strong> mosquitoes catch up whenever you slow down. Tigers wait on the floor: jump over one and it chases you, and only a farting power of 2 or more scares it away. Or take the high road on the ledges.</li>
+      <li><strong>Levels instead of waiting:</strong> every level gives a point for health, farting power, jump power or headbutt power. Later stages pull harder, so jumps get lower. Each stage shows the level it recommends, but nothing is locked behind a level.</li>
+      <li><strong>Achievements, progress saved on your device, no ads, no purchases.</strong></li>
+    </ul>
+  </section>
+
+  <section id="pictures">
+    <h2>Pictures</h2>
+    <div class="gd-shots">
+      {shots.map((s) => <Image src={s.src} alt={s.alt} width={640} height={360} data-date="2026-11-26" />)}
+    </div>
+  </section>
+
+  <section id="history">
+    <h2>From BIDU to Gassy Donkey</h2>
+    <p class="lede">{credits.history} The original files are kept unchanged in the repository's <a href={`${REPO_URL}/tree/master/legacy`}>legacy folder</a>, and the 2016 version can still be played, ported as it was.</p>
+    <p><a class="btn small" href={url('history/')}>Read the history, with the 2014 sketch and the 2016 notes</a></p>
+  </section>
+
+  <section id="support">
+    <h2>Support</h2>
+    <p class="lede">{credits.support} <a href={credits.links.amazon}>The eBooks on Amazon</a> · <a href={credits.links.series}>#HusbandOutWorld</a></p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy</h2>
+    <p class="lede">This website and the game have no cookies, no analytics, no ads and no accounts. The site is hosted on GitHub Pages, so <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a> sees your IP address when it sends you the page. Questions go to <a href={`${REPO_URL}/issues`}>GitHub issues</a>.</p>
+    <p class="lede">The game saves your progress (level, stats, stages, achievements and sound settings) in this browser's storage, so you can carry on next time. It never leaves your device; clearing the site's data wipes it, and so does Settings › Reset all progress in the game.</p>
+    <p class="lede">Your Language and Text size choices on this website are saved in this browser only. To open without a connection, the site and the game save copies of their pages and files in your browser's storage. The copies stay on your device and are never sent anywhere; clearing the site's data removes them.</p>
+  </section>
+</Base>
+
+<style>
+  .gd-hero { display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: center; }
+  .gd-logo { border-radius: 24px; background: var(--accent); width: 180px; height: 180px; }
+  .gd-play { background: var(--accent); color: #140c02; }
+  .gd-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 8px 32px; max-width: 60rem; }
+  .gd-controls h3 { margin: 8px 0 4px; font-size: calc(20px * var(--scale)); }
+  .gd-controls ul, .gd-list { padding-inline-start: 1.2em; }
+  .gd-list { max-width: 50rem; }
+  .gd-list li { margin: 6px 0; }
+  kbd { font: 600 .85em var(--sans); background: var(--paper-2); border: 1px solid var(--rule); border-bottom-width: 2px; border-radius: 5px; padding: 0 6px; }
+  .gd-shots { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); gap: 14px; }
+  .gd-shots img { width: 100%; height: auto; border-radius: 12px; display: block; }
+  @media (max-width: 640px) {
+    .gd-hero { grid-template-columns: 1fr; }
+    .gd-logo { width: 120px; height: 120px; }
+  }
+</style>

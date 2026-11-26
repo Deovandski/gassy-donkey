@@ -1,0 +1,6 @@
+{
+  "_about": "One place for the site's address and languages. Astro (astro.config.mjs), the layout and tools/i18n.ts all read this file. base is the path GitHub Pages serves the repo at (\"\" for a custom domain or a <user>.github.io repo). languages is the order of the Language menu; a language is built only if content/i18n/<code>/ exists.",
+  "site": "https://deovandski.github.io",
+  "base": "/gassy-donkey",
+  "languages": ["zh", "ja", "pt", "es", "ar", "ko", "ms", "th", "de", "vi", "it", "fr", "hi", "id"]
+}
