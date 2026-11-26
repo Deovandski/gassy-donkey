@@ -5,11 +5,34 @@
   "tagline": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert.",
   "thanks": "Thanks for playing my 1st game!",
   "credits": [
-    {"role": "Idea, design and the 2014 and 2016 originals", "who": "Deovandski Skibinski Junior"},
-    {"role": "2016 art: the donkey, the vessel, the World 1 platforms, the logo", "who": "Deovandski Skibinski Junior"},
-    {"role": "Godot port and finishing the game (code, placeholder art, sounds, music)", "who": "Claude (Anthropic), directed by Deovandski"},
-    {"role": "Fonts", "who": "Comic Relief and Liberation Sans (SIL Open Font License)"},
-    {"role": "Engine", "who": "Godot Engine (MIT)"}
+    {
+      "role": "Idea, design and the 2014 and 2016 originals",
+      "who": "Deovandski Skibinski Junior"
+    },
+    {
+      "role": "2016 art: the donkey, the vessel, the World 1 platforms, the logo",
+      "who": "Deovandski Skibinski Junior"
+    },
+    {
+      "role": "Music: the BIDU songs (2014)",
+      "who": "Deovandski Skibinski Junior"
+    },
+    {
+      "role": "Planet pictures in the 2016 menu",
+      "who": "most likely NASA (source not recorded in 2016)"
+    },
+    {
+      "role": "Godot port and finishing the game (code, placeholder art, sound effects, song loops)",
+      "who": "Claude (Anthropic), directed by Deovandski"
+    },
+    {
+      "role": "Fonts",
+      "who": "Comic Relief and Liberation Sans (SIL Open Font License)"
+    },
+    {
+      "role": "Engine",
+      "who": "Godot Engine (MIT)"
+    }
   ],
   "history": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished.",
   "support": "Brought to you by Deovandski, author of the #HusbandOutWorld series and CEO/Founder of Wizard Deo Solutions. Have fun! If you want to support me, buy the eBooks on Amazon.",

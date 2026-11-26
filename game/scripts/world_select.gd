@@ -19,7 +19,7 @@ var _t := 0.0
 
 func _ready() -> void:
 	add_backdrop(false, true)
-	Audio.music("menu")
+	Audio.menu_music()
 	for w in GameData.world_list():
 		entries.append({"kind": "world", "data": w})
 	for p in GameData.worlds.get("coming_soon", []):

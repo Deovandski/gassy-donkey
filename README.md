@@ -12,6 +12,7 @@ A farting donkey runs, jumps, headbutts and farts through the Amazon and the des
 - **Gas.** Corn in the Amazon and beans in the desert fill the gas tank. A fart pushes you forward and scares off what's behind you; a full tank gives a super fart.
 - **Two worlds, three stages each:** Earth – Amazon and Earth – Desert (Phase I of the 2016 plan). Rocks, snakes, honey hives, bears, cactus and cowboys in the way; mosquitoes and tigers behind you. The other planets say "Coming soon!".
 - **Levels instead of waiting.** Every level gives a point for health, farting power, jump power or headbutt power. Later stages have higher gravity. Achievements, local saves.
+- **Music: the 2014 BIDU songs**, Deovandski's own, made into seamless loops.
 - **The 2016 original**, ported from the Unity scene as it was: the main menu and the planet carousel, with each C# script rewritten in GDScript.
 
 ## Repository layout
@@ -26,11 +27,13 @@ game/                 the Godot 4.7 project (GDScript)
   scenes/, scripts/   the finished game (scripts/run/ is the running part)
   data/               worlds, stages, obstacles, progression, achievements, credits (JSON)
   art/legacy/         copies of the 2016 art made by tools/import_legacy_art.py
-  art/new/, audio/    placeholder art, sounds and music made by tools/make_art.py and tools/make_audio.py
+  art/new/, audio/sfx/  placeholder art and sound effects made by tools/make_art.py and tools/make_audio.py
+  audio/music/        the 2014 BIDU songs as loops, made by tools/make_bidu_music.py
   tests/              headless tests
 src/, content/i18n/   the website (Astro + TypeScript, from Deovandski-repo-template), in 15 languages
 tools/                web_postexport.py and check_fresh_deploy.py (the game's web build),
-                      import_legacy_art.py, make_art.py, make_audio.py, render_aup.py, the website's i18n/llms tools
+                      import_legacy_art.py, make_art.py, make_audio.py, make_bidu_music.py, render_aup.py,
+                      the website's i18n/llms tools
 docs/                 DESIGN.md, ART.md, BUILDING.md, SAVE_FORMAT.md, ARCHITECTURE.md
 .github/workflows/    ci.yml (site checks, game tests), pages.yml (site + game -> GitHub Pages), android.yml (debug APK)
 ```

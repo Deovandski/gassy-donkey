@@ -6,6 +6,7 @@ var worlds: Dictionary = {}
 var progression: Dictionary = {}
 var achievements: Array = []
 var credits: Dictionary = {}
+var music: Dictionary = {}
 
 
 func _ready() -> void:
@@ -13,6 +14,7 @@ func _ready() -> void:
 	progression = load_json("res://data/progression.json")
 	achievements = load_json("res://data/achievements.json").get("achievements", [])
 	credits = load_json("res://data/credits.json")
+	music = load_json("res://data/music.json")
 
 
 static func load_json(path: String) -> Dictionary:
@@ -53,6 +55,12 @@ func world_of_stage(id: String) -> Dictionary:
 
 func thing(type: String) -> Dictionary:
 	return worlds.get("things", {}).get(type, {})
+
+
+## The song for a stage: its own "music", else its world's.
+func stage_music(stage_id: String) -> String:
+	var s := stage(stage_id)
+	return str(s.get("music", world_of_stage(stage_id).get("music", "")))
 
 
 func achievement(id: String) -> Dictionary:

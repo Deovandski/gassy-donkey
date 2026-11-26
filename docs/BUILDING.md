@@ -3,7 +3,7 @@
 ## What you need
 - [Godot 4.7.2](https://godotengine.org/download) (standard build, not .NET) and its export templates.
 - Node 22 for the website.
-- Python 3 for the tools; Pillow and pycairo to remake art, numpy and ffmpeg (with libvorbis) to remake sounds, ImageMagick for the `.xcf` platform pieces, poppler (`pdftoppm`) for the history pages, Playwright and Chrome for `check_fresh_deploy.py`.
+- Python 3 for the tools; Pillow and pycairo to remake art, numpy to remake sound effects, numpy and ffmpeg (libvorbis, libmp3lame) to remake the song loops, ImageMagick for the `.xcf` platform pieces, poppler (`pdftoppm`) for the history pages, Playwright and Chrome for `check_fresh_deploy.py`.
 
 ## The game
 ```
@@ -39,6 +39,7 @@ For a release build on your own machine: install the Android SDK and JDK 17, poi
 ```
 python3 tools/import_legacy_art.py   # game/art/legacy/, game/web/icon_*.png, public/icons/, src/assets/history/
 python3 tools/make_art.py            # game/art/new/
-python3 tools/make_audio.py          # game/audio/sfx/, game/audio/music/
+python3 tools/make_audio.py          # game/audio/sfx/
+python3 tools/make_bidu_music.py     # game/audio/music/, loop starts in game/data/music.json, public/audio/bidu/
 ```
-All three give the same files every time.
+They give the same files every time.

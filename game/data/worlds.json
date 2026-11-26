@@ -1,35 +1,35 @@
 {
-  "_about": "Worlds and their stages. Phase I of the 2016 plan: World 1 Earth - Amazon and World 2 Earth - Desert; the other planets say 'Coming soon!' as in the 2016 sketch. A stage is a run of length_m metres, built by scripts/run/stage_generator.gd from its seed and these settings. things: how many of each obstacle or enemy. recommended_level is shown as 'Level X recommended', the 2016 world-select warning; it never locks anything. gravity above 1 makes jumps lower (2016: 'jump power, for later levels with higher gravity').",
+  "_about": "Worlds and their stages. Phase I of the 2016 plan: World 1 Earth - Amazon and World 2 Earth - Desert; the other planets say 'Coming soon!' as in the 2016 sketch. music: a song from data/music.json (a stage's own 'music' wins over its world's). A stage is a run of length_m metres, built by scripts/run/stage_generator.gd from its seed and these settings. things: how many of each obstacle or enemy. recommended_level is shown as 'Level X recommended', the 2016 world-select warning; it never locks anything. gravity above 1 makes jumps lower (2016: 'jump power, for later levels with higher gravity').",
   "speed": {"base_px_s": 290, "step_every_m": 200, "step_factor": 1.2, "max_factor": 2.0},
   "worlds": [
     {
       "id": "amazon", "number": 1, "name": "Earth – Amazon", "planet": "earth",
-      "gas_item": "corn", "gas_item_name": "corn", "music": "amazon",
+      "gas_item": "corn", "gas_item_name": "corn", "music": "bidu_03",
       "sky_top": "#7cc7e8", "sky_bottom": "#d9f2e6", "ground": "grass", "snake": "snake",
       "stages": [
         {"id": "amazon_1", "name": "Riverbank", "length_m": 450, "recommended_level": 1, "gravity": 1.0, "seed": 1101,
          "platform_chance": 0.3, "water_chance": 0.12, "gas_items": 12,
          "things": {"rock_small": 6, "snake": 4, "rock_big": 2}, "mosquitoes": 1, "tigers": 0},
-        {"id": "amazon_2", "name": "Vine Valley", "length_m": 650, "recommended_level": 3, "gravity": 1.0, "seed": 1202,
+        {"id": "amazon_2", "name": "Vine Valley", "music": "bidu_02", "length_m": 650, "recommended_level": 3, "gravity": 1.0, "seed": 1202,
          "platform_chance": 0.45, "water_chance": 0.18, "gas_items": 16,
          "things": {"rock_small": 5, "rock_big": 4, "snake": 6, "hive": 4}, "mosquitoes": 2, "tigers": 1},
-        {"id": "amazon_3", "name": "Tiger Trail", "length_m": 850, "recommended_level": 5, "gravity": 1.08, "seed": 1303,
+        {"id": "amazon_3", "name": "Tiger Trail", "music": "bidu_04", "length_m": 850, "recommended_level": 5, "gravity": 1.08, "seed": 1303,
          "platform_chance": 0.55, "water_chance": 0.22, "gas_items": 20,
          "things": {"rock_small": 4, "rock_big": 5, "snake": 7, "hive": 5, "bear": 3}, "mosquitoes": 3, "tigers": 2}
       ]
     },
     {
       "id": "desert", "number": 2, "name": "Earth – Desert", "planet": "earth",
-      "gas_item": "beans", "gas_item_name": "beans", "music": "desert",
+      "gas_item": "beans", "gas_item_name": "beans", "music": "bidu_04",
       "sky_top": "#f2b766", "sky_bottom": "#fbe6bf", "ground": "sand", "snake": "rattlesnake",
       "stages": [
-        {"id": "desert_1", "name": "Dry Dunes", "length_m": 700, "recommended_level": 7, "gravity": 1.12, "seed": 2101,
+        {"id": "desert_1", "name": "Dry Dunes", "music": "bidu_02", "length_m": 700, "recommended_level": 7, "gravity": 1.12, "seed": 2101,
          "platform_chance": 0.4, "water_chance": 0.0, "gas_items": 16,
          "things": {"rock_small": 4, "cactus_small": 6, "rattlesnake": 5, "rock_big": 3}, "mosquitoes": 2, "tigers": 0},
         {"id": "desert_2", "name": "Cactus Canyon", "length_m": 900, "recommended_level": 9, "gravity": 1.18, "seed": 2202,
          "platform_chance": 0.5, "water_chance": 0.0, "gas_items": 20,
          "things": {"cactus_small": 6, "cactus_tall": 4, "rattlesnake": 6, "cowboy": 4, "rock_big": 3}, "mosquitoes": 2, "tigers": 0},
-        {"id": "desert_3", "name": "High Noon", "length_m": 1100, "recommended_level": 11, "gravity": 1.25, "seed": 2303,
+        {"id": "desert_3", "name": "High Noon", "music": "bidu_05", "length_m": 1100, "recommended_level": 11, "gravity": 1.25, "seed": 2303,
          "platform_chance": 0.6, "water_chance": 0.0, "gas_items": 24,
          "things": {"cactus_small": 5, "cactus_tall": 6, "rattlesnake": 6, "cowboy": 7, "rock_big": 4}, "mosquitoes": 3, "tigers": 0}
       ]

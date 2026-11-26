@@ -1,7 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import Base from '../layouts/Base.astro';
-import { credits, PLAY_2016_URL, PLAY_URL, REPO_URL } from '../lib/site';
+import { credits, PLAY_2016_URL, PLAY_URL, REPO_URL, url } from '../lib/site';
 import sketch from '../assets/history/2014-03-16-bidu-sketch.png';
 import page1 from '../assets/history/2016-07-17-design-page-1.png';
 import page2 from '../assets/history/2016-07-17-design-page-2.png';
@@ -14,6 +14,9 @@ import o16World from '../assets/screenshots/o16_world.png';
 // The typed notes on the five pages of the 2016 game-idea overview (legacy/2016-unity/docs/GassyDonkeyGameIdea.pdf):
 // pages 1, 3, 4 and 5 word for word; page 2's long list is shortened here (the full text is on the page itself,
 // and its last sentence stops mid-way in the original).
+// The five BIDU songs (2014), mixed from their Audacity projects by tools/make_bidu_music.py.
+const songs = ['01', '02', '03', '04', '05'];
+
 const pages = [
   { src: page1, note: 'Main Menu Idea. The backbone for it has been implemented.' },
   { src: page2, note: 'How I thought the game would work: "Fart" and "head attack" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.' },
@@ -29,7 +32,17 @@ const pages = [
 
     <h2>2014: BIDU, the farting donkey</h2>
     <Image src={sketch} alt="The 2014 concept sketch for BIDU, the farting donkey: the character, the enemies, Jungle and Desert, and corn power-ups." width={1372} height={772} class="gd-wide" />
-    <p>The first sketch already has most of the game: a farting donkey that needs to keep running to score points; a mosquito that follows the donkey when it isn't running; cactus, honey hives and rocks; snakes, bears and cowboys with guns; a Jungle and a Desert; and corn as the power-up, with a noise when you get all the corn. There were also five short Audacity projects called <em>BIDU songs</em>, kept in the legacy folder.</p>
+    <p>The first sketch already has most of the game: a farting donkey that needs to keep running to score points; a mosquito that follows the donkey when it isn't running; cactus, honey hives and rocks; snakes, bears and cowboys with guns; a Jungle and a Desert; and corn as the power-up, with a noise when you get all the corn.</p>
+    <h3>The BIDU songs</h3>
+    <p>Five short songs Deovandski made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.</p>
+    <ol class="gd-songs">
+      {songs.map((n) => (
+        <li>
+          <span>BIDU song {Number(n)}</span>
+          <audio controls preload="none" src={url(`audio/bidu/bidu-${n}.mp3`)}></audio>
+        </li>
+      ))}
+    </ol>
 
     <h2>2016: the game idea</h2>
     <p>In July 2016 the idea was written up as a five-page overview, scanned from notebook pages, with a typed note on each.</p>
@@ -51,7 +64,7 @@ const pages = [
     <p>That menu has been ported to Godot as it was: the same positions, sizes, colours and texts, read out of the Unity scene file, and each of the five C# scripts rewritten line for line. Only Select World does something, as in 2016. <a href={PLAY_2016_URL} data-lang-keep>Play the 2016 original</a>.</p>
 
     <h2>2026: finished</h2>
-    <p>The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets "Coming soon!"). It keeps the 2016 donkey, vessel, planets, platforms and logo, and adds what was missing. The repository's <a href={`${REPO_URL}/blob/master/docs/DESIGN.md`}>design notes</a> list which choices came from the originals and which were made while finishing it. <a href={PLAY_URL} data-lang-keep>Play Gassy Donkey</a>.</p>
+    <p>The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets "Coming soon!"). It keeps the 2016 donkey, vessel, planets, platforms and logo, plays the 2014 BIDU songs, and adds what was missing. The repository's <a href={`${REPO_URL}/blob/master/docs/DESIGN.md`}>design notes</a> list which choices came from the originals and which were made while finishing it. <a href={PLAY_URL} data-lang-keep>Play Gassy Donkey</a>.</p>
   </div>
 </Base>
 
@@ -63,4 +76,8 @@ const pages = [
   .gd-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: 12px; }
   .gd-pair img { width: 100%; height: auto; border-radius: 10px; }
   .prose h2 { margin-top: 40px; }
+  .gd-songs { list-style: none; padding: 0; display: grid; gap: 8px; }
+  .gd-songs li { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; }
+  .gd-songs span { min-width: 8rem; font-weight: 600; }
+  .gd-songs audio { width: min(100%, 22rem); }
 </style>

@@ -6,7 +6,7 @@ extends Screen
 func _ready() -> void:
 	back_to = ""
 	add_backdrop()
-	Audio.music("menu")
+	Audio.menu_music()
 	var v := column(26, 10)
 
 	var head := HBoxContainer.new()

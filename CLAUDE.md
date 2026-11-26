@@ -22,7 +22,7 @@ Three parts:
 - **Saves:** any change to save data bumps `SaveManager.VERSION`, adds a `_migrate()` step, and updates `docs/SAVE_FORMAT.md` and the tests.
 - **Never commit secrets:** keystores, `export_credentials.cfg`, passwords, service-account JSON, `.env`. CI builds debug APKs only.
 - Keep the support text and the Amazon link (`https://www.amazon.com/dp/B0BT5XM4QC`) wherever the credits appear; they come from `game/data/credits.json`.
-- **The 2014 BIDU songs** (`legacy/2014-bidu-concept/BIDU songs/`) are not used in the game or on the site until Deo confirms they can be (`tools/render_aup.py` plays them locally).
+- **The music is Deo's 2014 BIDU songs** (`legacy/2014-bidu-concept/BIDU songs/`, his own, cleared for the game and the site). `tools/make_bidu_music.py` makes the game's loops (`game/audio/music/bidu_NN.ogg`, loop starts in `game/data/music.json`) and the website's MP3s (`public/audio/bidu/`). Which song plays where is data: `music.json` (menus) and `"music"` in `worlds.json`.
 
 ## Game commands
 ```
@@ -34,6 +34,7 @@ npm run build && mkdir -p _site/play && godot --headless --path game --export-re
 python3 tools/check_fresh_deploy.py _site                     # fake deploy: fresh page/script, offline (needs playwright + Chrome)
 python3 tools/import_legacy_art.py                            # after changing what is copied from legacy/
 python3 tools/make_art.py && python3 tools/make_audio.py      # after changing the placeholders
+python3 tools/make_bidu_music.py                              # after changing how the songs loop
 ```
 Screenshots: `godot --path game -- --scene=main_menu --screenshot=shot.png --frames=90` (see `game/scripts/autoload/router.gd`). CI: `.github/workflows/ci.yml` (site checks, game tests, bot), `pages.yml` (site + game + Pages), `android.yml` (debug APK).
 

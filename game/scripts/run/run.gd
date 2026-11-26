@@ -118,7 +118,7 @@ func _ready() -> void:
 	hud = RunHud.new()
 	hud.run = self
 	add_child(hud)
-	Audio.music(world_data.get("music", "amazon"))
+	Audio.music(GameData.stage_music(stage["id"]))
 	hud.toast("%s · %s" % [world_data["name"], stage["name"]], 2.5)
 
 

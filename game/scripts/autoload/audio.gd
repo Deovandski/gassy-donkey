@@ -1,5 +1,7 @@
 extends Node
-## Plays sound effects and music. Effects: game/audio/sfx/<name>.wav; music: game/audio/music/<name>.ogg.
+## Plays sound effects and music. Effects: game/audio/sfx/<name>.wav; music: game/audio/music/<name>.ogg,
+## the 2014 BIDU songs made into loops by tools/make_bidu_music.py. Each song plays its intro once, then
+## repeats from its loop start (data/music.json "loop_start").
 ## Volumes come from the save's settings (music, sfx: 0 to 1).
 
 const SFX_DIR := "res://audio/sfx/"
@@ -64,9 +66,15 @@ func music(track: String) -> void:
 	var stream := _load(MUSIC_DIR + track + ".ogg")
 	if stream is AudioStreamOggVorbis:
 		stream.loop = true
+		stream.loop_offset = float(GameData.music.get("loop_start", {}).get(track, 0.0))
 	_music.stream = stream
 	if stream:
 		_music.play()
+
+
+## The menus' song.
+func menu_music() -> void:
+	music(str(GameData.music.get("menu", "")))
 
 
 func stop_music() -> void:

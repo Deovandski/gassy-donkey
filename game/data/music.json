@@ -1,0 +1,11 @@
+{
+  "_about": "Which song plays where. The songs are Deovandski's 2014 BIDU songs (legacy/2014-bidu-concept/BIDU songs/), made into loops by tools/make_bidu_music.py, which also writes loop_start: where each song goes back to after its end, in seconds (the intro plays once). Stages pick their song with \"music\" in worlds.json; anything without one uses its world's.",
+  "menu": "bidu_01",
+  "loop_start": {
+    "bidu_01": 7.4424,
+    "bidu_02": 12.1618,
+    "bidu_03": 6.7137,
+    "bidu_04": 4.205,
+    "bidu_05": 16.1695
+  }
+}

@@ -19,7 +19,8 @@ Not covered by this license
   under the SIL Open Font License 1.1 (game/fonts/*-OFL.txt).
 - The Godot Engine, which the web and Android builds contain, under its own MIT license (https://godotengine.org/license).
 - The planet pictures in legacy/2016-unity/Assets/Sprites/Menu Scene/Stars.png and their copies came with the 2016
-  project; their source isn't recorded there.
+  project. Their source isn't recorded; they are most likely NASA images, which are generally not copyrighted in the
+  United States (https://www.nasa.gov/nasa-brand-center/images-and-media/).
 - Trademarks: A Husband Out of This World and #HusbandOutWorld are trademarks of Deovandski Skibinski Junior,
   mentioned in the credits. This license grants no trademark rights.
 

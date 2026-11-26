@@ -19,7 +19,8 @@ def read_au(path):
     if enc != 6: raise ValueError(f"{path}: encoding {enc}, expected 32-bit float")
     return np.frombuffer(b[off:], dtype=e + "f4").astype(np.float32)
 
-def main(aup, out):
+def render(aup):
+    """Mixes an Audacity project to stereo float samples. Returns (samples[n, 2], rate)."""
     aup = pathlib.Path(aup)
     root = ET.parse(aup).getroot()
     data_dir = aup.parent / root.get("projname")
@@ -67,10 +68,19 @@ def main(aup, out):
                     mix[s0:s0 + len(seg), idx] += seg * (lg if idx == 0 else rg)
                 else:
                     mix[s0:s0 + len(seg), 0] += seg * lg; mix[s0:s0 + len(seg), 1] += seg * rg
+    return mix, rate
+
+
+def write_wav(path, mix, rate):
     pcm = (np.clip(mix, -1, 1) * 32767).astype("<i2")
-    with wave.open(str(out), "wb") as w:
+    with wave.open(str(path), "wb") as w:
         w.setnchannels(2); w.setsampwidth(2); w.setframerate(rate); w.writeframes(pcm.tobytes())
-    print(f"{aup.name}: {n / rate:.2f} s, peak {np.abs(mix).max():.2f} -> {out}")
+
+
+def main(aup, out):
+    mix, rate = render(aup)
+    write_wav(out, mix, rate)
+    print(f"{pathlib.Path(aup).name}: {len(mix) / rate:.2f} s, peak {np.abs(mix).max():.2f} -> {out}")
 
 if __name__ == "__main__":
     if len(sys.argv) != 3: sys.exit(__doc__)

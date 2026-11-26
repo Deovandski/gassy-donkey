@@ -1,16 +1,13 @@
 #!/usr/bin/env python3
-"""Synthesize the finished game's sound effects and music loops.
+"""Synthesize the finished game's sound effects.
 
     python3 tools/make_audio.py
 
-Writes game/audio/sfx/*.wav (short effects) and game/audio/music/*.ogg (loops), committed so CI never needs
-this script. Everything is made from plain waves and noise here, seeded, so running it again gives the same
-sounds. Placeholders: a composer can replace any file with one of the same name. Needs numpy and ffmpeg
-(with libvorbis) for the .ogg files.
+Writes game/audio/sfx/*.wav, committed so CI never needs this script. Everything is made from plain waves
+and noise here, seeded, so running it again gives the same sounds. Placeholders: anyone can replace a file
+with one of the same name. Needs numpy. (The music is the 2014 BIDU songs: tools/make_bidu_music.py.)
 """
 import pathlib
-import subprocess
-import tempfile
 import wave
 
 import numpy as np
@@ -197,140 +194,8 @@ def make_sfx():
     sfx("finish", np.concatenate([fanfare(), bray() * 0.7]))
 
 
-# ------------------------------------------------------------------------------------------------ music
-
-def note_hz(n):
-    return 440.0 * 2 ** ((n - 69) / 12)
-
-
-def render_track(bpm, bars, layers):
-    """layers: list of (pattern_fn(bar, beat_step) -> list of (midi, length_steps, gain, shape)), 16 steps a bar."""
-    step = 60 / bpm / 4
-    n = int(round(bars * 16 * step * SR))
-    mix = np.zeros(n)
-    for layer in layers:
-        for bar in range(bars):
-            for s in range(16):
-                for midi, length, gain, shape in layer(bar, s):
-                    start = int(round((bar * 16 + s) * step * SR))
-                    d = length * step
-                    if shape == "kick":
-                        tt = t_axis(0.2)
-                        x = osc(55 * np.exp(-tt * 18) + 45, 0.2) * np.exp(-tt * 16)
-                    elif shape == "hat":
-                        tt = t_axis(0.05)
-                        x = RNG.standard_normal(len(tt)) * np.exp(-tt * 80) * 0.5
-                    elif shape == "bongo":
-                        tt = t_axis(0.18)
-                        x = osc(note_hz(midi) * (1 + 0.5 * np.exp(-tt * 40)), 0.18) * np.exp(-tt * 22)
-                    elif shape == "marimba":
-                        tt = t_axis(d + 0.3)
-                        f = note_hz(midi)
-                        x = (osc(f, d + 0.3) + 0.3 * osc(f * 4, d + 0.3) * np.exp(-tt * 20)) * np.exp(-tt * 7)
-                    elif shape == "pluck":
-                        tt = t_axis(d + 0.2)
-                        x = lowpass(osc(note_hz(midi), d + 0.2, "saw"), 2200) * np.exp(-tt * 6)
-                    elif shape == "pad":
-                        tt = t_axis(d)
-                        f = note_hz(midi)
-                        x = (osc(f, d, "tri") + osc(f * 1.005, d, "tri")) * 0.5 * env(len(tt), 0.3, 0.4)
-                    else:
-                        tt = t_axis(d)
-                        x = osc(note_hz(midi), d, shape) * env(len(tt), 0.01, min(0.1, d / 2))
-                    end = min(n, start + len(x))
-                    mix[start:end] += x[: end - start] * gain
-    # wrap the tail into the start so the loop is seamless
-    return normalize(mix, 0.8)
-
-
-def write_ogg(name, x):
-    path = OUT / "music" / f"{name}.ogg"
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory() as tmp:
-        w = pathlib.Path(tmp) / "m.wav"
-        write_wav(w, x)
-        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(w), "-c:a", "libvorbis", "-q:a", "3", str(path)], check=True)
-    print(f"  music/{name}.ogg {len(x) / SR:.1f} s")
-
-
-def amazon_music():
-    scale = [0, 2, 4, 7, 9, 12, 14, 16]  # major pentatonic
-    root = 60
-    chords = [0, -3, 5, -5]
-    rnd = np.random.default_rng(1)
-    melody = [[(root + 12 + scale[rnd.integers(0, 8)]) if rnd.random() < 0.55 else None for _ in range(8)] for _ in range(8)]
-
-    def drums(bar, s):
-        out = []
-        if s in (0, 6, 10):
-            out.append((0, 1, 0.9, "kick"))
-        if s % 2 == 1:
-            out.append((0, 1, 0.25, "hat"))
-        if s in (3, 7, 11, 14, 15):
-            out.append((64 if s % 2 else 69, 1, 0.5, "bongo"))
-        return out
-
-    def bass(bar, s):
-        c = root - 24 + chords[bar % 4]
-        return [(c if s in (0, 8) else c + 7, 2, 0.5, "tri")] if s in (0, 6, 8, 14) else []
-
-    def mel(bar, s):
-        if s % 2:
-            return []
-        m = melody[bar % 8][s // 2]
-        return [(m, 2, 0.35, "marimba")] if m else []
-
-    return render_track(112, 16, [drums, bass, mel])
-
-
-def desert_music():
-    root = 57  # A minor, a little western
-    chords = [0, -2, -4, -5]
-
-    def drums(bar, s):
-        out = []
-        if s in (0, 8):
-            out.append((0, 1, 0.8, "kick"))
-        if s in (4, 12):
-            out.append((70, 1, 0.4, "bongo"))
-        if s % 4 == 2:
-            out.append((0, 1, 0.2, "hat"))
-        return out
-
-    def bass(bar, s):
-        c = root - 24 + chords[bar % 4]
-        return [(c, 3, 0.5, "tri")] if s in (0, 6, 10) else []
-
-    phrase = [12, None, 15, 14, 12, None, 10, None, 7, None, 10, 12, None, None, None, None]
-
-    def guitar(bar, s):
-        if bar % 2 == 1 and s >= 8:
-            return []
-        p = phrase[s]
-        return [(root + chords[bar % 4] + p, 2, 0.35, "pluck")] if p is not None and s % 2 == 0 else []
-
-    return render_track(96, 16, [drums, bass, guitar])
-
-
-def menu_music():
-    root = 62
-    prog = [[0, 4, 7, 11], [-3, 0, 4, 7], [-7, -3, 0, 4], [-5, -1, 2, 7]]
-
-    def pad(bar, s):
-        return [(root - 12 + n, 16, 0.18, "pad") for n in prog[bar % 4]] if s == 0 else []
-
-    def arp(bar, s):
-        chord = prog[bar % 4]
-        return [(root + 12 + chord[s % 4], 1, 0.22, "sine")] if s % 2 == 0 else []
-
-    return render_track(84, 8, [pad, arp])
-
-
 def main():
     make_sfx()
-    write_ogg("amazon", amazon_music())
-    write_ogg("desert", desert_music())
-    write_ogg("menu", menu_music())
 
 
 if __name__ == "__main__":
