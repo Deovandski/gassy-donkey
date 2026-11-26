@@ -1,18 +1,170 @@
 {
+ "080f4ecabe7d": {
+  "en": "Tap the right side of the screen to jump. Tap again in the air to double jump up to the next level.",
+  "t": "Toca el lado derecho de la pantalla para saltar. Vuelve a tocar en el aire para hacer un doble salto al nivel siguiente."
+ },
  "0a4470d64e9d": {
   "en": "Skip to content",
   "t": "Saltar al contenido"
  },
- "0c8df973e24e": {
-  "en": "Your Language and Text size choices are saved in this browser only, so the site remembers them next time. They never leave your device.",
-  "t": "Tus elecciones de Idioma y Tamaño del texto se guardan solo en este navegador, para que el sitio las recuerde la próxima vez. Nunca salen de tu dispositivo."
+ "119390f29a12": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">P</kbd> or <kbd data-astro-cid-lcdefpme=\"\">Esc</kbd> pause. A game controller works too.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">P</kbd> o <kbd data-astro-cid-lcdefpme=\"\">Esc</kbd> pausan. También funciona un mando."
  },
- "50282beeddea": {
-  "en": "This website has no cookies, no analytics and no ads. It's hosted on GitHub Pages, so <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHub</a> sees your IP address when it sends you the page. Questions go to <a href=\"https://github.com/Deovandski/gassy-donkey/issues\">GitHub issues</a>.",
-  "t": "Este sitio no tiene cookies, ni analíticas, ni anuncios. Está alojado en GitHub Pages, así que <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHub</a> ve tu dirección IP cuando te envía la página. Las preguntas, en las <a href=\"https://github.com/Deovandski/gassy-donkey/issues\">incidencias de GitHub</a>."
+ "144b1ac7fafc": {
+  "en": "Read the history, with the 2014 sketch and the 2016 notes",
+  "t": "Lee la historia, con el boceto de 2014 y las notas de 2016"
  },
- "c60f2f817f12": {
-  "en": "Source on GitHub",
-  "t": "Código en GitHub"
+ "297cd63e4c45": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski made for the game's first sketch in 2014, each looping after its opening.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Música:</strong> las cinco canciones de BIDU que Deovandski hizo para el primer boceto del juego en 2014, cada una en bucle después de su comienzo."
+ },
+ "29ae52b4b9ca": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Cosas en el camino:</strong> rocas, serpientes, panales, osos, cactus y vaqueros armados. Sáltalos o dales un cabezazo, si tu cabezazo es lo bastante fuerte."
+ },
+ "2fe91bcefb76": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. The original files are kept unchanged in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-lcdefpme=\"\">legacy folder</a>, and the 2016 version can still be played, ported as it was.",
+  "t": "BIDU, el burro pedorro, empezó como un boceto en 2014. En 2016 se convirtió en Gassy Donkey, un proyecto de Unity 5.3.5 que llegó hasta su menú principal. En 2026 se portó a Godot y se terminó. Los archivos originales se guardan sin cambios en la <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-lcdefpme=\"\">carpeta legacy</a> del repositorio, y la versión de 2016 todavía se puede jugar, portada tal como era."
+ },
+ "367d87ef3bd4": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Things behind you:</strong> mosquitoes catch up whenever you slow down. Tigers wait on the floor: jump over one and it chases you, and only a farting power of 2 or more scares it away. Or take the high road on the ledges.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Cosas detrás de ti:</strong> los mosquitos te alcanzan cada vez que frenas. Los tigres esperan en el suelo: salta uno y te persigue, y solo una potencia de pedo de 2 o más lo ahuyenta. O ve por el camino alto, por las plataformas."
+ },
+ "46c03227c103": {
+  "en": "From 2014 to now",
+  "t": "De 2014 a hoy"
+ },
+ "473bd4087262": {
+  "en": "World 2, Earth – Desert: the donkey on a sandstone ledge above the cactus.",
+  "t": "Mundo 2, Earth – Desert: el burro en una plataforma de arenisca sobre los cactus."
+ },
+ "496b7f0af277": {
+  "en": "This website and the game have no cookies, no analytics, no ads and no accounts. The site is hosted on GitHub Pages, so <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\" data-astro-cid-lcdefpme=\"\">GitHub</a> sees your IP address when it sends you the page. Questions go to <a href=\"https://github.com/Deovandski/gassy-donkey/issues\" data-astro-cid-lcdefpme=\"\">GitHub issues</a>.",
+  "t": "Este sitio web y el juego no tienen cookies, ni analíticas, ni anuncios, ni cuentas. El sitio está alojado en GitHub Pages, así que <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\" data-astro-cid-lcdefpme=\"\">GitHub</a> ve tu dirección IP cuando te envía la página. Las preguntas van a las <a href=\"https://github.com/Deovandski/gassy-donkey/issues\" data-astro-cid-lcdefpme=\"\">issues de GitHub</a>."
+ },
+ "4da8d20c25cb": {
+  "en": "Play the 2016 original",
+  "t": "Jugar el original de 2016"
+ },
+ "4ec00394908f": {
+  "en": "How to play",
+  "t": "Cómo se juega"
+ },
+ "52a659382dd5": {
+  "en": "Brought to you by Deovandski, author of the #HusbandOutWorld series and CEO/Founder of Wizard Deo Solutions. Have fun! If you want to support me, buy the eBooks on Amazon. <a href=\"https://www.amazon.com/dp/B0BT5XM4QC\" data-astro-cid-lcdefpme=\"\">The eBooks on Amazon</a> · <a href=\"https://husbandoutworld.com/\" data-astro-cid-lcdefpme=\"\">#HusbandOutWorld</a>",
+  "t": "Te lo trae Deovandski, autor de la serie #HusbandOutWorld y CEO/fundador de Wizard Deo Solutions. ¡Diviértete! Si quieres apoyarme, compra los eBooks en Amazon. <a href=\"https://www.amazon.com/dp/B0BT5XM4QC\" data-astro-cid-lcdefpme=\"\">Los eBooks en Amazon</a> · <a href=\"https://husbandoutworld.com/\" data-astro-cid-lcdefpme=\"\">#HusbandOutWorld</a>"
+ },
+ "5a201187a164": {
+  "en": "The game saves your progress (level, stats, stages, achievements and sound settings) in this browser's storage, so you can carry on next time. It never leaves your device; clearing the site's data wipes it, and so does Settings › Reset all progress in the game.",
+  "t": "El juego guarda tu progreso (nivel, estadísticas, niveles, logros y ajustes de sonido) en el almacenamiento de este navegador, para que sigas la próxima vez. Nunca sale de tu dispositivo; borrar los datos del sitio lo elimina, y también Settings › Reset all progress dentro del juego."
+ },
+ "5b8bb36b1ade": {
+  "en": "Running through World 1, Earth – Amazon: hearts, gas, distance and level at the top, the fart and headbutt buttons on the left.",
+  "t": "Corriendo por el Mundo 1, Earth – Amazon: corazones, gas, distancia y nivel arriba; los botones de pedo y cabezazo a la izquierda."
+ },
+ "660251a2f72c": {
+  "en": "Gassy Donkey",
+  "t": "Gassy Donkey"
+ },
+ "6662c40bac78": {
+  "en": "Keyboard",
+  "t": "Teclado"
+ },
+ "66e105b13cc0": {
+  "en": "A side-scrolling runner made for touch screens and keyboards. The donkey runs on its own; you jump, double jump up a level, swipe down a level, fart away whatever chases you and headbutt whatever stands in the way. It plays right here in the browser and can be installed as an app.",
+  "t": "Un juego de carreras con desplazamiento lateral hecho para pantallas táctiles y teclados. El burro corre solo; tú saltas, haces doble salto para subir un nivel, deslizas para bajar un nivel, ahuyentas a pedos lo que te persigue y das cabezazos a lo que se cruza. Se juega aquí mismo en el navegador y se puede instalar como app."
+ },
+ "6b2d726e2aff": {
+  "en": "What's in the game",
+  "t": "Qué hay en el juego"
+ },
+ "6b6d85ffea8b": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> o <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> bajan un nivel."
+ },
+ "70c9afeb7702": {
+  "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
+  "t": "Cada nivel es una carrera hasta la bandera de meta. El burro acelera cada 200 metros. Pierdes corazones al chocar con algo o al recibir un mordisco; si se acaban, la carrera termina, pero conservas la XP ganada y vuelves más fuerte."
+ },
+ "78bd47823cb7": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">A</kbd>, <kbd data-astro-cid-lcdefpme=\"\">←</kbd> or <kbd data-astro-cid-lcdefpme=\"\">Z</kbd> fart; <kbd data-astro-cid-lcdefpme=\"\">D</kbd>, <kbd data-astro-cid-lcdefpme=\"\">→</kbd> or <kbd data-astro-cid-lcdefpme=\"\">X</kbd> headbutt.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">A</kbd>, <kbd data-astro-cid-lcdefpme=\"\">←</kbd> o <kbd data-astro-cid-lcdefpme=\"\">Z</kbd> tiran un pedo; <kbd data-astro-cid-lcdefpme=\"\">D</kbd>, <kbd data-astro-cid-lcdefpme=\"\">→</kbd> o <kbd data-astro-cid-lcdefpme=\"\">X</kbd> dan un cabezazo."
+ },
+ "7cb18874958e": {
+  "en": "Started in 2016 · finished in 2026",
+  "t": "Empezado en 2016 · terminado en 2026"
+ },
+ "858751a3253a": {
+  "en": "Your Language and Text size choices on this website are saved in this browser only. To open without a connection, the site and the game save copies of their pages and files in your browser's storage. The copies stay on your device and are never sent anywhere; clearing the site's data removes them.",
+  "t": "Tus elecciones de Idioma y Tamaño del texto en este sitio se guardan solo en este navegador. Para abrirse sin conexión, el sitio y el juego guardan copias de sus páginas y archivos en el almacenamiento de tu navegador. Las copias se quedan en tu dispositivo y nunca se envían a ningún sitio; borrar los datos del sitio las elimina."
+ },
+ "870a742c6a78": {
+  "en": "Swipe down on the right side to drop down a level.",
+  "t": "Desliza hacia abajo en el lado derecho para bajar un nivel."
+ },
+ "935edbe91f7d": {
+  "en": "Pictures",
+  "t": "Imágenes"
+ },
+ "a4e513a8f990": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Gas:</strong> eat corn in the Amazon and beans in the desert to fill the gas tank. A fart pushes the donkey forward and scares off whatever is behind it; with a full tank you get a super fart. Collect every one in a stage for a little fanfare.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Gas:</strong> come maíz en la Amazonia y judías en el desierto para llenar el depósito de gas. Un pedo empuja al burro hacia delante y ahuyenta lo que tiene detrás; con el depósito lleno te sale un superpedo. Recoge todos los de un nivel para oír una pequeña fanfarria."
+ },
+ "aa4776245257": {
+  "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert.",
+  "t": "Un burro pedorro corre, salta, da cabezazos y se tira pedos por la Amazonia y el desierto."
+ },
+ "ab9ea3db367e": {
+  "en": "Picking a world and a stage, with \"Level 1 recommended\" under the planet.",
+  "t": "Elegir un mundo y un nivel, con \"Level 1 recommended\" bajo el planeta."
+ },
+ "b4eabb4d8952": {
+  "en": "The Character menu: one point per level for health, farting power, jump power and headbutt power.",
+  "t": "El menú del personaje: un punto por nivel para salud, potencia de pedo, fuerza de salto y potencia de cabezazo."
+ },
+ "b7ae1d8072ff": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Two worlds, three stages each:</strong> Earth – Amazon and Earth – Desert, the first phase of the 2016 plan. The other planets say \"Coming soon!\", as they did in 2016.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Dos mundos, tres niveles cada uno:</strong> Earth – Amazon y Earth – Desert, la primera fase del plan de 2016. Los demás planetas dicen \"Coming soon!\", como en 2016."
+ },
+ "ba409f8fe9b0": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">Space</kbd>, <kbd data-astro-cid-lcdefpme=\"\">W</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↑</kbd> jump (twice to double jump).",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">Space</kbd>, <kbd data-astro-cid-lcdefpme=\"\">W</kbd> o <kbd data-astro-cid-lcdefpme=\"\">↑</kbd> saltan (dos veces para el doble salto)."
+ },
+ "c7a2e44a3186": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Levels instead of waiting:</strong> every level gives a point for health, farting power, jump power or headbutt power. Later stages pull harder, so jumps get lower. Each stage shows the level it recommends, but nothing is locked behind a level.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Niveles en lugar de esperas:</strong> cada nivel da un punto para salud, potencia de pedo, fuerza de salto o potencia de cabezazo. Los niveles avanzados tiran más fuerte, así que los saltos son más bajos. Cada nivel muestra el nivel que recomienda, pero nada se bloquea por nivel."
+ },
+ "cf8e121fb104": {
+  "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert. Started in Unity in 2016, finished in Godot: play it in the browser, or play the 2016 original.",
+  "t": "Un burro pedorro corre, salta, da cabezazos y se tira pedos por la Amazonia y el desierto. Empezado en Unity en 2016, terminado en Godot: juega en el navegador o juega el original de 2016."
+ },
+ "dab43aac694b": {
+  "en": "The 2016 Unity main menu, ported to Godot.",
+  "t": "El menú principal de Unity de 2016, portado a Godot."
+ },
+ "e18534f74df5": {
+  "en": "Achievements, progress saved on your device, no ads, no purchases.",
+  "t": "Logros, progreso guardado en tu dispositivo, sin anuncios, sin compras."
+ },
+ "e34bf47f744e": {
+  "en": "The main menu, over the 2016 sky with the Sun and the flying vessel.",
+  "t": "El menú principal, sobre el cielo de 2016 con el Sol y la nave volando."
+ },
+ "e3f139abb7a5": {
+  "en": "Touch",
+  "t": "Táctil"
+ },
+ "e7df95bc36a0": {
+  "en": "The buttons on the left fart and headbutt.",
+  "t": "Los botones de la izquierda tiran un pedo y dan un cabezazo."
+ },
+ "f32d5a3b17e6": {
+  "en": "Support",
+  "t": "Apoyo"
+ },
+ "fe69971aca91": {
+  "en": "Play Gassy Donkey",
+  "t": "Jugar a Gassy Donkey"
  }
 }

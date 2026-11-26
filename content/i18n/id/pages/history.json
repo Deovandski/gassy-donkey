@@ -1,0 +1,134 @@
+{
+ "077e4be0ec4c": {
+  "en": "World Development phases This would allow to release a few worlds, and only develop the others if the audience enjoyed the app.",
+  "t": "Fase pengembangan dunia. Dengan begitu beberapa dunia bisa dirilis dulu, dan dunia lainnya hanya dikembangkan jika penonton menyukai aplikasinya."
+ },
+ "095aaf2c5781": {
+  "en": "The 2016 main menu, ported to Godot from the Unity scene.",
+  "t": "Menu utama 2016, dipindahkan ke Godot dari adegan Unity."
+ },
+ "0cc7408cee7f": {
+  "en": "2016 game-idea overview, page 3: Control Overlay idea for the game",
+  "t": "Ringkasan ide gim 2016, halaman 3: Ide kontrol di layar untuk gim"
+ },
+ "1bf2997a0e0d": {
+  "en": "The Unity 5.3.5 project got as far as the main menu (the logo, Select World, Character, Achievements and Credits buttons over a turning starfield, with the Sun below and a vessel flying past) and the world selection, where you swipe between the planets. Its README said it \"will not be finished\", since it was a way to learn Unity and polish up C#.",
+  "t": "Proyek Unity 5.3.5 sampai ke menu utama (logo serta tombol Select World, Character, Achievements, dan Credits di atas langit berbintang yang berputar, dengan Matahari di bawah dan sebuah pesawat yang melintas) dan pemilihan dunia, tempat kamu menggeser di antara planet-planet. README-nya menyebut proyek ini \"tidak akan diselesaikan\", karena ini cara untuk belajar Unity dan mengasah C#."
+ },
+ "1cf109b954ec": {
+  "en": "The 2016 world selection, ported to Godot: swipe between the planets.",
+  "t": "Pemilihan dunia 2016, dipindahkan ke Godot: geser di antara planet-planet."
+ },
+ "22d007e8c793": {
+  "en": "BIDU song 5",
+  "t": "Lagu BIDU 5"
+ },
+ "2878a76a47c0": {
+  "en": "The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets \"Coming soon!\"). It keeps the 2016 donkey, vessel, planets, platforms and logo, plays the 2014 BIDU songs, and adds what was missing. The repository's <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">design notes</a> list which choices came from the originals and which were made while finishing it. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play Gassy Donkey</a>.",
+  "t": "Gim yang sudah selesai mengikuti catatan 2016: kentut dan seruduk kepala di kiri, lompat di kanan, lompatan ganda ke lantai yang lebih tinggi, geser ke bawah untuk turun satu lantai, air untuk jalur lain, harimau yang butuh kekuatan kentut 2, item gas di setiap level, satu poin per level untuk empat statistik, gravitasi lebih tinggi di bagian akhir, dan fase dunia (pertama Earth – Amazon dan Earth – Desert, planet lain bertuliskan \"Coming soon!\"). Gim ini mempertahankan keledai, pesawat, planet, platform, dan logo 2016, memutar lagu-lagu BIDU 2014, dan menambahkan yang kurang. <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">Catatan desain</a> di repositori mencantumkan pilihan mana yang berasal dari karya asli dan mana yang dibuat saat menyelesaikannya. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Mainkan Gassy Donkey</a>."
+ },
+ "33449d831120": {
+  "en": "Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
+  "t": "Menu karakter: setiap level memberi pemain satu poin untuk dipakai pada kesehatan, kekuatan kentut, kekuatan lompat (untuk level-level akhir dengan gravitasi lebih tinggi), dan kekuatan seruduk kepala."
+ },
+ "33ef45a977ea": {
+  "en": "2016 game-idea overview, page 1: Main Menu Idea. The backbone for it has been implemented.",
+  "t": "Ringkasan ide gim 2016, halaman 1: Ide menu utama. Kerangkanya sudah dibuat."
+ },
+ "3767552b1864": {
+  "en": "2016: the game idea",
+  "t": "2016: ide gim"
+ },
+ "43d08e6bca23": {
+  "en": "How Gassy Donkey grew from a 2014 sketch called BIDU, the farting donkey, into a 2016 Unity project and then a finished Godot game.",
+  "t": "Bagaimana Gassy Donkey tumbuh dari sketsa tahun 2014 bernama BIDU, si keledai kentut, menjadi proyek Unity tahun 2016, lalu menjadi gim Godot yang selesai."
+ },
+ "6873577ad58d": {
+  "en": "2026: finished",
+  "t": "2026: selesai"
+ },
+ "86a139ab17c0": {
+  "en": "The BIDU songs",
+  "t": "Lagu-lagu BIDU"
+ },
+ "8c902839ca64": {
+  "en": "2016 game-idea overview, page 2: How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",
+  "t": "Ringkasan ide gim 2016, halaman 2: Cara saya membayangkan gim ini bekerja: tombol \"kentut\" dan \"seruduk kepala\" di kiri, lompat di mana saja di kanan (karena itu hanya mode lanskap); lompatan ganda menuju lantai yang lebih tinggi; menggeser jari kanan ke bawah turun satu lantai; level berair untuk beberapa jalur; harimau yang hanya bisa diusir dengan kentut level 2; item pengisi gas di setiap level; dinding level yang dinamis, bukan waktu tunggu atau dinding uang."
+ },
+ "8eea2cfc69d1": {
+  "en": "From BIDU to Gassy Donkey",
+  "t": "Dari BIDU ke Gassy Donkey"
+ },
+ "9539d160234b": {
+  "en": "2016: the Unity project",
+  "t": "2016: proyek Unity"
+ },
+ "acc78587683c": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is the author's original work, shown as it was made; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
+  "t": "BIDU, si keledai kentut, berawal sebagai sketsa pada 2014. Pada 2016 ia menjadi Gassy Donkey, proyek Unity 5.3.5 yang sampai ke menu utamanya. Pada 2026 ia dipindahkan ke Godot dan diselesaikan. Semua di bawah ini adalah karya asli penulis, ditampilkan seperti saat dibuat; berkas-berkasnya ada di <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">folder legacy</a> repositori."
+ },
+ "ad7e36642e3f": {
+  "en": "The 2014 concept sketch for BIDU, the farting donkey: the character, the enemies, Jungle and Desert, and corn power-ups.",
+  "t": "Sketsa konsep tahun 2014 untuk BIDU, si keledai kentut: tokohnya, musuh-musuhnya, Hutan dan Gurun, dan jagung sebagai penambah kekuatan."
+ },
+ "aeacfcebe1a1": {
+  "en": "2016 game-idea overview, page 5: World Development phases This would allow to release a few worlds, and only develop the others if the audience enjoyed the app.",
+  "t": "Ringkasan ide gim 2016, halaman 5: Fase pengembangan dunia. Dengan begitu beberapa dunia bisa dirilis dulu, dan dunia lainnya hanya dikembangkan jika penonton menyukai aplikasinya."
+ },
+ "b3388130bcb4": {
+  "en": "In July 2016 the idea was written up as a five-page overview, scanned from notebook pages, with a typed note on each.",
+  "t": "Pada Juli 2016 ide itu ditulis menjadi ringkasan lima halaman, hasil pindaian halaman buku catatan, masing-masing dengan catatan yang diketik."
+ },
+ "b5421506fb0c": {
+  "en": "Control Overlay idea for the game",
+  "t": "Ide kontrol di layar untuk gim"
+ },
+ "b55c7223e262": {
+  "en": "2014: BIDU, the farting donkey",
+  "t": "2014: BIDU, si keledai kentut"
+ },
+ "be5ca3c7f324": {
+  "en": "History · Gassy Donkey",
+  "t": "Sejarah · Gassy Donkey"
+ },
+ "beaa05cb9a2d": {
+  "en": "BIDU song 3",
+  "t": "Lagu BIDU 3"
+ },
+ "c845cbcdfdf1": {
+  "en": "Main Menu Idea. The backbone for it has been implemented.",
+  "t": "Ide menu utama. Kerangkanya sudah dibuat."
+ },
+ "c9a63a5aaf6d": {
+  "en": "The first sketch already has most of the game: a farting donkey that needs to keep running to score points; a mosquito that follows the donkey when it isn't running; cactus, honey hives and rocks; snakes, bears and cowboys with guns; a Jungle and a Desert; and corn as the power-up, with a noise when you get all the corn.",
+  "t": "Sketsa pertama sudah memuat hampir seluruh gim: seekor keledai kentut yang harus terus berlari untuk mencetak poin; seekor nyamuk yang mengikuti keledai saat ia tidak berlari; kaktus, sarang lebah, dan batu; ular, beruang, dan koboi bersenjata; sebuah Hutan dan sebuah Gurun; dan jagung sebagai penambah kekuatan, dengan bunyi saat kamu mengumpulkan semua jagung."
+ },
+ "ce4b52988e1a": {
+  "en": "That menu has been ported to Godot as it was: the same positions, sizes, colours and texts, read out of the Unity scene file, and each of the five C# scripts rewritten line for line. Only Select World does something, as in 2016. <a href=\"/gassy-donkey/play/#original-2016\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play the 2016 original</a>.",
+  "t": "Menu itu dipindahkan ke Godot apa adanya: posisi, ukuran, warna, dan teks yang sama, dibaca dari berkas adegan Unity, dan kelima skrip C# ditulis ulang baris demi baris. Hanya Select World yang berfungsi, seperti pada 2016. <a href=\"/gassy-donkey/play/#original-2016\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Mainkan versi asli 2016</a>."
+ },
+ "d0bc9e9099aa": {
+  "en": "BIDU song 2",
+  "t": "Lagu BIDU 2"
+ },
+ "d186c8e12285": {
+  "en": "2016 game-idea overview, page 4: Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
+  "t": "Ringkasan ide gim 2016, halaman 4: Menu karakter: setiap level memberi pemain satu poin untuk dipakai pada kesehatan, kekuatan kentut, kekuatan lompat (untuk level-level akhir dengan gravitasi lebih tinggi), dan kekuatan seruduk kepala."
+ },
+ "d1bd01cf4746": {
+  "en": "Five short songs Deovandski made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "Lima lagu pendek yang dibuat Deovandski untuk BIDU pada Juli 2014, dengan Audacity. Lagu-lagu ini adalah musik gim yang sudah selesai: masing-masing memainkan bagian pembukanya sekali, lalu berulang."
+ },
+ "d501b574c13d": {
+  "en": "How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",
+  "t": "Cara saya membayangkan gim ini bekerja: tombol \"kentut\" dan \"seruduk kepala\" di kiri, lompat di mana saja di kanan (karena itu hanya mode lanskap); lompatan ganda menuju lantai yang lebih tinggi; menggeser jari kanan ke bawah turun satu lantai; level berair untuk beberapa jalur; harimau yang hanya bisa diusir dengan kentut level 2; item pengisi gas di setiap level; dinding level yang dinamis, bukan waktu tunggu atau dinding uang."
+ },
+ "e35f8295fbb7": {
+  "en": "BIDU song 4",
+  "t": "Lagu BIDU 4"
+ },
+ "fff6f17aa3bc": {
+  "en": "BIDU song 1",
+  "t": "Lagu BIDU 1"
+ }
+}

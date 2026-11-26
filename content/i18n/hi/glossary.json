@@ -8,7 +8,11 @@
   "Deovandski Skibinski Junior",
   "A.G.",
   "GitHub",
-  "MIT"
+  "MIT",
+  "Gassy Donkey",
+  "Godot",
+  "Unity",
+  "Audacity"
  ],
  "names": {
   "Vraki": "व्राकी",
@@ -16,7 +20,8 @@
   "Ganyrami": "गनिरामी",
   "Paulin": "पॉलिन",
   "Harry": "हैरी",
-  "The Prosperity Treaty": "समृद्धि संधि"
+  "The Prosperity Treaty": "समृद्धि संधि",
+  "BIDU": "बीडू"
  },
  "terms": {
   "Vraki typeface": "व्राकी टाइपफ़ेस",
@@ -25,5 +30,6 @@
   "Settings": "सेटिंग्स",
   "Text size": "टेक्स्ट का आकार",
   "Language": "भाषा"
- }
+ },
+ "game_text": "Words shown on the game's own screens stay in English, in quotes where the sentence needs it, because the game itself is in English: button names (Select World, Character, Achievements, Credits), world names (Earth – Amazon, Earth – Desert), \"Coming soon!\", \"Level 1 recommended\", Settings › Reset all progress."
 }

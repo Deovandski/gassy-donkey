@@ -1,46 +1,94 @@
 {
- "155657eff841": {
-  "en": "Made by <a href=\"https://github.com/Deovandski\">Deovandski</a>. © 2026 Deovandski Skibinski Junior. Code under the <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/LICENSE\">MIT license</a>.",
-  "t": "สร้างโดย <a href=\"https://github.com/Deovandski\">Deovandski</a> © 2026 Deovandski Skibinski Junior โค้ดอยู่ภายใต้<a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/LICENSE\">สัญญาอนุญาต MIT</a>"
+ "09972524c11e": {
+  "en": "Previous photo",
+  "t": "รูปก่อนหน้า"
+ },
+ "15c61d430df1": {
+  "en": "You’re using the installed app.",
+  "t": "คุณกำลังใช้แอปที่ติดตั้งแล้ว"
  },
  "3cc6e124a8e4": {
   "en": "Text size",
   "t": "ขนาดตัวอักษร"
  },
- "610113f6a165": {
-  "en": "Built with AI assistance from the author's originals: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/AI-DISCLOSURE.md\">AI disclosure</a>. <a href=\"/gassy-donkey/#privacy\">Privacy</a>.",
-  "t": "สร้างขึ้นด้วยความช่วยเหลือของ AI จากผลงานต้นฉบับของผู้เขียน: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/AI-DISCLOSURE.md\">การเปิดเผยการใช้ AI</a> <a href=\"/gassy-donkey/#privacy\">ความเป็นส่วนตัว</a>"
+ "5d12bd53552c": {
+  "en": "Play",
+  "t": "เล่น"
  },
  "62bce9422ff2": {
   "en": "Main",
   "t": "เมนูหลัก"
  },
- "6b21fb791ac0": {
-  "en": "About",
-  "t": "เกี่ยวกับ"
- },
- "70440046a3dc": {
-  "en": "Notes",
-  "t": "บันทึก"
- },
  "89b86ab0e66f": {
   "en": "Language",
   "t": "ภาษา"
+ },
+ "90ccd6497400": {
+  "en": "History",
+  "t": "ประวัติ"
+ },
+ "9e3f4c60afcd": {
+  "en": "No install button? Open this page in Chrome (⋮ → Open in Chrome), then ⋮ → Install app.",
+  "t": "ไม่เห็นปุ่มติดตั้ง? เปิดหน้านี้ใน Chrome (⋮ → เปิดใน Chrome) แล้ว ⋮ → ติดตั้งแอป"
+ },
+ "b7ac1c49db50": {
+  "en": "Enlarge",
+  "t": "ขยาย"
+ },
+ "b7ba2fd50d49": {
+  "en": "Built with AI assistance from the author's originals: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/AI-DISCLOSURE.md\">AI disclosure</a>. <a href=\"/gassy-donkey/#privacy\">Privacy</a>.",
+  "t": "สร้างด้วยความช่วยเหลือของ AI จากผลงานต้นฉบับของผู้สร้าง: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/AI-DISCLOSURE.md\">การเปิดเผยการใช้ AI</a> <a href=\"/gassy-donkey/#privacy\">ความเป็นส่วนตัว</a>"
+ },
+ "bbfa773e5a63": {
+  "en": "Close",
+  "t": "ปิด"
+ },
+ "bd1cf21678f6": {
+  "en": "Installed! Open it from your home screen or app list.",
+  "t": "ติดตั้งแล้ว! เปิดได้จากหน้าจอโฮมหรือรายการแอป"
  },
  "c7f73bb54d92": {
   "en": "Settings",
   "t": "การตั้งค่า"
  },
+ "ccd62e5d37a0": {
+  "en": "To install it, open this page in Chrome, Edge or Samsung Internet. On iPhone or iPad: Share, then Add to Home Screen.",
+  "t": "หากต้องการติดตั้ง ให้เปิดหน้านี้ใน Chrome, Edge หรือ Samsung Internet บน iPhone หรือ iPad: แชร์ → เพิ่มไปยังหน้าจอโฮม"
+ },
  "cf01481f626d": {
   "en": "Privacy",
   "t": "ความเป็นส่วนตัว"
+ },
+ "d01d900383e4": {
+  "en": "Photo",
+  "t": "รูปภาพ"
  },
  "d36880a182c5": {
   "en": "Want a language added?",
   "t": "อยากให้เพิ่มภาษาไหม?"
  },
+ "d5636c56abfd": {
+  "en": "On iPhone or iPad: tap Share, then Add to Home Screen.",
+  "t": "บน iPhone หรือ iPad: แตะแชร์ แล้วเพิ่มไปยังหน้าจอโฮม"
+ },
+ "e1315d1d673e": {
+  "en": "Made by <a href=\"https://github.com/Deovandski\">Deovandski</a>. © 2026 Deovandski Skibinski Junior. Code under the <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/LICENSE\">MIT license</a>.",
+  "t": "สร้างโดย <a href=\"https://github.com/Deovandski\">Deovandski</a> © 2026 Deovandski Skibinski Junior โค้ดใช้<a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/LICENSE\">สัญญาอนุญาต MIT</a>"
+ },
+ "e5f79aa13bd5": {
+  "en": "Install app",
+  "t": "ติดตั้งแอป"
+ },
  "e9b450d14bc2": {
   "en": "Done",
   "t": "เสร็จ"
+ },
+ "fc4a695f02a8": {
+  "en": "App",
+  "t": "แอป"
+ },
+ "fe6687820101": {
+  "en": "Next photo",
+  "t": "รูปถัดไป"
  }
 }

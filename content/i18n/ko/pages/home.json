@@ -1,18 +1,170 @@
 {
+ "080f4ecabe7d": {
+  "en": "Tap the right side of the screen to jump. Tap again in the air to double jump up to the next level.",
+  "t": "화면 오른쪽을 탭하면 점프. 공중에서 한 번 더 탭하면 2단 점프로 다음 층까지."
+ },
  "0a4470d64e9d": {
   "en": "Skip to content",
   "t": "본문으로 건너뛰기"
  },
- "0c8df973e24e": {
-  "en": "Your Language and Text size choices are saved in this browser only, so the site remembers them next time. They never leave your device.",
-  "t": "언어와 글자 크기 선택은 다음에도 기억할 수 있도록 이 브라우저에만 저장됩니다. 여러분의 기기 밖으로 나가지 않습니다."
+ "119390f29a12": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">P</kbd> or <kbd data-astro-cid-lcdefpme=\"\">Esc</kbd> pause. A game controller works too.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">P</kbd> 또는 <kbd data-astro-cid-lcdefpme=\"\">Esc</kbd>로 일시 정지. 게임 컨트롤러도 됩니다."
  },
- "50282beeddea": {
-  "en": "This website has no cookies, no analytics and no ads. It's hosted on GitHub Pages, so <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHub</a> sees your IP address when it sends you the page. Questions go to <a href=\"https://github.com/Deovandski/gassy-donkey/issues\">GitHub issues</a>.",
-  "t": "이 웹사이트에는 쿠키도, 분석도, 광고도 없습니다. GitHub Pages에서 호스팅하므로 페이지를 보낼 때 <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHub</a>가 여러분의 IP 주소를 보게 됩니다. 질문은 <a href=\"https://github.com/Deovandski/gassy-donkey/issues\">GitHub 이슈</a>로 남겨 주세요."
+ "144b1ac7fafc": {
+  "en": "Read the history, with the 2014 sketch and the 2016 notes",
+  "t": "역사 읽기(2014년 스케치와 2016년 메모 포함)"
  },
- "c60f2f817f12": {
-  "en": "Source on GitHub",
-  "t": "GitHub 소스"
+ "297cd63e4c45": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski made for the game's first sketch in 2014, each looping after its opening.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">음악:</strong> Deovandski가 2014년 이 게임의 첫 스케치를 위해 만든 비두의 노래 다섯 곡. 각 곡은 도입부 뒤에 반복됩니다."
+ },
+ "29ae52b4b9ca": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">길을 막는 것:</strong> 바위, 뱀, 벌집, 곰, 선인장, 총을 든 카우보이. 뛰어넘거나, 박치기가 충분히 세면 박치기로."
+ },
+ "2fe91bcefb76": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. The original files are kept unchanged in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-lcdefpme=\"\">legacy folder</a>, and the 2016 version can still be played, ported as it was.",
+  "t": "방귀 당나귀 비두는 2014년에 스케치로 시작했습니다. 2016년에는 메인 메뉴까지 만들어진 Unity 5.3.5 프로젝트 Gassy Donkey가 되었고, 2026년에 Godot로 옮겨져 완성되었습니다. 원본 파일은 저장소의 <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-lcdefpme=\"\">legacy 폴더</a>에 그대로 보관되어 있고, 2016년 버전도 그대로 옮겨져 지금도 플레이할 수 있습니다."
+ },
+ "367d87ef3bd4": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Things behind you:</strong> mosquitoes catch up whenever you slow down. Tigers wait on the floor: jump over one and it chases you, and only a farting power of 2 or more scares it away. Or take the high road on the ledges.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">뒤에서 오는 것:</strong> 모기는 속도가 떨어질 때마다 따라잡습니다. 호랑이는 땅에서 기다리다가 뛰어넘으면 쫓아오고, 방귀 파워 2 이상이어야만 쫓아낼 수 있습니다. 아니면 위쪽 발판 길로 가세요."
+ },
+ "46c03227c103": {
+  "en": "From 2014 to now",
+  "t": "2014년부터 지금까지"
+ },
+ "473bd4087262": {
+  "en": "World 2, Earth – Desert: the donkey on a sandstone ledge above the cactus.",
+  "t": "월드 2, Earth – Desert: 선인장 위 사암 발판에 선 당나귀."
+ },
+ "496b7f0af277": {
+  "en": "This website and the game have no cookies, no analytics, no ads and no accounts. The site is hosted on GitHub Pages, so <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\" data-astro-cid-lcdefpme=\"\">GitHub</a> sees your IP address when it sends you the page. Questions go to <a href=\"https://github.com/Deovandski/gassy-donkey/issues\" data-astro-cid-lcdefpme=\"\">GitHub issues</a>.",
+  "t": "이 웹사이트와 게임에는 쿠키, 분석, 광고, 계정이 없습니다. 사이트는 GitHub Pages에서 호스팅되므로, 페이지를 보낼 때 <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\" data-astro-cid-lcdefpme=\"\">GitHub</a>가 여러분의 IP 주소를 봅니다. 질문은 <a href=\"https://github.com/Deovandski/gassy-donkey/issues\" data-astro-cid-lcdefpme=\"\">GitHub 이슈</a>로."
+ },
+ "4da8d20c25cb": {
+  "en": "Play the 2016 original",
+  "t": "2016년 원작 플레이"
+ },
+ "4ec00394908f": {
+  "en": "How to play",
+  "t": "플레이 방법"
+ },
+ "52a659382dd5": {
+  "en": "Brought to you by Deovandski, author of the #HusbandOutWorld series and CEO/Founder of Wizard Deo Solutions. Have fun! If you want to support me, buy the eBooks on Amazon. <a href=\"https://www.amazon.com/dp/B0BT5XM4QC\" data-astro-cid-lcdefpme=\"\">The eBooks on Amazon</a> · <a href=\"https://husbandoutworld.com/\" data-astro-cid-lcdefpme=\"\">#HusbandOutWorld</a>",
+  "t": "#HusbandOutWorld 시리즈의 작가이자 Wizard Deo Solutions의 CEO 겸 창업자인 Deovandski가 드립니다. 즐겁게 노세요! 저를 응원하고 싶다면 Amazon에서 전자책을 사 주세요. <a href=\"https://www.amazon.com/dp/B0BT5XM4QC\" data-astro-cid-lcdefpme=\"\">Amazon의 전자책</a> · <a href=\"https://husbandoutworld.com/\" data-astro-cid-lcdefpme=\"\">#HusbandOutWorld</a>"
+ },
+ "5a201187a164": {
+  "en": "The game saves your progress (level, stats, stages, achievements and sound settings) in this browser's storage, so you can carry on next time. It never leaves your device; clearing the site's data wipes it, and so does Settings › Reset all progress in the game.",
+  "t": "게임은 진행 상황(레벨, 능력, 스테이지, 업적, 소리 설정)을 이 브라우저의 저장소에 저장해 다음에 이어서 할 수 있게 합니다. 기기 밖으로 나가지 않으며, 사이트 데이터를 지우면 사라지고, 게임 안의 Settings › Reset all progress로도 지워집니다."
+ },
+ "5b8bb36b1ade": {
+  "en": "Running through World 1, Earth – Amazon: hearts, gas, distance and level at the top, the fart and headbutt buttons on the left.",
+  "t": "월드 1, Earth – Amazon을 달리는 모습: 위에 하트, 가스, 거리, 레벨, 왼쪽에 방귀와 박치기 버튼."
+ },
+ "660251a2f72c": {
+  "en": "Gassy Donkey",
+  "t": "Gassy Donkey"
+ },
+ "6662c40bac78": {
+  "en": "Keyboard",
+  "t": "키보드"
+ },
+ "66e105b13cc0": {
+  "en": "A side-scrolling runner made for touch screens and keyboards. The donkey runs on its own; you jump, double jump up a level, swipe down a level, fart away whatever chases you and headbutt whatever stands in the way. It plays right here in the browser and can be installed as an app.",
+  "t": "터치 화면과 키보드를 위한 횡스크롤 러너 게임. 당나귀는 알아서 달리고, 여러분은 점프하고, 2단 점프로 한 층 올라가고, 아래로 밀어 한 층 내려가고, 쫓아오는 것은 방귀로 쫓아내고, 앞을 막는 것은 박치기합니다. 이 브라우저에서 바로 플레이할 수 있고 앱으로 설치할 수도 있습니다."
+ },
+ "6b2d726e2aff": {
+  "en": "What's in the game",
+  "t": "게임에 들어 있는 것"
+ },
+ "6b6d85ffea8b": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> 또는 <kbd data-astro-cid-lcdefpme=\"\">↓</kbd>로 한 층 아래로."
+ },
+ "70c9afeb7702": {
+  "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
+  "t": "각 스테이지는 결승 깃발까지 달리는 한 판입니다. 당나귀는 200미터마다 빨라집니다. 무언가에 부딪히거나 물리면 하트가 줄고, 다 떨어지면 그 판은 끝나지만 얻은 XP는 남아서 더 강해져 돌아올 수 있습니다."
+ },
+ "78bd47823cb7": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">A</kbd>, <kbd data-astro-cid-lcdefpme=\"\">←</kbd> or <kbd data-astro-cid-lcdefpme=\"\">Z</kbd> fart; <kbd data-astro-cid-lcdefpme=\"\">D</kbd>, <kbd data-astro-cid-lcdefpme=\"\">→</kbd> or <kbd data-astro-cid-lcdefpme=\"\">X</kbd> headbutt.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">A</kbd>, <kbd data-astro-cid-lcdefpme=\"\">←</kbd> 또는 <kbd data-astro-cid-lcdefpme=\"\">Z</kbd>로 방귀, <kbd data-astro-cid-lcdefpme=\"\">D</kbd>, <kbd data-astro-cid-lcdefpme=\"\">→</kbd> 또는 <kbd data-astro-cid-lcdefpme=\"\">X</kbd>로 박치기."
+ },
+ "7cb18874958e": {
+  "en": "Started in 2016 · finished in 2026",
+  "t": "2016년 시작 · 2026년 완성"
+ },
+ "858751a3253a": {
+  "en": "Your Language and Text size choices on this website are saved in this browser only. To open without a connection, the site and the game save copies of their pages and files in your browser's storage. The copies stay on your device and are never sent anywhere; clearing the site's data removes them.",
+  "t": "이 웹사이트에서 고른 언어와 글자 크기는 이 브라우저에만 저장됩니다. 연결 없이도 열리도록 사이트와 게임은 페이지와 파일의 사본을 브라우저 저장소에 저장합니다. 사본은 기기에 남고 어디로도 보내지지 않으며, 사이트 데이터를 지우면 삭제됩니다."
+ },
+ "870a742c6a78": {
+  "en": "Swipe down on the right side to drop down a level.",
+  "t": "오른쪽에서 아래로 밀면 한 층 내려갑니다."
+ },
+ "935edbe91f7d": {
+  "en": "Pictures",
+  "t": "사진"
+ },
+ "a4e513a8f990": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Gas:</strong> eat corn in the Amazon and beans in the desert to fill the gas tank. A fart pushes the donkey forward and scares off whatever is behind it; with a full tank you get a super fart. Collect every one in a stage for a little fanfare.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">가스:</strong> 아마존에서는 옥수수, 사막에서는 콩을 먹어 가스 탱크를 채웁니다. 방귀는 당나귀를 앞으로 밀어 주고 뒤에 있는 것을 쫓아냅니다. 탱크가 가득하면 슈퍼 방귀. 한 스테이지의 아이템을 모두 모으면 짧은 팡파르가 나옵니다."
+ },
+ "aa4776245257": {
+  "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert.",
+  "t": "방귀 당나귀가 아마존과 사막을 달리고, 뛰고, 박치기하고, 방귀를 뀝니다."
+ },
+ "ab9ea3db367e": {
+  "en": "Picking a world and a stage, with \"Level 1 recommended\" under the planet.",
+  "t": "월드와 스테이지 고르기. 행성 아래에 \"Level 1 recommended\"."
+ },
+ "b4eabb4d8952": {
+  "en": "The Character menu: one point per level for health, farting power, jump power and headbutt power.",
+  "t": "캐릭터 메뉴: 레벨마다 1포인트를 체력, 방귀 파워, 점프력, 박치기 파워에."
+ },
+ "b7ae1d8072ff": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Two worlds, three stages each:</strong> Earth – Amazon and Earth – Desert, the first phase of the 2016 plan. The other planets say \"Coming soon!\", as they did in 2016.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">월드 둘, 각각 스테이지 셋:</strong> Earth – Amazon과 Earth – Desert, 2016년 계획의 첫 단계. 나머지 행성은 2016년처럼 \"Coming soon!\"이라고 나옵니다."
+ },
+ "ba409f8fe9b0": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">Space</kbd>, <kbd data-astro-cid-lcdefpme=\"\">W</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↑</kbd> jump (twice to double jump).",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">Space</kbd>, <kbd data-astro-cid-lcdefpme=\"\">W</kbd> 또는 <kbd data-astro-cid-lcdefpme=\"\">↑</kbd>로 점프(두 번이면 2단 점프)."
+ },
+ "c7a2e44a3186": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Levels instead of waiting:</strong> every level gives a point for health, farting power, jump power or headbutt power. Later stages pull harder, so jumps get lower. Each stage shows the level it recommends, but nothing is locked behind a level.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">기다림 대신 레벨:</strong> 레벨마다 체력, 방귀 파워, 점프력, 박치기 파워 중 하나에 1포인트. 후반 스테이지는 중력이 세서 점프가 낮아집니다. 스테이지마다 권장 레벨이 보이지만, 레벨 때문에 막히는 것은 없습니다."
+ },
+ "cf8e121fb104": {
+  "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert. Started in Unity in 2016, finished in Godot: play it in the browser, or play the 2016 original.",
+  "t": "방귀 당나귀가 아마존과 사막을 달리고, 뛰고, 박치기하고, 방귀를 뀝니다. 2016년 Unity에서 시작해 Godot에서 완성: 브라우저에서 플레이하거나 2016년 원작을 플레이하세요."
+ },
+ "dab43aac694b": {
+  "en": "The 2016 Unity main menu, ported to Godot.",
+  "t": "2016년 Unity 메인 메뉴. Godot로 옮김."
+ },
+ "e18534f74df5": {
+  "en": "Achievements, progress saved on your device, no ads, no purchases.",
+  "t": "업적, 기기에 저장되는 진행 상황, 광고 없음, 결제 없음."
+ },
+ "e34bf47f744e": {
+  "en": "The main menu, over the 2016 sky with the Sun and the flying vessel.",
+  "t": "메인 메뉴. 2016년의 하늘에 태양과 날아가는 우주선."
+ },
+ "e3f139abb7a5": {
+  "en": "Touch",
+  "t": "터치"
+ },
+ "e7df95bc36a0": {
+  "en": "The buttons on the left fart and headbutt.",
+  "t": "왼쪽 버튼으로 방귀와 박치기."
+ },
+ "f32d5a3b17e6": {
+  "en": "Support",
+  "t": "후원"
+ },
+ "fe69971aca91": {
+  "en": "Play Gassy Donkey",
+  "t": "Gassy Donkey 플레이"
  }
 }

@@ -8,7 +8,11 @@
   "Deovandski Skibinski Junior",
   "A.G.",
   "GitHub",
-  "MIT"
+  "MIT",
+  "Gassy Donkey",
+  "Godot",
+  "Unity",
+  "Audacity"
  ],
  "names": {
   "Vraki": "فراكي",
@@ -16,7 +20,8 @@
   "Ganyrami": "غانيرامي",
   "Paulin": "باولين",
   "Harry": "هاري",
-  "The Prosperity Treaty": "معاهدة الرخاء"
+  "The Prosperity Treaty": "معاهدة الرخاء",
+  "BIDU": "بيدو"
  },
  "terms": {
   "Vraki typeface": "خط فراكي الطباعي",
@@ -25,5 +30,6 @@
   "Settings": "الإعدادات",
   "Text size": "حجم النص",
   "Language": "اللغة"
- }
+ },
+ "game_text": "Words shown on the game's own screens stay in English, in quotes where the sentence needs it, because the game itself is in English: button names (Select World, Character, Achievements, Credits), world names (Earth – Amazon, Earth – Desert), \"Coming soon!\", \"Level 1 recommended\", Settings › Reset all progress."
 }

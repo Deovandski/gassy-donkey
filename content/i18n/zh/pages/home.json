@@ -1,18 +1,170 @@
 {
+ "080f4ecabe7d": {
+  "en": "Tap the right side of the screen to jump. Tap again in the air to double jump up to the next level.",
+  "t": "点击屏幕右侧跳跃。在空中再点一次，二段跳到上一层。"
+ },
  "0a4470d64e9d": {
   "en": "Skip to content",
   "t": "跳到正文"
  },
- "0c8df973e24e": {
-  "en": "Your Language and Text size choices are saved in this browser only, so the site remembers them next time. They never leave your device.",
-  "t": "你在“语言”和“文字大小”中的选择只保存在这个浏览器里，方便网站下次记住。它们不会离开你的设备。"
+ "119390f29a12": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">P</kbd> or <kbd data-astro-cid-lcdefpme=\"\">Esc</kbd> pause. A game controller works too.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">P</kbd> 或 <kbd data-astro-cid-lcdefpme=\"\">Esc</kbd> 暂停。也支持游戏手柄。"
  },
- "50282beeddea": {
-  "en": "This website has no cookies, no analytics and no ads. It's hosted on GitHub Pages, so <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHub</a> sees your IP address when it sends you the page. Questions go to <a href=\"https://github.com/Deovandski/gassy-donkey/issues\">GitHub issues</a>.",
-  "t": "本网站没有 Cookie、没有统计分析，也没有广告。网站托管在 GitHub Pages 上，因此 <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHub</a> 在向你发送页面时会看到你的 IP 地址。有问题请到 <a href=\"https://github.com/Deovandski/gassy-donkey/issues\">GitHub issues</a>。"
+ "144b1ac7fafc": {
+  "en": "Read the history, with the 2014 sketch and the 2016 notes",
+  "t": "阅读历史，附 2014 年的草图和 2016 年的笔记"
  },
- "c60f2f817f12": {
-  "en": "Source on GitHub",
-  "t": "GitHub 上的源代码"
+ "297cd63e4c45": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski made for the game's first sketch in 2014, each looping after its opening.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">音乐：</strong>Deovandski 在 2014 年为这个游戏的第一张草图做的五首比杜之歌，每首在开头之后循环播放。"
+ },
+ "29ae52b4b9ca": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">挡路的东西：</strong>石头、蛇、蜂窝、熊、仙人掌和带枪的牛仔。跳过去，或者在头撞够强时撞开它们。"
+ },
+ "2fe91bcefb76": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. The original files are kept unchanged in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-lcdefpme=\"\">legacy folder</a>, and the 2016 version can still be played, ported as it was.",
+  "t": "放屁驴比杜最早是 2014 年的一张草图。2016 年它变成了 Gassy Donkey，一个做到主菜单的 Unity 5.3.5 项目。2026 年它被移植到 Godot 并完成。原始文件原封不动地保存在仓库的<a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-lcdefpme=\"\">legacy 文件夹</a>里，2016 年的版本也按原样移植，至今还能玩。"
+ },
+ "367d87ef3bd4": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Things behind you:</strong> mosquitoes catch up whenever you slow down. Tigers wait on the floor: jump over one and it chases you, and only a farting power of 2 or more scares it away. Or take the high road on the ledges.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">身后的东西：</strong>只要你一慢下来，蚊子就会追上来。老虎在地面上等着：跳过它，它就会追你，只有放屁威力 2 或以上才能吓跑它。或者走高处的平台。"
+ },
+ "46c03227c103": {
+  "en": "From 2014 to now",
+  "t": "从 2014 年到现在"
+ },
+ "473bd4087262": {
+  "en": "World 2, Earth – Desert: the donkey on a sandstone ledge above the cactus.",
+  "t": "世界 2 Earth – Desert：驴站在仙人掌上方的砂岩平台上。"
+ },
+ "496b7f0af277": {
+  "en": "This website and the game have no cookies, no analytics, no ads and no accounts. The site is hosted on GitHub Pages, so <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\" data-astro-cid-lcdefpme=\"\">GitHub</a> sees your IP address when it sends you the page. Questions go to <a href=\"https://github.com/Deovandski/gassy-donkey/issues\" data-astro-cid-lcdefpme=\"\">GitHub issues</a>.",
+  "t": "本网站和游戏没有 Cookie、没有统计分析、没有广告，也没有账号。网站托管在 GitHub Pages 上，所以 <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\" data-astro-cid-lcdefpme=\"\">GitHub</a> 在向你发送页面时会看到你的 IP 地址。有问题请到 <a href=\"https://github.com/Deovandski/gassy-donkey/issues\" data-astro-cid-lcdefpme=\"\">GitHub issues</a>。"
+ },
+ "4da8d20c25cb": {
+  "en": "Play the 2016 original",
+  "t": "玩 2016 年的原版"
+ },
+ "4ec00394908f": {
+  "en": "How to play",
+  "t": "玩法"
+ },
+ "52a659382dd5": {
+  "en": "Brought to you by Deovandski, author of the #HusbandOutWorld series and CEO/Founder of Wizard Deo Solutions. Have fun! If you want to support me, buy the eBooks on Amazon. <a href=\"https://www.amazon.com/dp/B0BT5XM4QC\" data-astro-cid-lcdefpme=\"\">The eBooks on Amazon</a> · <a href=\"https://husbandoutworld.com/\" data-astro-cid-lcdefpme=\"\">#HusbandOutWorld</a>",
+  "t": "由 #HusbandOutWorld 系列的作者、Wizard Deo Solutions 的 CEO 兼创始人 Deovandski 为你带来。玩得开心！如果想支持我，请在 Amazon 购买电子书。<a href=\"https://www.amazon.com/dp/B0BT5XM4QC\" data-astro-cid-lcdefpme=\"\">Amazon 上的电子书</a> · <a href=\"https://husbandoutworld.com/\" data-astro-cid-lcdefpme=\"\">#HusbandOutWorld</a>"
+ },
+ "5a201187a164": {
+  "en": "The game saves your progress (level, stats, stages, achievements and sound settings) in this browser's storage, so you can carry on next time. It never leaves your device; clearing the site's data wipes it, and so does Settings › Reset all progress in the game.",
+  "t": "游戏会把你的进度（等级、能力、关卡、成就和声音设置）保存在这个浏览器的存储中，方便你下次接着玩。它永远不会离开你的设备；清除网站数据会把它清掉，游戏里的 Settings › Reset all progress 也会。"
+ },
+ "5b8bb36b1ade": {
+  "en": "Running through World 1, Earth – Amazon: hearts, gas, distance and level at the top, the fart and headbutt buttons on the left.",
+  "t": "在世界 1 Earth – Amazon 中奔跑：上方是红心、气体、距离和等级，左边是放屁和头撞按钮。"
+ },
+ "660251a2f72c": {
+  "en": "Gassy Donkey",
+  "t": "Gassy Donkey"
+ },
+ "6662c40bac78": {
+  "en": "Keyboard",
+  "t": "键盘"
+ },
+ "66e105b13cc0": {
+  "en": "A side-scrolling runner made for touch screens and keyboards. The donkey runs on its own; you jump, double jump up a level, swipe down a level, fart away whatever chases you and headbutt whatever stands in the way. It plays right here in the browser and can be installed as an app.",
+  "t": "一款为触屏和键盘打造的横版跑酷游戏。驴会自己跑；你负责跳、二段跳上一层、向下滑降一层，用屁赶走追你的东西，用头撞开挡路的东西。直接在浏览器里就能玩，也能安装成应用。"
+ },
+ "6b2d726e2aff": {
+  "en": "What's in the game",
+  "t": "游戏内容"
+ },
+ "6b6d85ffea8b": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> 或 <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> 降一层。"
+ },
+ "70c9afeb7702": {
+  "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
+  "t": "每个关卡都是跑到终点旗的一次奔跑。驴每跑 200 米就会加速。撞到东西或被咬会失去红心；红心用完这次奔跑就结束，但获得的经验值会保留，你会变得更强再回来。"
+ },
+ "78bd47823cb7": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">A</kbd>, <kbd data-astro-cid-lcdefpme=\"\">←</kbd> or <kbd data-astro-cid-lcdefpme=\"\">Z</kbd> fart; <kbd data-astro-cid-lcdefpme=\"\">D</kbd>, <kbd data-astro-cid-lcdefpme=\"\">→</kbd> or <kbd data-astro-cid-lcdefpme=\"\">X</kbd> headbutt.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">A</kbd>、<kbd data-astro-cid-lcdefpme=\"\">←</kbd> 或 <kbd data-astro-cid-lcdefpme=\"\">Z</kbd> 放屁；<kbd data-astro-cid-lcdefpme=\"\">D</kbd>、<kbd data-astro-cid-lcdefpme=\"\">→</kbd> 或 <kbd data-astro-cid-lcdefpme=\"\">X</kbd> 头撞。"
+ },
+ "7cb18874958e": {
+  "en": "Started in 2016 · finished in 2026",
+  "t": "始于 2016 年 · 完成于 2026 年"
+ },
+ "858751a3253a": {
+  "en": "Your Language and Text size choices on this website are saved in this browser only. To open without a connection, the site and the game save copies of their pages and files in your browser's storage. The copies stay on your device and are never sent anywhere; clearing the site's data removes them.",
+  "t": "你在本网站选择的语言和文字大小只保存在这个浏览器里。为了离线也能打开，网站和游戏会把页面和文件的副本保存在浏览器的存储中。这些副本留在你的设备上，不会发送到任何地方；清除网站数据就会删除它们。"
+ },
+ "870a742c6a78": {
+  "en": "Swipe down on the right side to drop down a level.",
+  "t": "在右侧向下滑动，降到下一层。"
+ },
+ "935edbe91f7d": {
+  "en": "Pictures",
+  "t": "图片"
+ },
+ "a4e513a8f990": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Gas:</strong> eat corn in the Amazon and beans in the desert to fill the gas tank. A fart pushes the donkey forward and scares off whatever is behind it; with a full tank you get a super fart. Collect every one in a stage for a little fanfare.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">气体：</strong>在亚马孙吃玉米、在沙漠吃豆子来装满气罐。放屁会把驴往前推，并吓跑身后的东西；气罐满了就能放超级屁。把一个关卡的道具全部收集，会有一小段号角声。"
+ },
+ "aa4776245257": {
+  "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert.",
+  "t": "一头放屁驴在亚马孙和沙漠里奔跑、跳跃、头撞、放屁。"
+ },
+ "ab9ea3db367e": {
+  "en": "Picking a world and a stage, with \"Level 1 recommended\" under the planet.",
+  "t": "选择世界和关卡，星球下方写着“Level 1 recommended”。"
+ },
+ "b4eabb4d8952": {
+  "en": "The Character menu: one point per level for health, farting power, jump power and headbutt power.",
+  "t": "角色菜单：每级一点，可加到生命、放屁威力、跳跃力和头撞威力。"
+ },
+ "b7ae1d8072ff": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Two worlds, three stages each:</strong> Earth – Amazon and Earth – Desert, the first phase of the 2016 plan. The other planets say \"Coming soon!\", as they did in 2016.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">两个世界，各三个关卡：</strong>Earth – Amazon 和 Earth – Desert，也就是 2016 年计划的第一阶段。其他星球和 2016 年一样显示“Coming soon!”。"
+ },
+ "ba409f8fe9b0": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">Space</kbd>, <kbd data-astro-cid-lcdefpme=\"\">W</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↑</kbd> jump (twice to double jump).",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">Space</kbd>、<kbd data-astro-cid-lcdefpme=\"\">W</kbd> 或 <kbd data-astro-cid-lcdefpme=\"\">↑</kbd> 跳跃（按两次二段跳）。"
+ },
+ "c7a2e44a3186": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Levels instead of waiting:</strong> every level gives a point for health, farting power, jump power or headbutt power. Later stages pull harder, so jumps get lower. Each stage shows the level it recommends, but nothing is locked behind a level.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">用等级代替等待：</strong>每升一级都能给生命、放屁威力、跳跃力或头撞威力加一点。后期关卡重力更大，跳得更低。每个关卡都会显示推荐等级，但没有任何东西被等级锁住。"
+ },
+ "cf8e121fb104": {
+  "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert. Started in Unity in 2016, finished in Godot: play it in the browser, or play the 2016 original.",
+  "t": "一头放屁驴在亚马孙和沙漠里奔跑、跳跃、头撞、放屁。2016 年在 Unity 中开始，在 Godot 中完成：在浏览器里玩，或者玩 2016 年的原版。"
+ },
+ "dab43aac694b": {
+  "en": "The 2016 Unity main menu, ported to Godot.",
+  "t": "2016 年的 Unity 主菜单，移植到 Godot。"
+ },
+ "e18534f74df5": {
+  "en": "Achievements, progress saved on your device, no ads, no purchases.",
+  "t": "成就、进度保存在你的设备上、没有广告、没有内购。"
+ },
+ "e34bf47f744e": {
+  "en": "The main menu, over the 2016 sky with the Sun and the flying vessel.",
+  "t": "主菜单，背景是 2016 年的天空、太阳和飞过的飞船。"
+ },
+ "e3f139abb7a5": {
+  "en": "Touch",
+  "t": "触屏"
+ },
+ "e7df95bc36a0": {
+  "en": "The buttons on the left fart and headbutt.",
+  "t": "左边的按钮用来放屁和头撞。"
+ },
+ "f32d5a3b17e6": {
+  "en": "Support",
+  "t": "支持"
+ },
+ "fe69971aca91": {
+  "en": "Play Gassy Donkey",
+  "t": "玩 Gassy Donkey"
  }
 }

@@ -1,18 +1,170 @@
 {
+ "080f4ecabe7d": {
+  "en": "Tap the right side of the screen to jump. Tap again in the air to double jump up to the next level.",
+  "t": "Chạm vào bên phải màn hình để nhảy. Chạm lần nữa khi đang trên không để nhảy đôi lên tầng tiếp theo."
+ },
  "0a4470d64e9d": {
   "en": "Skip to content",
   "t": "Chuyển đến nội dung"
  },
- "0c8df973e24e": {
-  "en": "Your Language and Text size choices are saved in this browser only, so the site remembers them next time. They never leave your device.",
-  "t": "Lựa chọn Ngôn ngữ và Cỡ chữ của bạn chỉ được lưu trong trình duyệt này, để trang web nhớ cho lần sau. Chúng không bao giờ rời khỏi thiết bị của bạn."
+ "119390f29a12": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">P</kbd> or <kbd data-astro-cid-lcdefpme=\"\">Esc</kbd> pause. A game controller works too.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">P</kbd> hoặc <kbd data-astro-cid-lcdefpme=\"\">Esc</kbd> để tạm dừng. Tay cầm chơi game cũng dùng được."
  },
- "50282beeddea": {
-  "en": "This website has no cookies, no analytics and no ads. It's hosted on GitHub Pages, so <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHub</a> sees your IP address when it sends you the page. Questions go to <a href=\"https://github.com/Deovandski/gassy-donkey/issues\">GitHub issues</a>.",
-  "t": "Trang web này không có cookie, không có phân tích và không có quảng cáo. Trang được lưu trữ trên GitHub Pages, nên <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHub</a> thấy địa chỉ IP của bạn khi gửi trang cho bạn. Có câu hỏi xin gửi vào <a href=\"https://github.com/Deovandski/gassy-donkey/issues\">GitHub issues</a>."
+ "144b1ac7fafc": {
+  "en": "Read the history, with the 2014 sketch and the 2016 notes",
+  "t": "Đọc lịch sử, kèm bản phác thảo năm 2014 và ghi chú năm 2016"
  },
- "c60f2f817f12": {
-  "en": "Source on GitHub",
-  "t": "Mã nguồn trên GitHub"
+ "297cd63e4c45": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski made for the game's first sketch in 2014, each looping after its opening.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Âm nhạc:</strong> năm bài hát BIDU mà Deovandski làm cho bản phác thảo đầu tiên của trò chơi năm 2014, mỗi bài lặp lại sau đoạn mở đầu."
+ },
+ "29ae52b4b9ca": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Những thứ cản đường:</strong> đá, rắn, tổ ong, gấu, xương rồng và cao bồi cầm súng. Nhảy qua hoặc húc đầu, nếu cú húc của bạn đủ mạnh."
+ },
+ "2fe91bcefb76": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. The original files are kept unchanged in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-lcdefpme=\"\">legacy folder</a>, and the 2016 version can still be played, ported as it was.",
+  "t": "BIDU, chú lừa hay xì hơi, bắt đầu là một bản phác thảo năm 2014. Năm 2016 nó thành Gassy Donkey, một dự án Unity 5.3.5 làm được tới menu chính. Năm 2026 nó được chuyển sang Godot và hoàn thành. Các tệp gốc được giữ nguyên trong <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-lcdefpme=\"\">thư mục legacy</a> của kho mã, và bản năm 2016 vẫn chơi được, được chuyển sang như vốn có."
+ },
+ "367d87ef3bd4": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Things behind you:</strong> mosquitoes catch up whenever you slow down. Tigers wait on the floor: jump over one and it chases you, and only a farting power of 2 or more scares it away. Or take the high road on the ledges.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Những thứ phía sau bạn:</strong> muỗi đuổi kịp mỗi khi bạn chậm lại. Hổ chờ sẵn trên mặt đất: nhảy qua một con là nó đuổi theo, và chỉ sức xì hơi từ 2 trở lên mới đuổi nó đi được. Hoặc đi đường cao trên các bục."
+ },
+ "46c03227c103": {
+  "en": "From 2014 to now",
+  "t": "Từ 2014 đến nay"
+ },
+ "473bd4087262": {
+  "en": "World 2, Earth – Desert: the donkey on a sandstone ledge above the cactus.",
+  "t": "Thế giới 2, Earth – Desert: chú lừa trên một bục sa thạch phía trên xương rồng."
+ },
+ "496b7f0af277": {
+  "en": "This website and the game have no cookies, no analytics, no ads and no accounts. The site is hosted on GitHub Pages, so <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\" data-astro-cid-lcdefpme=\"\">GitHub</a> sees your IP address when it sends you the page. Questions go to <a href=\"https://github.com/Deovandski/gassy-donkey/issues\" data-astro-cid-lcdefpme=\"\">GitHub issues</a>.",
+  "t": "Trang web và trò chơi này không có cookie, không có phân tích, không có quảng cáo và không có tài khoản. Trang được lưu trữ trên GitHub Pages, nên <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\" data-astro-cid-lcdefpme=\"\">GitHub</a> thấy địa chỉ IP của bạn khi gửi trang cho bạn. Câu hỏi gửi về <a href=\"https://github.com/Deovandski/gassy-donkey/issues\" data-astro-cid-lcdefpme=\"\">GitHub issues</a>."
+ },
+ "4da8d20c25cb": {
+  "en": "Play the 2016 original",
+  "t": "Chơi bản gốc năm 2016"
+ },
+ "4ec00394908f": {
+  "en": "How to play",
+  "t": "Cách chơi"
+ },
+ "52a659382dd5": {
+  "en": "Brought to you by Deovandski, author of the #HusbandOutWorld series and CEO/Founder of Wizard Deo Solutions. Have fun! If you want to support me, buy the eBooks on Amazon. <a href=\"https://www.amazon.com/dp/B0BT5XM4QC\" data-astro-cid-lcdefpme=\"\">The eBooks on Amazon</a> · <a href=\"https://husbandoutworld.com/\" data-astro-cid-lcdefpme=\"\">#HusbandOutWorld</a>",
+  "t": "Mang đến cho bạn bởi Deovandski, tác giả bộ truyện #HusbandOutWorld và CEO/Nhà sáng lập Wizard Deo Solutions. Chơi vui nhé! Nếu muốn ủng hộ tôi, hãy mua sách điện tử trên Amazon. <a href=\"https://www.amazon.com/dp/B0BT5XM4QC\" data-astro-cid-lcdefpme=\"\">Sách điện tử trên Amazon</a> · <a href=\"https://husbandoutworld.com/\" data-astro-cid-lcdefpme=\"\">#HusbandOutWorld</a>"
+ },
+ "5a201187a164": {
+  "en": "The game saves your progress (level, stats, stages, achievements and sound settings) in this browser's storage, so you can carry on next time. It never leaves your device; clearing the site's data wipes it, and so does Settings › Reset all progress in the game.",
+  "t": "Trò chơi lưu tiến trình của bạn (cấp, chỉ số, các màn, thành tích và cài đặt âm thanh) trong bộ nhớ của trình duyệt này, để lần sau bạn chơi tiếp. Nó không bao giờ rời khỏi thiết bị của bạn; xóa dữ liệu của trang sẽ xóa nó, và Settings › Reset all progress trong trò chơi cũng vậy."
+ },
+ "5b8bb36b1ade": {
+  "en": "Running through World 1, Earth – Amazon: hearts, gas, distance and level at the top, the fart and headbutt buttons on the left.",
+  "t": "Chạy qua Thế giới 1, Earth – Amazon: tim, khí, quãng đường và cấp ở trên, các nút xì hơi và húc đầu bên trái."
+ },
+ "660251a2f72c": {
+  "en": "Gassy Donkey",
+  "t": "Gassy Donkey"
+ },
+ "6662c40bac78": {
+  "en": "Keyboard",
+  "t": "Bàn phím"
+ },
+ "66e105b13cc0": {
+  "en": "A side-scrolling runner made for touch screens and keyboards. The donkey runs on its own; you jump, double jump up a level, swipe down a level, fart away whatever chases you and headbutt whatever stands in the way. It plays right here in the browser and can be installed as an app.",
+  "t": "Một trò chơi chạy cuộn ngang dành cho màn hình cảm ứng và bàn phím. Chú lừa tự chạy; bạn nhảy, nhảy đôi để lên một tầng, vuốt xuống để xuống một tầng, xì hơi đuổi những thứ đang đuổi theo bạn và húc đầu những thứ cản đường. Chơi được ngay trong trình duyệt này và có thể cài như một ứng dụng."
+ },
+ "6b2d726e2aff": {
+  "en": "What's in the game",
+  "t": "Trong trò chơi có gì"
+ },
+ "6b6d85ffea8b": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> hoặc <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> để xuống một tầng."
+ },
+ "70c9afeb7702": {
+  "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
+  "t": "Mỗi màn là một lượt chạy tới lá cờ đích. Chú lừa chạy nhanh hơn sau mỗi 200 mét. Bạn mất trái tim khi va vào thứ gì đó hoặc bị cắn; hết tim thì lượt chạy kết thúc, nhưng XP kiếm được vẫn còn, nên bạn quay lại mạnh hơn."
+ },
+ "78bd47823cb7": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">A</kbd>, <kbd data-astro-cid-lcdefpme=\"\">←</kbd> or <kbd data-astro-cid-lcdefpme=\"\">Z</kbd> fart; <kbd data-astro-cid-lcdefpme=\"\">D</kbd>, <kbd data-astro-cid-lcdefpme=\"\">→</kbd> or <kbd data-astro-cid-lcdefpme=\"\">X</kbd> headbutt.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">A</kbd>, <kbd data-astro-cid-lcdefpme=\"\">←</kbd> hoặc <kbd data-astro-cid-lcdefpme=\"\">Z</kbd> để xì hơi; <kbd data-astro-cid-lcdefpme=\"\">D</kbd>, <kbd data-astro-cid-lcdefpme=\"\">→</kbd> hoặc <kbd data-astro-cid-lcdefpme=\"\">X</kbd> để húc đầu."
+ },
+ "7cb18874958e": {
+  "en": "Started in 2016 · finished in 2026",
+  "t": "Bắt đầu năm 2016 · hoàn thành năm 2026"
+ },
+ "858751a3253a": {
+  "en": "Your Language and Text size choices on this website are saved in this browser only. To open without a connection, the site and the game save copies of their pages and files in your browser's storage. The copies stay on your device and are never sent anywhere; clearing the site's data removes them.",
+  "t": "Lựa chọn Ngôn ngữ và Cỡ chữ của bạn trên trang web này chỉ được lưu trong trình duyệt này. Để mở được khi không có mạng, trang và trò chơi lưu bản sao các trang và tệp trong bộ nhớ trình duyệt của bạn. Các bản sao ở lại trên thiết bị của bạn và không bao giờ được gửi đi đâu; xóa dữ liệu của trang sẽ xóa chúng."
+ },
+ "870a742c6a78": {
+  "en": "Swipe down on the right side to drop down a level.",
+  "t": "Vuốt xuống ở bên phải để xuống một tầng."
+ },
+ "935edbe91f7d": {
+  "en": "Pictures",
+  "t": "Hình ảnh"
+ },
+ "a4e513a8f990": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Gas:</strong> eat corn in the Amazon and beans in the desert to fill the gas tank. A fart pushes the donkey forward and scares off whatever is behind it; with a full tank you get a super fart. Collect every one in a stage for a little fanfare.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Khí:</strong> ăn ngô ở Amazon và đậu ở sa mạc để nạp đầy bình khí. Một cú xì hơi đẩy chú lừa về phía trước và đuổi những gì phía sau; khi bình đầy bạn có siêu xì hơi. Nhặt hết trong một màn để nghe một khúc kèn nhỏ."
+ },
+ "aa4776245257": {
+  "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert.",
+  "t": "Một chú lừa hay xì hơi chạy, nhảy, húc đầu và xì hơi khắp Amazon và sa mạc."
+ },
+ "ab9ea3db367e": {
+  "en": "Picking a world and a stage, with \"Level 1 recommended\" under the planet.",
+  "t": "Chọn một thế giới và một màn, có dòng \"Level 1 recommended\" dưới hành tinh."
+ },
+ "b4eabb4d8952": {
+  "en": "The Character menu: one point per level for health, farting power, jump power and headbutt power.",
+  "t": "Menu nhân vật: mỗi cấp một điểm cho máu, sức xì hơi, sức nhảy và sức húc đầu."
+ },
+ "b7ae1d8072ff": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Two worlds, three stages each:</strong> Earth – Amazon and Earth – Desert, the first phase of the 2016 plan. The other planets say \"Coming soon!\", as they did in 2016.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Hai thế giới, mỗi thế giới ba màn:</strong> Earth – Amazon và Earth – Desert, giai đoạn đầu của kế hoạch năm 2016. Các hành tinh khác hiện \"Coming soon!\", như năm 2016."
+ },
+ "ba409f8fe9b0": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">Space</kbd>, <kbd data-astro-cid-lcdefpme=\"\">W</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↑</kbd> jump (twice to double jump).",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">Space</kbd>, <kbd data-astro-cid-lcdefpme=\"\">W</kbd> hoặc <kbd data-astro-cid-lcdefpme=\"\">↑</kbd> để nhảy (hai lần để nhảy đôi)."
+ },
+ "c7a2e44a3186": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Levels instead of waiting:</strong> every level gives a point for health, farting power, jump power or headbutt power. Later stages pull harder, so jumps get lower. Each stage shows the level it recommends, but nothing is locked behind a level.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Lên cấp thay vì chờ đợi:</strong> mỗi cấp cho một điểm vào máu, sức xì hơi, sức nhảy hoặc sức húc đầu. Các màn sau kéo mạnh hơn, nên nhảy thấp hơn. Mỗi màn hiện cấp được khuyên dùng, nhưng không có gì bị khóa theo cấp."
+ },
+ "cf8e121fb104": {
+  "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert. Started in Unity in 2016, finished in Godot: play it in the browser, or play the 2016 original.",
+  "t": "Một chú lừa hay xì hơi chạy, nhảy, húc đầu và xì hơi khắp Amazon và sa mạc. Bắt đầu trên Unity năm 2016, hoàn thành trên Godot: chơi ngay trong trình duyệt, hoặc chơi bản gốc năm 2016."
+ },
+ "dab43aac694b": {
+  "en": "The 2016 Unity main menu, ported to Godot.",
+  "t": "Menu chính Unity năm 2016, chuyển sang Godot."
+ },
+ "e18534f74df5": {
+  "en": "Achievements, progress saved on your device, no ads, no purchases.",
+  "t": "Thành tích, tiến trình lưu trên thiết bị của bạn, không quảng cáo, không mua hàng."
+ },
+ "e34bf47f744e": {
+  "en": "The main menu, over the 2016 sky with the Sun and the flying vessel.",
+  "t": "Menu chính, trên bầu trời năm 2016 có Mặt Trời và phi thuyền đang bay."
+ },
+ "e3f139abb7a5": {
+  "en": "Touch",
+  "t": "Cảm ứng"
+ },
+ "e7df95bc36a0": {
+  "en": "The buttons on the left fart and headbutt.",
+  "t": "Các nút bên trái để xì hơi và húc đầu."
+ },
+ "f32d5a3b17e6": {
+  "en": "Support",
+  "t": "Ủng hộ"
+ },
+ "fe69971aca91": {
+  "en": "Play Gassy Donkey",
+  "t": "Chơi Gassy Donkey"
  }
 }

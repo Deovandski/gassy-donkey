@@ -1,18 +1,170 @@
 {
+ "080f4ecabe7d": {
+  "en": "Tap the right side of the screen to jump. Tap again in the air to double jump up to the next level.",
+  "t": "画面の右側をタップでジャンプ。空中でもう一度タップすると二段ジャンプで次の段へ。"
+ },
  "0a4470d64e9d": {
   "en": "Skip to content",
   "t": "本文へスキップ"
  },
- "0c8df973e24e": {
-  "en": "Your Language and Text size choices are saved in this browser only, so the site remembers them next time. They never leave your device.",
-  "t": "「言語」と「文字サイズ」の選択はこのブラウザにだけ保存され、次回も覚えておけるようにしています。あなたの端末の外に出ることはありません。"
+ "119390f29a12": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">P</kbd> or <kbd data-astro-cid-lcdefpme=\"\">Esc</kbd> pause. A game controller works too.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">P</kbd> または <kbd data-astro-cid-lcdefpme=\"\">Esc</kbd> で一時停止。ゲームコントローラーも使えます。"
  },
- "50282beeddea": {
-  "en": "This website has no cookies, no analytics and no ads. It's hosted on GitHub Pages, so <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHub</a> sees your IP address when it sends you the page. Questions go to <a href=\"https://github.com/Deovandski/gassy-donkey/issues\">GitHub issues</a>.",
-  "t": "このサイトには Cookie も解析もなく、広告もありません。GitHub Pages でホストしているため、ページを送るときに <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHub</a> があなたの IP アドレスを知ることになります。質問は <a href=\"https://github.com/Deovandski/gassy-donkey/issues\">GitHub の issue</a> へどうぞ。"
+ "144b1ac7fafc": {
+  "en": "Read the history, with the 2014 sketch and the 2016 notes",
+  "t": "歴史を読む（2014 年のスケッチと 2016 年のメモつき）"
  },
- "c60f2f817f12": {
-  "en": "Source on GitHub",
-  "t": "GitHub のソース"
+ "297cd63e4c45": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski made for the game's first sketch in 2014, each looping after its opening.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">音楽：</strong>Deovandski が 2014 年、このゲームの最初のスケッチのために作った 5 つのビドゥの歌。どれも最初の部分のあとにループします。"
+ },
+ "29ae52b4b9ca": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">行く手をふさぐもの：</strong>岩、ヘビ、ハチの巣、クマ、サボテン、銃を持ったカウボーイ。跳び越えるか、頭突きが十分強ければ頭突きで。"
+ },
+ "2fe91bcefb76": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. The original files are kept unchanged in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-lcdefpme=\"\">legacy folder</a>, and the 2016 version can still be played, ported as it was.",
+  "t": "おならロバのビドゥは 2014 年にスケッチとして始まりました。2016 年に Gassy Donkey となり、メインメニューまで作られた Unity 5.3.5 のプロジェクトになりました。2026 年に Godot へ移植され、完成しました。オリジナルのファイルはリポジトリの<a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-lcdefpme=\"\">legacy フォルダ</a>にそのまま残してあり、2016 年版も当時のまま移植されて今も遊べます。"
+ },
+ "367d87ef3bd4": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Things behind you:</strong> mosquitoes catch up whenever you slow down. Tigers wait on the floor: jump over one and it chases you, and only a farting power of 2 or more scares it away. Or take the high road on the ledges.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">後ろから来るもの：</strong>蚊はスピードが落ちるたびに追いついてきます。トラは地面で待ち構えていて、跳び越えると追いかけてきます。追い払えるのはおならパワー 2 以上だけ。または上の足場の道へ。"
+ },
+ "46c03227c103": {
+  "en": "From 2014 to now",
+  "t": "2014 年から今まで"
+ },
+ "473bd4087262": {
+  "en": "World 2, Earth – Desert: the donkey on a sandstone ledge above the cactus.",
+  "t": "ワールド 2、Earth – Desert：サボテンの上の砂岩の足場にいるロバ。"
+ },
+ "496b7f0af277": {
+  "en": "This website and the game have no cookies, no analytics, no ads and no accounts. The site is hosted on GitHub Pages, so <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\" data-astro-cid-lcdefpme=\"\">GitHub</a> sees your IP address when it sends you the page. Questions go to <a href=\"https://github.com/Deovandski/gassy-donkey/issues\" data-astro-cid-lcdefpme=\"\">GitHub issues</a>.",
+  "t": "このウェブサイトとゲームには、Cookie も、アクセス解析も、広告も、アカウントもありません。サイトは GitHub Pages でホストされているため、ページを送るときに <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\" data-astro-cid-lcdefpme=\"\">GitHub</a> にはあなたの IP アドレスが見えます。質問は <a href=\"https://github.com/Deovandski/gassy-donkey/issues\" data-astro-cid-lcdefpme=\"\">GitHub の issues</a> へ。"
+ },
+ "4da8d20c25cb": {
+  "en": "Play the 2016 original",
+  "t": "2016 年のオリジナルを遊ぶ"
+ },
+ "4ec00394908f": {
+  "en": "How to play",
+  "t": "遊び方"
+ },
+ "52a659382dd5": {
+  "en": "Brought to you by Deovandski, author of the #HusbandOutWorld series and CEO/Founder of Wizard Deo Solutions. Have fun! If you want to support me, buy the eBooks on Amazon. <a href=\"https://www.amazon.com/dp/B0BT5XM4QC\" data-astro-cid-lcdefpme=\"\">The eBooks on Amazon</a> · <a href=\"https://husbandoutworld.com/\" data-astro-cid-lcdefpme=\"\">#HusbandOutWorld</a>",
+  "t": "お届けするのは #HusbandOutWorld シリーズの作者で、Wizard Deo Solutions の CEO・創業者の Deovandski です。楽しんでください！応援してくれるなら、Amazon で電子書籍を買ってください。<a href=\"https://www.amazon.com/dp/B0BT5XM4QC\" data-astro-cid-lcdefpme=\"\">Amazon の電子書籍</a> · <a href=\"https://husbandoutworld.com/\" data-astro-cid-lcdefpme=\"\">#HusbandOutWorld</a>"
+ },
+ "5a201187a164": {
+  "en": "The game saves your progress (level, stats, stages, achievements and sound settings) in this browser's storage, so you can carry on next time. It never leaves your device; clearing the site's data wipes it, and so does Settings › Reset all progress in the game.",
+  "t": "ゲームは進行状況（レベル、能力、ステージ、実績、サウンド設定）をこのブラウザのストレージに保存し、次回の続きに使います。端末の外に出ることはありません。サイトのデータを消すと消え、ゲーム内の Settings › Reset all progress でも消えます。"
+ },
+ "5b8bb36b1ade": {
+  "en": "Running through World 1, Earth – Amazon: hearts, gas, distance and level at the top, the fart and headbutt buttons on the left.",
+  "t": "ワールド 1、Earth – Amazon を走る：上にハート、ガス、距離、レベル、左におならと頭突きのボタン。"
+ },
+ "660251a2f72c": {
+  "en": "Gassy Donkey",
+  "t": "Gassy Donkey"
+ },
+ "6662c40bac78": {
+  "en": "Keyboard",
+  "t": "キーボード"
+ },
+ "66e105b13cc0": {
+  "en": "A side-scrolling runner made for touch screens and keyboards. The donkey runs on its own; you jump, double jump up a level, swipe down a level, fart away whatever chases you and headbutt whatever stands in the way. It plays right here in the browser and can be installed as an app.",
+  "t": "タッチ画面とキーボードのための横スクロールのランゲーム。ロバは勝手に走ります。あなたはジャンプし、二段ジャンプで一段上へ、スワイプで一段下へ、追ってくるものはおならで追い払い、行く手をふさぐものには頭突き。このブラウザですぐ遊べて、アプリとしてインストールもできます。"
+ },
+ "6b2d726e2aff": {
+  "en": "What's in the game",
+  "t": "ゲームの中身"
+ },
+ "6b6d85ffea8b": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> または <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> で一段下へ。"
+ },
+ "70c9afeb7702": {
+  "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
+  "t": "各ステージはゴールの旗までのラン。ロバは 200 メートルごとに速くなります。ぶつかったり噛まれたりするとハートが減り、なくなるとランは終わりますが、得た XP は残るので、強くなって戻ってこられます。"
+ },
+ "78bd47823cb7": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">A</kbd>, <kbd data-astro-cid-lcdefpme=\"\">←</kbd> or <kbd data-astro-cid-lcdefpme=\"\">Z</kbd> fart; <kbd data-astro-cid-lcdefpme=\"\">D</kbd>, <kbd data-astro-cid-lcdefpme=\"\">→</kbd> or <kbd data-astro-cid-lcdefpme=\"\">X</kbd> headbutt.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">A</kbd>、<kbd data-astro-cid-lcdefpme=\"\">←</kbd> または <kbd data-astro-cid-lcdefpme=\"\">Z</kbd> でおなら、<kbd data-astro-cid-lcdefpme=\"\">D</kbd>、<kbd data-astro-cid-lcdefpme=\"\">→</kbd> または <kbd data-astro-cid-lcdefpme=\"\">X</kbd> で頭突き。"
+ },
+ "7cb18874958e": {
+  "en": "Started in 2016 · finished in 2026",
+  "t": "2016 年に開始 · 2026 年に完成"
+ },
+ "858751a3253a": {
+  "en": "Your Language and Text size choices on this website are saved in this browser only. To open without a connection, the site and the game save copies of their pages and files in your browser's storage. The copies stay on your device and are never sent anywhere; clearing the site's data removes them.",
+  "t": "このウェブサイトの言語と文字サイズの選択は、このブラウザにだけ保存されます。オフラインで開けるように、サイトとゲームはページとファイルのコピーをブラウザのストレージに保存します。コピーは端末に残り、どこにも送られません。サイトのデータを消すと削除されます。"
+ },
+ "870a742c6a78": {
+  "en": "Swipe down on the right side to drop down a level.",
+  "t": "右側で下にスワイプすると一段下へ。"
+ },
+ "935edbe91f7d": {
+  "en": "Pictures",
+  "t": "画像"
+ },
+ "a4e513a8f990": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Gas:</strong> eat corn in the Amazon and beans in the desert to fill the gas tank. A fart pushes the donkey forward and scares off whatever is behind it; with a full tank you get a super fart. Collect every one in a stage for a little fanfare.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">ガス：</strong>アマゾンではトウモロコシ、砂漠では豆を食べてガスタンクを満たします。おならはロバを前へ押し出し、後ろにいるものを追い払います。タンクが満タンならスーパーおなら。ステージのアイテムを全部集めるとちょっとしたファンファーレ。"
+ },
+ "aa4776245257": {
+  "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert.",
+  "t": "おならロバが、アマゾンと砂漠を走り、跳び、頭突きし、おならをする。"
+ },
+ "ab9ea3db367e": {
+  "en": "Picking a world and a stage, with \"Level 1 recommended\" under the planet.",
+  "t": "ワールドとステージを選ぶ画面。惑星の下に「Level 1 recommended」。"
+ },
+ "b4eabb4d8952": {
+  "en": "The Character menu: one point per level for health, farting power, jump power and headbutt power.",
+  "t": "キャラクターメニュー：レベルごとに 1 ポイントを、体力、おならパワー、ジャンプ力、頭突きパワーに。"
+ },
+ "b7ae1d8072ff": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Two worlds, three stages each:</strong> Earth – Amazon and Earth – Desert, the first phase of the 2016 plan. The other planets say \"Coming soon!\", as they did in 2016.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">2 つのワールド、各 3 ステージ：</strong>Earth – Amazon と Earth – Desert。2016 年の計画の第 1 フェーズです。ほかの惑星は 2016 年と同じく「Coming soon!」と表示されます。"
+ },
+ "ba409f8fe9b0": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">Space</kbd>, <kbd data-astro-cid-lcdefpme=\"\">W</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↑</kbd> jump (twice to double jump).",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">Space</kbd>、<kbd data-astro-cid-lcdefpme=\"\">W</kbd> または <kbd data-astro-cid-lcdefpme=\"\">↑</kbd> でジャンプ（2 回で二段ジャンプ）。"
+ },
+ "c7a2e44a3186": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Levels instead of waiting:</strong> every level gives a point for health, farting power, jump power or headbutt power. Later stages pull harder, so jumps get lower. Each stage shows the level it recommends, but nothing is locked behind a level.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">待つ代わりにレベル：</strong>レベルが上がるたびに、体力、おならパワー、ジャンプ力、頭突きパワーのどれかに 1 ポイント。後半のステージは重力が強く、ジャンプが低くなります。各ステージには推奨レベルが表示されますが、レベルで閉ざされるものはありません。"
+ },
+ "cf8e121fb104": {
+  "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert. Started in Unity in 2016, finished in Godot: play it in the browser, or play the 2016 original.",
+  "t": "おならロバが、アマゾンと砂漠を走り、跳び、頭突きし、おならをする。2016 年に Unity で始まり、Godot で完成。ブラウザで遊ぶか、2016 年のオリジナルを遊んでみてください。"
+ },
+ "dab43aac694b": {
+  "en": "The 2016 Unity main menu, ported to Godot.",
+  "t": "2016 年の Unity のメインメニュー。Godot へ移植。"
+ },
+ "e18534f74df5": {
+  "en": "Achievements, progress saved on your device, no ads, no purchases.",
+  "t": "実績、端末に保存される進行状況、広告なし、課金なし。"
+ },
+ "e34bf47f744e": {
+  "en": "The main menu, over the 2016 sky with the Sun and the flying vessel.",
+  "t": "メインメニュー。2016 年の空に太陽と飛ぶ宇宙船。"
+ },
+ "e3f139abb7a5": {
+  "en": "Touch",
+  "t": "タッチ"
+ },
+ "e7df95bc36a0": {
+  "en": "The buttons on the left fart and headbutt.",
+  "t": "左のボタンでおならと頭突き。"
+ },
+ "f32d5a3b17e6": {
+  "en": "Support",
+  "t": "応援"
+ },
+ "fe69971aca91": {
+  "en": "Play Gassy Donkey",
+  "t": "Gassy Donkey を遊ぶ"
  }
 }

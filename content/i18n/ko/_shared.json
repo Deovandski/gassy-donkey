@@ -1,46 +1,94 @@
 {
- "155657eff841": {
-  "en": "Made by <a href=\"https://github.com/Deovandski\">Deovandski</a>. © 2026 Deovandski Skibinski Junior. Code under the <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/LICENSE\">MIT license</a>.",
-  "t": "<a href=\"https://github.com/Deovandski\">Deovandski</a> 제작. © 2026 Deovandski Skibinski Junior. 코드는 <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/LICENSE\">MIT 라이선스</a>를 따릅니다."
+ "09972524c11e": {
+  "en": "Previous photo",
+  "t": "이전 사진"
+ },
+ "15c61d430df1": {
+  "en": "You’re using the installed app.",
+  "t": "설치된 앱으로 보고 있어요."
  },
  "3cc6e124a8e4": {
   "en": "Text size",
   "t": "글자 크기"
  },
- "610113f6a165": {
-  "en": "Built with AI assistance from the author's originals: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/AI-DISCLOSURE.md\">AI disclosure</a>. <a href=\"/gassy-donkey/#privacy\">Privacy</a>.",
-  "t": "작가의 원작을 바탕으로 AI의 도움을 받아 만들었습니다: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/AI-DISCLOSURE.md\">AI 공개</a>. <a href=\"/gassy-donkey/#privacy\">개인정보</a>."
+ "5d12bd53552c": {
+  "en": "Play",
+  "t": "플레이"
  },
  "62bce9422ff2": {
   "en": "Main",
   "t": "메인"
  },
- "6b21fb791ac0": {
-  "en": "About",
-  "t": "소개"
- },
- "70440046a3dc": {
-  "en": "Notes",
-  "t": "노트"
- },
  "89b86ab0e66f": {
   "en": "Language",
   "t": "언어"
+ },
+ "90ccd6497400": {
+  "en": "History",
+  "t": "역사"
+ },
+ "9e3f4c60afcd": {
+  "en": "No install button? Open this page in Chrome (⋮ → Open in Chrome), then ⋮ → Install app.",
+  "t": "설치 버튼이 없나요? 이 페이지를 Chrome에서 열고(⋮ → Chrome에서 열기), ⋮ → 앱 설치."
+ },
+ "b7ac1c49db50": {
+  "en": "Enlarge",
+  "t": "크게 보기"
+ },
+ "b7ba2fd50d49": {
+  "en": "Built with AI assistance from the author's originals: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/AI-DISCLOSURE.md\">AI disclosure</a>. <a href=\"/gassy-donkey/#privacy\">Privacy</a>.",
+  "t": "작가의 원작을 바탕으로 AI의 도움을 받아 만들었습니다: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/AI-DISCLOSURE.md\">AI 사용 고지</a>. <a href=\"/gassy-donkey/#privacy\">개인정보</a>."
+ },
+ "bbfa773e5a63": {
+  "en": "Close",
+  "t": "닫기"
+ },
+ "bd1cf21678f6": {
+  "en": "Installed! Open it from your home screen or app list.",
+  "t": "설치됐어요! 홈 화면이나 앱 목록에서 열어 주세요."
  },
  "c7f73bb54d92": {
   "en": "Settings",
   "t": "설정"
  },
+ "ccd62e5d37a0": {
+  "en": "To install it, open this page in Chrome, Edge or Samsung Internet. On iPhone or iPad: Share, then Add to Home Screen.",
+  "t": "설치하려면 이 페이지를 Chrome, Edge 또는 Samsung Internet에서 여세요. iPhone이나 iPad에서는: 공유 → 홈 화면에 추가."
+ },
  "cf01481f626d": {
   "en": "Privacy",
   "t": "개인정보"
+ },
+ "d01d900383e4": {
+  "en": "Photo",
+  "t": "사진"
  },
  "d36880a182c5": {
   "en": "Want a language added?",
   "t": "추가하고 싶은 언어가 있나요?"
  },
+ "d5636c56abfd": {
+  "en": "On iPhone or iPad: tap Share, then Add to Home Screen.",
+  "t": "iPhone이나 iPad에서는: 공유를 누른 뒤 홈 화면에 추가."
+ },
+ "e1315d1d673e": {
+  "en": "Made by <a href=\"https://github.com/Deovandski\">Deovandski</a>. © 2026 Deovandski Skibinski Junior. Code under the <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/LICENSE\">MIT license</a>.",
+  "t": "제작: <a href=\"https://github.com/Deovandski\">Deovandski</a>. © 2026 Deovandski Skibinski Junior. 코드는 <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/LICENSE\">MIT 라이선스</a>를 따릅니다."
+ },
+ "e5f79aa13bd5": {
+  "en": "Install app",
+  "t": "앱 설치"
+ },
  "e9b450d14bc2": {
   "en": "Done",
   "t": "완료"
+ },
+ "fc4a695f02a8": {
+  "en": "App",
+  "t": "앱"
+ },
+ "fe6687820101": {
+  "en": "Next photo",
+  "t": "다음 사진"
  }
 }

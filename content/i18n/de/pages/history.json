@@ -1,0 +1,134 @@
+{
+ "077e4be0ec4c": {
+  "en": "World Development phases This would allow to release a few worlds, and only develop the others if the audience enjoyed the app.",
+  "t": "Entwicklungsphasen der Welten. So könnte man erst ein paar Welten veröffentlichen und die anderen nur entwickeln, wenn die App den Leuten gefällt."
+ },
+ "095aaf2c5781": {
+  "en": "The 2016 main menu, ported to Godot from the Unity scene.",
+  "t": "Das Hauptmenü von 2016, aus der Unity-Szene nach Godot portiert."
+ },
+ "0cc7408cee7f": {
+  "en": "2016 game-idea overview, page 3: Control Overlay idea for the game",
+  "t": "Überblick zur Spielidee 2016, Seite 3: Idee für die Steuerung auf dem Bildschirm"
+ },
+ "1bf2997a0e0d": {
+  "en": "The Unity 5.3.5 project got as far as the main menu (the logo, Select World, Character, Achievements and Credits buttons over a turning starfield, with the Sun below and a vessel flying past) and the world selection, where you swipe between the planets. Its README said it \"will not be finished\", since it was a way to learn Unity and polish up C#.",
+  "t": "Das Unity-5.3.5-Projekt kam bis zum Hauptmenü (das Logo und die Knöpfe Select World, Character, Achievements und Credits über einem sich drehenden Sternenhimmel, darunter die Sonne und ein vorbeifliegendes Raumschiff) und zur Weltauswahl, in der du zwischen den Planeten wischst. In seiner README stand, dass es „nicht fertig wird“, weil es ein Weg war, Unity zu lernen und C# aufzufrischen."
+ },
+ "1cf109b954ec": {
+  "en": "The 2016 world selection, ported to Godot: swipe between the planets.",
+  "t": "Die Weltauswahl von 2016, nach Godot portiert: zwischen den Planeten wischen."
+ },
+ "22d007e8c793": {
+  "en": "BIDU song 5",
+  "t": "BIDU-Lied 5"
+ },
+ "2878a76a47c0": {
+  "en": "The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets \"Coming soon!\"). It keeps the 2016 donkey, vessel, planets, platforms and logo, plays the 2014 BIDU songs, and adds what was missing. The repository's <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">design notes</a> list which choices came from the originals and which were made while finishing it. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play Gassy Donkey</a>.",
+  "t": "Das fertige Spiel folgt den Notizen von 2016: Furz und Kopfstoß links, Springen rechts, Doppelsprünge auf die höhere Ebene, nach unten wischen für eine Ebene tiefer, Wasser für andere Wege, der Tiger, der Furzkraft 2 braucht, Gas-Items in jedem Level, ein Punkt pro Stufe für die vier Werte, später stärkere Schwerkraft und die Weltphasen (zuerst Earth – Amazon und Earth – Desert, die anderen Planeten mit „Coming soon!“). Es behält den Esel, das Raumschiff, die Planeten, die Plattformen und das Logo von 2016, spielt die BIDU-Lieder von 2014 und ergänzt, was fehlte. Die <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">Designnotizen</a> im Repository zeigen, welche Entscheidungen aus den Originalen stammen und welche beim Fertigstellen getroffen wurden. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Gassy Donkey spielen</a>."
+ },
+ "33449d831120": {
+  "en": "Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
+  "t": "Charaktermenü: Jede Stufe gibt einen Punkt für Gesundheit, Furzkraft, Sprungkraft (für spätere Level mit stärkerer Schwerkraft) und Kopfstoßkraft."
+ },
+ "33ef45a977ea": {
+  "en": "2016 game-idea overview, page 1: Main Menu Idea. The backbone for it has been implemented.",
+  "t": "Überblick zur Spielidee 2016, Seite 1: Idee fürs Hauptmenü. Das Grundgerüst dafür ist schon umgesetzt."
+ },
+ "3767552b1864": {
+  "en": "2016: the game idea",
+  "t": "2016: die Spielidee"
+ },
+ "43d08e6bca23": {
+  "en": "How Gassy Donkey grew from a 2014 sketch called BIDU, the farting donkey, into a 2016 Unity project and then a finished Godot game.",
+  "t": "Wie aus einer Skizze von 2014 namens BIDU, der furzende Esel, erst ein Unity-Projekt von 2016 und dann das fertige Godot-Spiel Gassy Donkey wurde."
+ },
+ "6873577ad58d": {
+  "en": "2026: finished",
+  "t": "2026: fertig"
+ },
+ "86a139ab17c0": {
+  "en": "The BIDU songs",
+  "t": "Die BIDU-Lieder"
+ },
+ "8c902839ca64": {
+  "en": "2016 game-idea overview, page 2: How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",
+  "t": "Überblick zur Spielidee 2016, Seite 2: So habe ich mir das Spiel vorgestellt: Knöpfe für „Furz“ und „Kopfstoß“ links, Springen überall rechts (deshalb nur im Querformat); Doppelsprünge führen auf die höhere Ebene; mit dem rechten Finger nach unten wischen geht eine Ebene tiefer; Wasserlevel für mehrere Wege; ein Tiger, den man nur mit Furzen auf Stufe 2 verscheucht; Gas-Auffüller in jedem Level; eine dynamische Levelgrenze statt Wartezeiten oder Bezahlschranken."
+ },
+ "8eea2cfc69d1": {
+  "en": "From BIDU to Gassy Donkey",
+  "t": "Von BIDU zu Gassy Donkey"
+ },
+ "9539d160234b": {
+  "en": "2016: the Unity project",
+  "t": "2016: das Unity-Projekt"
+ },
+ "acc78587683c": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is the author's original work, shown as it was made; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
+  "t": "BIDU, der furzende Esel, begann 2014 als Skizze. 2016 wurde daraus Gassy Donkey, ein Unity-5.3.5-Projekt, das bis zu seinem Hauptmenü kam. 2026 wurde es nach Godot portiert und fertiggestellt. Alles Folgende ist das Original des Autors, so gezeigt, wie es entstanden ist; die Dateien liegen im <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">Ordner legacy</a> des Repositorys."
+ },
+ "ad7e36642e3f": {
+  "en": "The 2014 concept sketch for BIDU, the farting donkey: the character, the enemies, Jungle and Desert, and corn power-ups.",
+  "t": "Die Konzeptskizze von 2014 für BIDU, den furzenden Esel: die Figur, die Gegner, Dschungel und Wüste und Mais als Power-up."
+ },
+ "aeacfcebe1a1": {
+  "en": "2016 game-idea overview, page 5: World Development phases This would allow to release a few worlds, and only develop the others if the audience enjoyed the app.",
+  "t": "Überblick zur Spielidee 2016, Seite 5: Entwicklungsphasen der Welten. So könnte man erst ein paar Welten veröffentlichen und die anderen nur entwickeln, wenn die App den Leuten gefällt."
+ },
+ "b3388130bcb4": {
+  "en": "In July 2016 the idea was written up as a five-page overview, scanned from notebook pages, with a typed note on each.",
+  "t": "Im Juli 2016 wurde die Idee in einem fünfseitigen Überblick festgehalten: eingescannte Notizbuchseiten, jede mit einer getippten Notiz."
+ },
+ "b5421506fb0c": {
+  "en": "Control Overlay idea for the game",
+  "t": "Idee für die Steuerung auf dem Bildschirm"
+ },
+ "b55c7223e262": {
+  "en": "2014: BIDU, the farting donkey",
+  "t": "2014: BIDU, der furzende Esel"
+ },
+ "be5ca3c7f324": {
+  "en": "History · Gassy Donkey",
+  "t": "Geschichte · Gassy Donkey"
+ },
+ "beaa05cb9a2d": {
+  "en": "BIDU song 3",
+  "t": "BIDU-Lied 3"
+ },
+ "c845cbcdfdf1": {
+  "en": "Main Menu Idea. The backbone for it has been implemented.",
+  "t": "Idee fürs Hauptmenü. Das Grundgerüst dafür ist schon umgesetzt."
+ },
+ "c9a63a5aaf6d": {
+  "en": "The first sketch already has most of the game: a farting donkey that needs to keep running to score points; a mosquito that follows the donkey when it isn't running; cactus, honey hives and rocks; snakes, bears and cowboys with guns; a Jungle and a Desert; and corn as the power-up, with a noise when you get all the corn.",
+  "t": "Die erste Skizze hat schon fast das ganze Spiel: einen furzenden Esel, der ständig laufen muss, um Punkte zu holen; eine Mücke, die dem Esel folgt, wenn er nicht läuft; Kakteen, Bienenstöcke und Felsen; Schlangen, Bären und Cowboys mit Pistolen; einen Dschungel und eine Wüste; und Mais als Power-up, mit einem Geräusch, wenn du den ganzen Mais holst."
+ },
+ "ce4b52988e1a": {
+  "en": "That menu has been ported to Godot as it was: the same positions, sizes, colours and texts, read out of the Unity scene file, and each of the five C# scripts rewritten line for line. Only Select World does something, as in 2016. <a href=\"/gassy-donkey/play/#original-2016\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play the 2016 original</a>.",
+  "t": "Dieses Menü wurde so nach Godot portiert, wie es war: dieselben Positionen, Größen, Farben und Texte, aus der Unity-Szenendatei gelesen, und jedes der fünf C#-Skripte Zeile für Zeile neu geschrieben. Nur Select World tut etwas, wie 2016. <a href=\"/gassy-donkey/play/#original-2016\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Das Original von 2016 spielen</a>."
+ },
+ "d0bc9e9099aa": {
+  "en": "BIDU song 2",
+  "t": "BIDU-Lied 2"
+ },
+ "d186c8e12285": {
+  "en": "2016 game-idea overview, page 4: Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
+  "t": "Überblick zur Spielidee 2016, Seite 4: Charaktermenü: Jede Stufe gibt einen Punkt für Gesundheit, Furzkraft, Sprungkraft (für spätere Level mit stärkerer Schwerkraft) und Kopfstoßkraft."
+ },
+ "d1bd01cf4746": {
+  "en": "Five short songs Deovandski made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "Fünf kurze Lieder, die Deovandski im Juli 2014 in Audacity für BIDU gemacht hat. Sie sind die Musik des fertigen Spiels: Jedes spielt seinen Anfang einmal und läuft dann in Schleife."
+ },
+ "d501b574c13d": {
+  "en": "How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",
+  "t": "So habe ich mir das Spiel vorgestellt: Knöpfe für „Furz“ und „Kopfstoß“ links, Springen überall rechts (deshalb nur im Querformat); Doppelsprünge führen auf die höhere Ebene; mit dem rechten Finger nach unten wischen geht eine Ebene tiefer; Wasserlevel für mehrere Wege; ein Tiger, den man nur mit Furzen auf Stufe 2 verscheucht; Gas-Auffüller in jedem Level; eine dynamische Levelgrenze statt Wartezeiten oder Bezahlschranken."
+ },
+ "e35f8295fbb7": {
+  "en": "BIDU song 4",
+  "t": "BIDU-Lied 4"
+ },
+ "fff6f17aa3bc": {
+  "en": "BIDU song 1",
+  "t": "BIDU-Lied 1"
+ }
+}

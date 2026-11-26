@@ -1,0 +1,134 @@
+{
+ "077e4be0ec4c": {
+  "en": "World Development phases This would allow to release a few worlds, and only develop the others if the audience enjoyed the app.",
+  "t": "월드 개발 단계. 몇 개의 월드만 먼저 내고, 사람들이 앱을 좋아하면 나머지를 개발할 수 있다."
+ },
+ "095aaf2c5781": {
+  "en": "The 2016 main menu, ported to Godot from the Unity scene.",
+  "t": "2016년 메인 메뉴. Unity 장면에서 Godot로 옮김."
+ },
+ "0cc7408cee7f": {
+  "en": "2016 game-idea overview, page 3: Control Overlay idea for the game",
+  "t": "2016년 게임 아이디어 개요 3쪽: 게임의 조작 화면 아이디어"
+ },
+ "1bf2997a0e0d": {
+  "en": "The Unity 5.3.5 project got as far as the main menu (the logo, Select World, Character, Achievements and Credits buttons over a turning starfield, with the Sun below and a vessel flying past) and the world selection, where you swipe between the planets. Its README said it \"will not be finished\", since it was a way to learn Unity and polish up C#.",
+  "t": "Unity 5.3.5 프로젝트는 메인 메뉴(도는 별하늘 위의 로고와 Select World, Character, Achievements, Credits 버튼, 아래의 태양, 지나가는 우주선)와 행성을 밀어 고르는 월드 선택까지 만들어졌습니다. README에는 \"완성하지 않을 것\"이라고 적혀 있었습니다. Unity를 배우고 C#을 다듬기 위한 것이었기 때문입니다."
+ },
+ "1cf109b954ec": {
+  "en": "The 2016 world selection, ported to Godot: swipe between the planets.",
+  "t": "2016년 월드 선택. Godot로 옮김: 행성을 밀어서 고르기."
+ },
+ "22d007e8c793": {
+  "en": "BIDU song 5",
+  "t": "비두의 노래 5"
+ },
+ "2878a76a47c0": {
+  "en": "The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets \"Coming soon!\"). It keeps the 2016 donkey, vessel, planets, platforms and logo, plays the 2014 BIDU songs, and adds what was missing. The repository's <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">design notes</a> list which choices came from the originals and which were made while finishing it. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play Gassy Donkey</a>.",
+  "t": "완성된 게임은 2016년 메모를 따릅니다. 방귀와 박치기는 왼쪽, 점프는 오른쪽, 2단 점프로 위층, 아래로 밀어 한 층 아래, 다른 길이 되는 물, 방귀 파워 2가 필요한 호랑이, 모든 스테이지의 가스 아이템, 레벨마다 네 가지 능력에 1포인트, 후반으로 갈수록 센 중력, 그리고 월드 단계(먼저 Earth – Amazon과 Earth – Desert, 나머지 행성은 \"Coming soon!\"). 2016년의 당나귀, 우주선, 행성, 발판, 로고를 그대로 쓰고, 2014년 비두의 노래를 틀고, 빠진 것을 더했습니다. 저장소의 <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">디자인 메모</a>에 어떤 선택이 원작에서 왔고 어떤 선택이 완성하면서 정해졌는지 적혀 있습니다. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Gassy Donkey 플레이</a>."
+ },
+ "33449d831120": {
+  "en": "Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
+  "t": "캐릭터 메뉴: 레벨마다 1포인트를 받아 체력, 방귀 파워, 점프력(중력이 더 센 후반 스테이지용), 박치기 파워에 쓸 수 있다."
+ },
+ "33ef45a977ea": {
+  "en": "2016 game-idea overview, page 1: Main Menu Idea. The backbone for it has been implemented.",
+  "t": "2016년 게임 아이디어 개요 1쪽: 메인 메뉴 아이디어. 그 뼈대는 이미 구현됨."
+ },
+ "3767552b1864": {
+  "en": "2016: the game idea",
+  "t": "2016년: 게임 아이디어"
+ },
+ "43d08e6bca23": {
+  "en": "How Gassy Donkey grew from a 2014 sketch called BIDU, the farting donkey, into a 2016 Unity project and then a finished Godot game.",
+  "t": "Gassy Donkey가 2014년 「방귀 당나귀 비두」라는 스케치에서 2016년 Unity 프로젝트를 거쳐 완성된 Godot 게임이 되기까지."
+ },
+ "6873577ad58d": {
+  "en": "2026: finished",
+  "t": "2026년: 완성"
+ },
+ "86a139ab17c0": {
+  "en": "The BIDU songs",
+  "t": "비두의 노래"
+ },
+ "8c902839ca64": {
+  "en": "2016 game-idea overview, page 2: How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",
+  "t": "2016년 게임 아이디어 개요 2쪽: 게임이 이렇게 돌아가리라 생각했다: \"방귀\"와 \"박치기\" 버튼은 왼쪽, 점프는 오른쪽 아무 데나(그래서 가로 화면 전용). 2단 점프는 위층으로. 오른손가락으로 아래로 밀면 한 층 아래로. 물이 있는 스테이지로 여러 갈래 길. 방귀 레벨 2가 있어야 쫓아낼 수 있는 호랑이. 모든 스테이지에 가스를 채우는 아이템. 대기 시간이나 돈의 벽 대신 변하는 레벨의 벽."
+ },
+ "8eea2cfc69d1": {
+  "en": "From BIDU to Gassy Donkey",
+  "t": "비두에서 Gassy Donkey까지"
+ },
+ "9539d160234b": {
+  "en": "2016: the Unity project",
+  "t": "2016년: Unity 프로젝트"
+ },
+ "acc78587683c": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is the author's original work, shown as it was made; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
+  "t": "방귀 당나귀 비두는 2014년에 스케치로 시작했습니다. 2016년에는 메인 메뉴까지 만들어진 Unity 5.3.5 프로젝트 Gassy Donkey가 되었고, 2026년에 Godot로 옮겨져 완성되었습니다. 아래는 모두 작가의 원작이며 만들어진 그대로 보여 줍니다. 파일은 저장소의 <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy 폴더</a>에 있습니다."
+ },
+ "ad7e36642e3f": {
+  "en": "The 2014 concept sketch for BIDU, the farting donkey: the character, the enemies, Jungle and Desert, and corn power-ups.",
+  "t": "2014년 방귀 당나귀 비두의 콘셉트 스케치: 캐릭터, 적, 정글과 사막, 그리고 파워업인 옥수수."
+ },
+ "aeacfcebe1a1": {
+  "en": "2016 game-idea overview, page 5: World Development phases This would allow to release a few worlds, and only develop the others if the audience enjoyed the app.",
+  "t": "2016년 게임 아이디어 개요 5쪽: 월드 개발 단계. 몇 개의 월드만 먼저 내고, 사람들이 앱을 좋아하면 나머지를 개발할 수 있다."
+ },
+ "b3388130bcb4": {
+  "en": "In July 2016 the idea was written up as a five-page overview, scanned from notebook pages, with a typed note on each.",
+  "t": "2016년 7월, 아이디어는 다섯 쪽짜리 개요로 정리되었습니다. 공책 페이지를 스캔하고 쪽마다 타이핑한 메모를 붙였습니다."
+ },
+ "b5421506fb0c": {
+  "en": "Control Overlay idea for the game",
+  "t": "게임의 조작 화면 아이디어"
+ },
+ "b55c7223e262": {
+  "en": "2014: BIDU, the farting donkey",
+  "t": "2014년: 방귀 당나귀 비두"
+ },
+ "be5ca3c7f324": {
+  "en": "History · Gassy Donkey",
+  "t": "역사 · Gassy Donkey"
+ },
+ "beaa05cb9a2d": {
+  "en": "BIDU song 3",
+  "t": "비두의 노래 3"
+ },
+ "c845cbcdfdf1": {
+  "en": "Main Menu Idea. The backbone for it has been implemented.",
+  "t": "메인 메뉴 아이디어. 그 뼈대는 이미 구현됨."
+ },
+ "c9a63a5aaf6d": {
+  "en": "The first sketch already has most of the game: a farting donkey that needs to keep running to score points; a mosquito that follows the donkey when it isn't running; cactus, honey hives and rocks; snakes, bears and cowboys with guns; a Jungle and a Desert; and corn as the power-up, with a noise when you get all the corn.",
+  "t": "첫 스케치에 이미 게임의 대부분이 있습니다. 점수를 얻으려면 계속 달려야 하는 방귀 당나귀, 당나귀가 달리지 않을 때 따라오는 모기, 선인장과 벌집과 바위, 뱀과 곰과 총을 든 카우보이, 정글과 사막, 그리고 파워업인 옥수수(전부 모으면 소리가 남)."
+ },
+ "ce4b52988e1a": {
+  "en": "That menu has been ported to Godot as it was: the same positions, sizes, colours and texts, read out of the Unity scene file, and each of the five C# scripts rewritten line for line. Only Select World does something, as in 2016. <a href=\"/gassy-donkey/play/#original-2016\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play the 2016 original</a>.",
+  "t": "그 메뉴는 그대로 Godot로 옮겨졌습니다. 위치, 크기, 색, 글자는 Unity 장면 파일에서 읽어 왔고, C# 스크립트 다섯 개는 한 줄씩 다시 썼습니다. 2016년처럼 Select World만 동작합니다. <a href=\"/gassy-donkey/play/#original-2016\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">2016년 원작 플레이</a>."
+ },
+ "d0bc9e9099aa": {
+  "en": "BIDU song 2",
+  "t": "비두의 노래 2"
+ },
+ "d186c8e12285": {
+  "en": "2016 game-idea overview, page 4: Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
+  "t": "2016년 게임 아이디어 개요 4쪽: 캐릭터 메뉴: 레벨마다 1포인트를 받아 체력, 방귀 파워, 점프력(중력이 더 센 후반 스테이지용), 박치기 파워에 쓸 수 있다."
+ },
+ "d1bd01cf4746": {
+  "en": "Five short songs Deovandski made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "Deovandski가 2014년 7월 Audacity로 비두를 위해 만든 짧은 노래 다섯 곡. 완성된 게임의 음악이며, 각 곡은 도입부를 한 번 연주한 뒤 반복됩니다."
+ },
+ "d501b574c13d": {
+  "en": "How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",
+  "t": "게임이 이렇게 돌아가리라 생각했다: \"방귀\"와 \"박치기\" 버튼은 왼쪽, 점프는 오른쪽 아무 데나(그래서 가로 화면 전용). 2단 점프는 위층으로. 오른손가락으로 아래로 밀면 한 층 아래로. 물이 있는 스테이지로 여러 갈래 길. 방귀 레벨 2가 있어야 쫓아낼 수 있는 호랑이. 모든 스테이지에 가스를 채우는 아이템. 대기 시간이나 돈의 벽 대신 변하는 레벨의 벽."
+ },
+ "e35f8295fbb7": {
+  "en": "BIDU song 4",
+  "t": "비두의 노래 4"
+ },
+ "fff6f17aa3bc": {
+  "en": "BIDU song 1",
+  "t": "비두의 노래 1"
+ }
+}

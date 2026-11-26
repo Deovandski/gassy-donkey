@@ -8,10 +8,15 @@
   "Deovandski Skibinski Junior",
   "A.G.",
   "GitHub",
-  "MIT"
+  "MIT",
+  "Gassy Donkey",
+  "Godot",
+  "Unity",
+  "Audacity"
  ],
  "names": {
-  "The Prosperity Treaty": "Hiệp ước Thịnh vượng"
+  "The Prosperity Treaty": "Hiệp ước Thịnh vượng",
+  "BIDU": "BIDU"
  },
  "terms": {
   "Vraki typeface": "phông chữ Vraki",
@@ -20,5 +25,6 @@
   "Settings": "Cài đặt",
   "Text size": "Cỡ chữ",
   "Language": "Ngôn ngữ"
- }
+ },
+ "game_text": "Words shown on the game's own screens stay in English, in quotes where the sentence needs it, because the game itself is in English: button names (Select World, Character, Achievements, Credits), world names (Earth – Amazon, Earth – Desert), \"Coming soon!\", \"Level 1 recommended\", Settings › Reset all progress."
 }

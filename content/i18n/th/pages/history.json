@@ -1,0 +1,134 @@
+{
+ "077e4be0ec4c": {
+  "en": "World Development phases This would allow to release a few worlds, and only develop the others if the audience enjoyed the app.",
+  "t": "ช่วงการพัฒนาโลก แบบนี้จะออกโลกไม่กี่โลกก่อน แล้วค่อยพัฒนาที่เหลือถ้าผู้เล่นชอบแอปนี้"
+ },
+ "095aaf2c5781": {
+  "en": "The 2016 main menu, ported to Godot from the Unity scene.",
+  "t": "เมนูหลักปี 2016 ย้ายมาเป็น Godot จากฉากของ Unity"
+ },
+ "0cc7408cee7f": {
+  "en": "2016 game-idea overview, page 3: Control Overlay idea for the game",
+  "t": "ภาพรวมไอเดียเกมปี 2016 หน้า 3: ไอเดียปุ่มควบคุมบนหน้าจอของเกม"
+ },
+ "1bf2997a0e0d": {
+  "en": "The Unity 5.3.5 project got as far as the main menu (the logo, Select World, Character, Achievements and Credits buttons over a turning starfield, with the Sun below and a vessel flying past) and the world selection, where you swipe between the planets. Its README said it \"will not be finished\", since it was a way to learn Unity and polish up C#.",
+  "t": "โปรเจกต์ Unity 5.3.5 ทำไปถึงเมนูหลัก (โลโก้และปุ่ม Select World, Character, Achievements และ Credits บนท้องฟ้าดาวที่หมุนอยู่ มีดวงอาทิตย์ด้านล่างและยานบินผ่าน) และหน้าการเลือกโลก ที่ปัดเลือกดาวเคราะห์ได้ README ของมันบอกว่า \"จะไม่ทำให้เสร็จ\" เพราะเป็นวิธีเรียน Unity และฝึก C#"
+ },
+ "1cf109b954ec": {
+  "en": "The 2016 world selection, ported to Godot: swipe between the planets.",
+  "t": "หน้าการเลือกโลกปี 2016 ย้ายมาเป็น Godot: ปัดเลือกดาวเคราะห์"
+ },
+ "22d007e8c793": {
+  "en": "BIDU song 5",
+  "t": "เพลงบีดู 5"
+ },
+ "2878a76a47c0": {
+  "en": "The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets \"Coming soon!\"). It keeps the 2016 donkey, vessel, planets, platforms and logo, plays the 2014 BIDU songs, and adds what was missing. The repository's <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">design notes</a> list which choices came from the originals and which were made while finishing it. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play Gassy Donkey</a>.",
+  "t": "เกมฉบับสมบูรณ์ทำตามโน้ตปี 2016: ตดและโขกหัวทางซ้าย กระโดดทางขวา กระโดดสองครั้งขึ้นชั้นที่สูงกว่า ปัดลงเพื่อลงหนึ่งชั้น น้ำเป็นเส้นทางอื่น เสือที่ต้องใช้พลังตด 2 ไอเทมแก๊สในทุกด่าน หนึ่งแต้มต่อเลเวลสำหรับค่าพลังสี่อย่าง แรงโน้มถ่วงสูงขึ้นในช่วงหลัง และช่วงของโลก (เริ่มด้วย Earth – Amazon และ Earth – Desert ดาวเคราะห์อื่นขึ้นว่า \"Coming soon!\") เกมยังใช้ลา ยาน ดาวเคราะห์ แท่น และโลโก้จากปี 2016 เปิดเพลงของบีดูจากปี 2014 และเติมส่วนที่ขาดไป <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">โน้ตการออกแบบ</a>ในรีโพซิทอรีบอกว่าตัวเลือกไหนมาจากต้นฉบับ และตัวเลือกไหนตัดสินใจตอนทำให้เสร็จ <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">เล่น Gassy Donkey</a>"
+ },
+ "33449d831120": {
+  "en": "Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
+  "t": "เมนูตัวละคร: ทุกเลเวลให้ผู้เล่นหนึ่งแต้มเพื่อใช้กับพลังชีวิต พลังตด พลังกระโดด (สำหรับด่านหลัง ๆ ที่แรงโน้มถ่วงสูงกว่า) และพลังโขกหัว"
+ },
+ "33ef45a977ea": {
+  "en": "2016 game-idea overview, page 1: Main Menu Idea. The backbone for it has been implemented.",
+  "t": "ภาพรวมไอเดียเกมปี 2016 หน้า 1: ไอเดียเมนูหลัก โครงหลักของมันทำไว้แล้ว"
+ },
+ "3767552b1864": {
+  "en": "2016: the game idea",
+  "t": "2016: ไอเดียเกม"
+ },
+ "43d08e6bca23": {
+  "en": "How Gassy Donkey grew from a 2014 sketch called BIDU, the farting donkey, into a 2016 Unity project and then a finished Godot game.",
+  "t": "Gassy Donkey เติบโตจากภาพร่างปี 2014 ชื่อ \"บีดู ลาจอมตด\" มาเป็นโปรเจกต์ Unity ปี 2016 และกลายเป็นเกม Godot ที่เสร็จสมบูรณ์ได้อย่างไร"
+ },
+ "6873577ad58d": {
+  "en": "2026: finished",
+  "t": "2026: เสร็จสมบูรณ์"
+ },
+ "86a139ab17c0": {
+  "en": "The BIDU songs",
+  "t": "เพลงของบีดู"
+ },
+ "8c902839ca64": {
+  "en": "2016 game-idea overview, page 2: How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",
+  "t": "ภาพรวมไอเดียเกมปี 2016 หน้า 2: ที่ผมคิดว่าเกมจะทำงานแบบนี้: ปุ่ม \"ตด\" และ \"โขกหัว\" อยู่ทางซ้าย กระโดดได้ทุกที่ทางขวา (จึงเล่นแนวนอนเท่านั้น) กระโดดสองครั้งเพื่อขึ้นชั้นที่สูงกว่า ใช้นิ้วขวาปัดลงเพื่อลงหนึ่งชั้น ด่านที่มีน้ำเพื่อให้มีหลายเส้นทาง เสือที่ต้องใช้การตดระดับ 2 จึงจะไล่ไปได้ ไอเทมเติมแก๊สในทุกด่าน และกำแพงเลเวลที่เปลี่ยนไปได้แทนการรอเวลาหรือกำแพงเงิน"
+ },
+ "8eea2cfc69d1": {
+  "en": "From BIDU to Gassy Donkey",
+  "t": "จากบีดูสู่ Gassy Donkey"
+ },
+ "9539d160234b": {
+  "en": "2016: the Unity project",
+  "t": "2016: โปรเจกต์ Unity"
+ },
+ "acc78587683c": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is the author's original work, shown as it was made; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
+  "t": "บีดู ลาจอมตด เริ่มต้นจากภาพร่างในปี 2014 ปี 2016 กลายเป็น Gassy Donkey โปรเจกต์ Unity 5.3.5 ที่ทำไปถึงเมนูหลัก ปี 2026 ถูกย้ายมาเป็น Godot และทำจนเสร็จ ทุกอย่างด้านล่างเป็นผลงานต้นฉบับของผู้สร้าง แสดงตามที่ทำไว้ ไฟล์อยู่ใน<a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">โฟลเดอร์ legacy</a>ของรีโพซิทอรี"
+ },
+ "ad7e36642e3f": {
+  "en": "The 2014 concept sketch for BIDU, the farting donkey: the character, the enemies, Jungle and Desert, and corn power-ups.",
+  "t": "ภาพร่างแนวคิดปี 2014 ของบีดู ลาจอมตด: ตัวละคร ศัตรู ป่าและทะเลทราย และข้าวโพดเป็นไอเทมเพิ่มพลัง"
+ },
+ "aeacfcebe1a1": {
+  "en": "2016 game-idea overview, page 5: World Development phases This would allow to release a few worlds, and only develop the others if the audience enjoyed the app.",
+  "t": "ภาพรวมไอเดียเกมปี 2016 หน้า 5: ช่วงการพัฒนาโลก แบบนี้จะออกโลกไม่กี่โลกก่อน แล้วค่อยพัฒนาที่เหลือถ้าผู้เล่นชอบแอปนี้"
+ },
+ "b3388130bcb4": {
+  "en": "In July 2016 the idea was written up as a five-page overview, scanned from notebook pages, with a typed note on each.",
+  "t": "ในเดือนกรกฎาคม 2016 ไอเดียถูกเขียนเป็นภาพรวมห้าหน้า สแกนจากหน้าสมุดบันทึก พร้อมโน้ตที่พิมพ์ไว้ในแต่ละหน้า"
+ },
+ "b5421506fb0c": {
+  "en": "Control Overlay idea for the game",
+  "t": "ไอเดียปุ่มควบคุมบนหน้าจอของเกม"
+ },
+ "b55c7223e262": {
+  "en": "2014: BIDU, the farting donkey",
+  "t": "2014: บีดู ลาจอมตด"
+ },
+ "be5ca3c7f324": {
+  "en": "History · Gassy Donkey",
+  "t": "ประวัติ · Gassy Donkey"
+ },
+ "beaa05cb9a2d": {
+  "en": "BIDU song 3",
+  "t": "เพลงบีดู 3"
+ },
+ "c845cbcdfdf1": {
+  "en": "Main Menu Idea. The backbone for it has been implemented.",
+  "t": "ไอเดียเมนูหลัก โครงหลักของมันทำไว้แล้ว"
+ },
+ "c9a63a5aaf6d": {
+  "en": "The first sketch already has most of the game: a farting donkey that needs to keep running to score points; a mosquito that follows the donkey when it isn't running; cactus, honey hives and rocks; snakes, bears and cowboys with guns; a Jungle and a Desert; and corn as the power-up, with a noise when you get all the corn.",
+  "t": "ภาพร่างแรกมีเกมเกือบทั้งหมดแล้ว: ลาจอมตดที่ต้องวิ่งไปเรื่อย ๆ เพื่อทำคะแนน ยุงที่ตามลาเมื่อมันไม่วิ่ง กระบองเพชร รังผึ้ง และก้อนหิน งู หมี และคาวบอยถือปืน ป่าและทะเลทราย และข้าวโพดเป็นไอเทมเพิ่มพลัง พร้อมเสียงเมื่อเก็บข้าวโพดได้ครบ"
+ },
+ "ce4b52988e1a": {
+  "en": "That menu has been ported to Godot as it was: the same positions, sizes, colours and texts, read out of the Unity scene file, and each of the five C# scripts rewritten line for line. Only Select World does something, as in 2016. <a href=\"/gassy-donkey/play/#original-2016\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play the 2016 original</a>.",
+  "t": "เมนูนั้นถูกย้ายมาเป็น Godot ตามเดิม: ตำแหน่ง ขนาด สี และข้อความเดิม อ่านจากไฟล์ฉากของ Unity และสคริปต์ C# ทั้งห้าตัวถูกเขียนใหม่ทีละบรรทัด มีแค่ Select World ที่ทำงาน เหมือนปี 2016 <a href=\"/gassy-donkey/play/#original-2016\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">เล่นต้นฉบับปี 2016</a>"
+ },
+ "d0bc9e9099aa": {
+  "en": "BIDU song 2",
+  "t": "เพลงบีดู 2"
+ },
+ "d186c8e12285": {
+  "en": "2016 game-idea overview, page 4: Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
+  "t": "ภาพรวมไอเดียเกมปี 2016 หน้า 4: เมนูตัวละคร: ทุกเลเวลให้ผู้เล่นหนึ่งแต้มเพื่อใช้กับพลังชีวิต พลังตด พลังกระโดด (สำหรับด่านหลัง ๆ ที่แรงโน้มถ่วงสูงกว่า) และพลังโขกหัว"
+ },
+ "d1bd01cf4746": {
+  "en": "Five short songs Deovandski made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "เพลงสั้นห้าเพลงที่ Deovandski ทำให้บีดูในเดือนกรกฎาคม 2014 ด้วย Audacity เป็นเพลงของเกมฉบับสมบูรณ์ แต่ละเพลงเล่นท่อนเปิดหนึ่งครั้งแล้ววนซ้ำ"
+ },
+ "d501b574c13d": {
+  "en": "How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",
+  "t": "ที่ผมคิดว่าเกมจะทำงานแบบนี้: ปุ่ม \"ตด\" และ \"โขกหัว\" อยู่ทางซ้าย กระโดดได้ทุกที่ทางขวา (จึงเล่นแนวนอนเท่านั้น) กระโดดสองครั้งเพื่อขึ้นชั้นที่สูงกว่า ใช้นิ้วขวาปัดลงเพื่อลงหนึ่งชั้น ด่านที่มีน้ำเพื่อให้มีหลายเส้นทาง เสือที่ต้องใช้การตดระดับ 2 จึงจะไล่ไปได้ ไอเทมเติมแก๊สในทุกด่าน และกำแพงเลเวลที่เปลี่ยนไปได้แทนการรอเวลาหรือกำแพงเงิน"
+ },
+ "e35f8295fbb7": {
+  "en": "BIDU song 4",
+  "t": "เพลงบีดู 4"
+ },
+ "fff6f17aa3bc": {
+  "en": "BIDU song 1",
+  "t": "เพลงบีดู 1"
+ }
+}

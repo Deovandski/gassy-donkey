@@ -1,46 +1,94 @@
 {
- "155657eff841": {
-  "en": "Made by <a href=\"https://github.com/Deovandski\">Deovandski</a>. © 2026 Deovandski Skibinski Junior. Code under the <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/LICENSE\">MIT license</a>.",
-  "t": "制作：<a href=\"https://github.com/Deovandski\">Deovandski</a>。© 2026 Deovandski Skibinski Junior。コードは <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/LICENSE\">MIT ライセンス</a>です。"
+ "09972524c11e": {
+  "en": "Previous photo",
+  "t": "前の写真"
+ },
+ "15c61d430df1": {
+  "en": "You’re using the installed app.",
+  "t": "インストール済みのアプリで見ています。"
  },
  "3cc6e124a8e4": {
   "en": "Text size",
   "t": "文字サイズ"
  },
- "610113f6a165": {
-  "en": "Built with AI assistance from the author's originals: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/AI-DISCLOSURE.md\">AI disclosure</a>. <a href=\"/gassy-donkey/#privacy\">Privacy</a>.",
-  "t": "作者のオリジナルをもとに AI の支援で作られています：<a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/AI-DISCLOSURE.md\">AI に関する開示</a>。<a href=\"/gassy-donkey/#privacy\">プライバシー</a>。"
+ "5d12bd53552c": {
+  "en": "Play",
+  "t": "プレイ"
  },
  "62bce9422ff2": {
   "en": "Main",
   "t": "メイン"
  },
- "6b21fb791ac0": {
-  "en": "About",
-  "t": "概要"
- },
- "70440046a3dc": {
-  "en": "Notes",
-  "t": "ノート"
- },
  "89b86ab0e66f": {
   "en": "Language",
   "t": "言語"
+ },
+ "90ccd6497400": {
+  "en": "History",
+  "t": "歴史"
+ },
+ "9e3f4c60afcd": {
+  "en": "No install button? Open this page in Chrome (⋮ → Open in Chrome), then ⋮ → Install app.",
+  "t": "インストールボタンがない？ このページを Chrome で開いて（⋮ → Chrome で開く）、⋮ → アプリをインストール。"
+ },
+ "b7ac1c49db50": {
+  "en": "Enlarge",
+  "t": "拡大"
+ },
+ "b7ba2fd50d49": {
+  "en": "Built with AI assistance from the author's originals: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/AI-DISCLOSURE.md\">AI disclosure</a>. <a href=\"/gassy-donkey/#privacy\">Privacy</a>.",
+  "t": "作者のオリジナルをもとに AI の支援で作られています：<a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/AI-DISCLOSURE.md\">AI に関する開示</a>。<a href=\"/gassy-donkey/#privacy\">プライバシー</a>。"
+ },
+ "bbfa773e5a63": {
+  "en": "Close",
+  "t": "閉じる"
+ },
+ "bd1cf21678f6": {
+  "en": "Installed! Open it from your home screen or app list.",
+  "t": "インストールしました！ ホーム画面かアプリ一覧から開いてください。"
  },
  "c7f73bb54d92": {
   "en": "Settings",
   "t": "設定"
  },
+ "ccd62e5d37a0": {
+  "en": "To install it, open this page in Chrome, Edge or Samsung Internet. On iPhone or iPad: Share, then Add to Home Screen.",
+  "t": "インストールするには、このページを Chrome、Edge、Samsung Internet で開いてください。iPhone・iPad では：共有 → ホーム画面に追加。"
+ },
  "cf01481f626d": {
   "en": "Privacy",
   "t": "プライバシー"
+ },
+ "d01d900383e4": {
+  "en": "Photo",
+  "t": "写真"
  },
  "d36880a182c5": {
   "en": "Want a language added?",
   "t": "追加してほしい言語はありますか？"
  },
+ "d5636c56abfd": {
+  "en": "On iPhone or iPad: tap Share, then Add to Home Screen.",
+  "t": "iPhone・iPad では：共有をタップして、ホーム画面に追加。"
+ },
+ "e1315d1d673e": {
+  "en": "Made by <a href=\"https://github.com/Deovandski\">Deovandski</a>. © 2026 Deovandski Skibinski Junior. Code under the <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/LICENSE\">MIT license</a>.",
+  "t": "制作：<a href=\"https://github.com/Deovandski\">Deovandski</a>。© 2026 Deovandski Skibinski Junior。コードは <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/LICENSE\">MIT ライセンス</a>です。"
+ },
+ "e5f79aa13bd5": {
+  "en": "Install app",
+  "t": "アプリをインストール"
+ },
  "e9b450d14bc2": {
   "en": "Done",
   "t": "完了"
+ },
+ "fc4a695f02a8": {
+  "en": "App",
+  "t": "アプリ"
+ },
+ "fe6687820101": {
+  "en": "Next photo",
+  "t": "次の写真"
  }
 }

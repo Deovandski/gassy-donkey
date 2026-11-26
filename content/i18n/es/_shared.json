@@ -1,46 +1,94 @@
 {
- "155657eff841": {
-  "en": "Made by <a href=\"https://github.com/Deovandski\">Deovandski</a>. © 2026 Deovandski Skibinski Junior. Code under the <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/LICENSE\">MIT license</a>.",
-  "t": "Hecho por <a href=\"https://github.com/Deovandski\">Deovandski</a>. © 2026 Deovandski Skibinski Junior. Código bajo la <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/LICENSE\">licencia MIT</a>."
+ "09972524c11e": {
+  "en": "Previous photo",
+  "t": "Foto anterior"
+ },
+ "15c61d430df1": {
+  "en": "You’re using the installed app.",
+  "t": "Estás usando la aplicación instalada."
  },
  "3cc6e124a8e4": {
   "en": "Text size",
   "t": "Tamaño del texto"
  },
- "610113f6a165": {
-  "en": "Built with AI assistance from the author's originals: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/AI-DISCLOSURE.md\">AI disclosure</a>. <a href=\"/gassy-donkey/#privacy\">Privacy</a>.",
-  "t": "Hecho con ayuda de IA a partir de los originales del autor: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/main/AI-DISCLOSURE.md\">declaración sobre IA</a>. <a href=\"/gassy-donkey/#privacy\">Privacidad</a>."
+ "5d12bd53552c": {
+  "en": "Play",
+  "t": "Jugar"
  },
  "62bce9422ff2": {
   "en": "Main",
   "t": "Principal"
  },
- "6b21fb791ac0": {
-  "en": "About",
-  "t": "Acerca de"
- },
- "70440046a3dc": {
-  "en": "Notes",
-  "t": "Notas"
- },
  "89b86ab0e66f": {
   "en": "Language",
   "t": "Idioma"
+ },
+ "90ccd6497400": {
+  "en": "History",
+  "t": "Historia"
+ },
+ "9e3f4c60afcd": {
+  "en": "No install button? Open this page in Chrome (⋮ → Open in Chrome), then ⋮ → Install app.",
+  "t": "¿No ves el botón de instalar? Abre esta página en Chrome (⋮ → Abrir en Chrome) y luego ⋮ → Instalar aplicación."
+ },
+ "b7ac1c49db50": {
+  "en": "Enlarge",
+  "t": "Ampliar"
+ },
+ "b7ba2fd50d49": {
+  "en": "Built with AI assistance from the author's originals: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/AI-DISCLOSURE.md\">AI disclosure</a>. <a href=\"/gassy-donkey/#privacy\">Privacy</a>.",
+  "t": "Hecho con ayuda de IA a partir de los originales del autor: <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/AI-DISCLOSURE.md\">declaración sobre IA</a>. <a href=\"/gassy-donkey/#privacy\">Privacidad</a>."
+ },
+ "bbfa773e5a63": {
+  "en": "Close",
+  "t": "Cerrar"
+ },
+ "bd1cf21678f6": {
+  "en": "Installed! Open it from your home screen or app list.",
+  "t": "¡Instalada! Ábrela desde la pantalla de inicio o la lista de aplicaciones."
  },
  "c7f73bb54d92": {
   "en": "Settings",
   "t": "Ajustes"
  },
+ "ccd62e5d37a0": {
+  "en": "To install it, open this page in Chrome, Edge or Samsung Internet. On iPhone or iPad: Share, then Add to Home Screen.",
+  "t": "Para instalarla, abre esta página en Chrome, Edge o Samsung Internet. En iPhone o iPad: Compartir → Añadir a pantalla de inicio."
+ },
  "cf01481f626d": {
   "en": "Privacy",
   "t": "Privacidad"
+ },
+ "d01d900383e4": {
+  "en": "Photo",
+  "t": "Foto"
  },
  "d36880a182c5": {
   "en": "Want a language added?",
   "t": "¿Quieres que añadamos un idioma?"
  },
+ "d5636c56abfd": {
+  "en": "On iPhone or iPad: tap Share, then Add to Home Screen.",
+  "t": "En iPhone o iPad: toca Compartir y luego Añadir a pantalla de inicio."
+ },
+ "e1315d1d673e": {
+  "en": "Made by <a href=\"https://github.com/Deovandski\">Deovandski</a>. © 2026 Deovandski Skibinski Junior. Code under the <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/LICENSE\">MIT license</a>.",
+  "t": "Hecho por <a href=\"https://github.com/Deovandski\">Deovandski</a>. © 2026 Deovandski Skibinski Junior. Código bajo la <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/LICENSE\">licencia MIT</a>."
+ },
+ "e5f79aa13bd5": {
+  "en": "Install app",
+  "t": "Instalar aplicación"
+ },
  "e9b450d14bc2": {
   "en": "Done",
   "t": "Listo"
+ },
+ "fc4a695f02a8": {
+  "en": "App",
+  "t": "App"
+ },
+ "fe6687820101": {
+  "en": "Next photo",
+  "t": "Foto siguiente"
  }
 }

@@ -8,10 +8,15 @@
   "Deovandski Skibinski Junior",
   "A.G.",
   "GitHub",
-  "MIT"
+  "MIT",
+  "Gassy Donkey",
+  "Godot",
+  "Unity",
+  "Audacity"
  ],
  "names": {
-  "The Prosperity Treaty": "el Tratado de la Prosperidad"
+  "The Prosperity Treaty": "el Tratado de la Prosperidad",
+  "BIDU": "BIDU"
  },
  "terms": {
   "Vraki typeface": "tipografía Vraki",
@@ -20,5 +25,6 @@
   "Settings": "Ajustes",
   "Text size": "Tamaño del texto",
   "Language": "Idioma"
- }
+ },
+ "game_text": "Words shown on the game's own screens stay in English, in quotes where the sentence needs it, because the game itself is in English: button names (Select World, Character, Achievements, Credits), world names (Earth – Amazon, Earth – Desert), \"Coming soon!\", \"Level 1 recommended\", Settings › Reset all progress."
 }

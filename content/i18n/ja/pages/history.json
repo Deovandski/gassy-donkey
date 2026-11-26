@@ -1,0 +1,134 @@
+{
+ "077e4be0ec4c": {
+  "en": "World Development phases This would allow to release a few worlds, and only develop the others if the audience enjoyed the app.",
+  "t": "ワールド開発のフェーズ。いくつかのワールドだけを先に公開し、アプリが楽しまれたら残りを開発できる。"
+ },
+ "095aaf2c5781": {
+  "en": "The 2016 main menu, ported to Godot from the Unity scene.",
+  "t": "2016 年のメインメニュー。Unity のシーンから Godot へ移植。"
+ },
+ "0cc7408cee7f": {
+  "en": "2016 game-idea overview, page 3: Control Overlay idea for the game",
+  "t": "2016 年のゲームアイデア概要、3 ページ目：ゲームの操作オーバーレイのアイデア"
+ },
+ "1bf2997a0e0d": {
+  "en": "The Unity 5.3.5 project got as far as the main menu (the logo, Select World, Character, Achievements and Credits buttons over a turning starfield, with the Sun below and a vessel flying past) and the world selection, where you swipe between the planets. Its README said it \"will not be finished\", since it was a way to learn Unity and polish up C#.",
+  "t": "Unity 5.3.5 のプロジェクトは、メインメニュー（回る星空の上にロゴと Select World、Character、Achievements、Credits のボタン、下に太陽、横切る宇宙船）と、惑星をスワイプして選ぶワールド選択まで作られました。README には「完成させない」とあり、Unity を学び C# を磨くためのものでした。"
+ },
+ "1cf109b954ec": {
+  "en": "The 2016 world selection, ported to Godot: swipe between the planets.",
+  "t": "2016 年のワールド選択。Godot へ移植：惑星をスワイプ。"
+ },
+ "22d007e8c793": {
+  "en": "BIDU song 5",
+  "t": "ビドゥの歌 5"
+ },
+ "2878a76a47c0": {
+  "en": "The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets \"Coming soon!\"). It keeps the 2016 donkey, vessel, planets, platforms and logo, plays the 2014 BIDU songs, and adds what was missing. The repository's <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">design notes</a> list which choices came from the originals and which were made while finishing it. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play Gassy Donkey</a>.",
+  "t": "完成したゲームは 2016 年のメモに従っています。おならと頭突きは左、ジャンプは右、二段ジャンプで上の段へ、スワイプで一段下へ、別の道になる水、おならパワー 2 が必要なトラ、どのステージにもあるガスアイテム、レベルごとに 4 つの能力へ 1 ポイント、後半ほど強い重力、そしてワールドのフェーズ（まず Earth – Amazon と Earth – Desert、ほかの惑星は「Coming soon!」）。2016 年のロバ、宇宙船、惑星、足場、ロゴをそのまま使い、2014 年のビドゥの歌を流し、足りなかったものを加えました。リポジトリの<a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">デザインメモ</a>に、どの選択がオリジナル由来で、どれが仕上げのときに決めたものかが書いてあります。<a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Gassy Donkey を遊ぶ</a>。"
+ },
+ "33449d831120": {
+  "en": "Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
+  "t": "キャラクターメニュー：レベルが上がるたびに 1 ポイントを、体力、おならパワー、ジャンプ力（重力が強い後半のステージ用）、頭突きパワーに振り分けられる。"
+ },
+ "33ef45a977ea": {
+  "en": "2016 game-idea overview, page 1: Main Menu Idea. The backbone for it has been implemented.",
+  "t": "2016 年のゲームアイデア概要、1 ページ目：メインメニューのアイデア。その土台はすでに実装済み。"
+ },
+ "3767552b1864": {
+  "en": "2016: the game idea",
+  "t": "2016 年：ゲームのアイデア"
+ },
+ "43d08e6bca23": {
+  "en": "How Gassy Donkey grew from a 2014 sketch called BIDU, the farting donkey, into a 2016 Unity project and then a finished Godot game.",
+  "t": "Gassy Donkey が、2014 年の「おならロバのビドゥ」というスケッチから、2016 年の Unity プロジェクトを経て、完成した Godot ゲームになるまで。"
+ },
+ "6873577ad58d": {
+  "en": "2026: finished",
+  "t": "2026 年：完成"
+ },
+ "86a139ab17c0": {
+  "en": "The BIDU songs",
+  "t": "ビドゥの歌"
+ },
+ "8c902839ca64": {
+  "en": "2016 game-idea overview, page 2: How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",
+  "t": "2016 年のゲームアイデア概要、2 ページ目：ゲームの仕組みの考え：「おなら」と「頭突き」のボタンは左、ジャンプは右側のどこでも（だから横画面のみ）。二段ジャンプで上の段へ。右指で下にスワイプすると一段下へ。水のステージで道を複数に。追い払うにはおならレベル 2 が必要なトラ。どのステージにもガスを満たすアイテム。待ち時間やお金の壁ではなく、レベルによる動的な壁。"
+ },
+ "8eea2cfc69d1": {
+  "en": "From BIDU to Gassy Donkey",
+  "t": "ビドゥから Gassy Donkey へ"
+ },
+ "9539d160234b": {
+  "en": "2016: the Unity project",
+  "t": "2016 年：Unity プロジェクト"
+ },
+ "acc78587683c": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is the author's original work, shown as it was made; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
+  "t": "おならロバのビドゥは 2014 年にスケッチとして始まりました。2016 年に Gassy Donkey となり、メインメニューまで作られた Unity 5.3.5 のプロジェクトになりました。2026 年に Godot へ移植され、完成しました。以下はすべて作者のオリジナルで、作られたままの姿で載せています。ファイルはリポジトリの<a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy フォルダ</a>にあります。"
+ },
+ "ad7e36642e3f": {
+  "en": "The 2014 concept sketch for BIDU, the farting donkey: the character, the enemies, Jungle and Desert, and corn power-ups.",
+  "t": "おならロバのビドゥの 2014 年のコンセプトスケッチ：キャラクター、敵、ジャングルと砂漠、パワーアップのトウモロコシ。"
+ },
+ "aeacfcebe1a1": {
+  "en": "2016 game-idea overview, page 5: World Development phases This would allow to release a few worlds, and only develop the others if the audience enjoyed the app.",
+  "t": "2016 年のゲームアイデア概要、5 ページ目：ワールド開発のフェーズ。いくつかのワールドだけを先に公開し、アプリが楽しまれたら残りを開発できる。"
+ },
+ "b3388130bcb4": {
+  "en": "In July 2016 the idea was written up as a five-page overview, scanned from notebook pages, with a typed note on each.",
+  "t": "2016 年 7 月、アイデアは 5 ページの概要にまとめられました。ノートのページをスキャンし、それぞれにタイプしたメモを添えたものです。"
+ },
+ "b5421506fb0c": {
+  "en": "Control Overlay idea for the game",
+  "t": "ゲームの操作オーバーレイのアイデア"
+ },
+ "b55c7223e262": {
+  "en": "2014: BIDU, the farting donkey",
+  "t": "2014 年：おならロバのビドゥ"
+ },
+ "be5ca3c7f324": {
+  "en": "History · Gassy Donkey",
+  "t": "歴史 · Gassy Donkey"
+ },
+ "beaa05cb9a2d": {
+  "en": "BIDU song 3",
+  "t": "ビドゥの歌 3"
+ },
+ "c845cbcdfdf1": {
+  "en": "Main Menu Idea. The backbone for it has been implemented.",
+  "t": "メインメニューのアイデア。その土台はすでに実装済み。"
+ },
+ "c9a63a5aaf6d": {
+  "en": "The first sketch already has most of the game: a farting donkey that needs to keep running to score points; a mosquito that follows the donkey when it isn't running; cactus, honey hives and rocks; snakes, bears and cowboys with guns; a Jungle and a Desert; and corn as the power-up, with a noise when you get all the corn.",
+  "t": "最初のスケッチに、ゲームのほとんどがすでにあります。点を取るために走り続けるおならロバ、走っていないとロバを追いかける蚊、サボテン、ハチの巣、岩、ヘビ、クマ、銃を持ったカウボーイ、ジャングルと砂漠、そしてパワーアップのトウモロコシ（全部取ると音が鳴る）。"
+ },
+ "ce4b52988e1a": {
+  "en": "That menu has been ported to Godot as it was: the same positions, sizes, colours and texts, read out of the Unity scene file, and each of the five C# scripts rewritten line for line. Only Select World does something, as in 2016. <a href=\"/gassy-donkey/play/#original-2016\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play the 2016 original</a>.",
+  "t": "そのメニューは当時のまま Godot へ移植されています。位置、大きさ、色、テキストは Unity のシーンファイルから読み取り、5 つの C# スクリプトは一行ずつ書き直しました。2016 年と同じく、動くのは Select World だけです。<a href=\"/gassy-donkey/play/#original-2016\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">2016 年のオリジナルを遊ぶ</a>。"
+ },
+ "d0bc9e9099aa": {
+  "en": "BIDU song 2",
+  "t": "ビドゥの歌 2"
+ },
+ "d186c8e12285": {
+  "en": "2016 game-idea overview, page 4: Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
+  "t": "2016 年のゲームアイデア概要、4 ページ目：キャラクターメニュー：レベルが上がるたびに 1 ポイントを、体力、おならパワー、ジャンプ力（重力が強い後半のステージ用）、頭突きパワーに振り分けられる。"
+ },
+ "d1bd01cf4746": {
+  "en": "Five short songs Deovandski made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "Deovandski が 2014 年 7 月に Audacity でビドゥのために作った 5 つの短い歌。完成したゲームの音楽で、どの曲も最初の部分を一度流してからループします。"
+ },
+ "d501b574c13d": {
+  "en": "How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",
+  "t": "ゲームの仕組みの考え：「おなら」と「頭突き」のボタンは左、ジャンプは右側のどこでも（だから横画面のみ）。二段ジャンプで上の段へ。右指で下にスワイプすると一段下へ。水のステージで道を複数に。追い払うにはおならレベル 2 が必要なトラ。どのステージにもガスを満たすアイテム。待ち時間やお金の壁ではなく、レベルによる動的な壁。"
+ },
+ "e35f8295fbb7": {
+  "en": "BIDU song 4",
+  "t": "ビドゥの歌 4"
+ },
+ "fff6f17aa3bc": {
+  "en": "BIDU song 1",
+  "t": "ビドゥの歌 1"
+ }
+}

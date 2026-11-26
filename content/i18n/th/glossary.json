@@ -8,7 +8,11 @@
   "Deovandski Skibinski Junior",
   "A.G.",
   "GitHub",
-  "MIT"
+  "MIT",
+  "Gassy Donkey",
+  "Godot",
+  "Unity",
+  "Audacity"
  ],
  "names": {
   "Vraki": "วรากี",
@@ -16,7 +20,8 @@
   "Ganyrami": "กานิรามิ",
   "Paulin": "เปาลิน",
   "Harry": "แฮร์รี",
-  "The Prosperity Treaty": "สนธิสัญญาแห่งความรุ่งเรือง"
+  "The Prosperity Treaty": "สนธิสัญญาแห่งความรุ่งเรือง",
+  "BIDU": "บีดู"
  },
  "terms": {
   "Vraki typeface": "ฟอนต์วรากี",
@@ -25,5 +30,6 @@
   "Settings": "การตั้งค่า",
   "Text size": "ขนาดตัวอักษร",
   "Language": "ภาษา"
- }
+ },
+ "game_text": "Words shown on the game's own screens stay in English, in quotes where the sentence needs it, because the game itself is in English: button names (Select World, Character, Achievements, Credits), world names (Earth – Amazon, Earth – Desert), \"Coming soon!\", \"Level 1 recommended\", Settings › Reset all progress."
 }

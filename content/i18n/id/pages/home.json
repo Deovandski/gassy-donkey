@@ -1,18 +1,170 @@
 {
+ "080f4ecabe7d": {
+  "en": "Tap the right side of the screen to jump. Tap again in the air to double jump up to the next level.",
+  "t": "Ketuk sisi kanan layar untuk melompat. Ketuk lagi di udara untuk lompatan ganda ke lantai berikutnya."
+ },
  "0a4470d64e9d": {
   "en": "Skip to content",
   "t": "Langsung ke konten"
  },
- "0c8df973e24e": {
-  "en": "Your Language and Text size choices are saved in this browser only, so the site remembers them next time. They never leave your device.",
-  "t": "Pilihan Bahasa dan Ukuran teks Anda hanya disimpan di peramban ini, agar situs mengingatnya di kunjungan berikutnya. Pilihan itu tidak pernah meninggalkan perangkat Anda."
+ "119390f29a12": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">P</kbd> or <kbd data-astro-cid-lcdefpme=\"\">Esc</kbd> pause. A game controller works too.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">P</kbd> atau <kbd data-astro-cid-lcdefpme=\"\">Esc</kbd> untuk jeda. Pengontrol gim juga bisa dipakai."
  },
- "50282beeddea": {
-  "en": "This website has no cookies, no analytics and no ads. It's hosted on GitHub Pages, so <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHub</a> sees your IP address when it sends you the page. Questions go to <a href=\"https://github.com/Deovandski/gassy-donkey/issues\">GitHub issues</a>.",
-  "t": "Situs web ini tidak memakai cookie, analitik, maupun iklan. Situs ini di-host di GitHub Pages, jadi <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\">GitHub</a> melihat alamat IP Anda saat mengirimkan halamannya. Pertanyaan bisa diajukan di <a href=\"https://github.com/Deovandski/gassy-donkey/issues\">isu GitHub</a>."
+ "144b1ac7fafc": {
+  "en": "Read the history, with the 2014 sketch and the 2016 notes",
+  "t": "Baca sejarahnya, dengan sketsa 2014 dan catatan 2016"
  },
- "c60f2f817f12": {
-  "en": "Source on GitHub",
-  "t": "Kode sumber di GitHub"
+ "297cd63e4c45": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski made for the game's first sketch in 2014, each looping after its opening.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Musik:</strong> lima lagu BIDU yang dibuat Deovandski untuk sketsa pertama gim ini pada 2014, masing-masing berulang setelah bagian pembukanya."
+ },
+ "29ae52b4b9ca": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Penghalang di jalan:</strong> batu, ular, sarang lebah, beruang, kaktus, dan koboi bersenjata. Lompati atau seruduk, kalau serudukanmu cukup kuat."
+ },
+ "2fe91bcefb76": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. The original files are kept unchanged in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-lcdefpme=\"\">legacy folder</a>, and the 2016 version can still be played, ported as it was.",
+  "t": "BIDU, si keledai kentut, berawal sebagai sketsa pada 2014. Pada 2016 ia menjadi Gassy Donkey, proyek Unity 5.3.5 yang sampai ke menu utamanya. Pada 2026 ia dipindahkan ke Godot dan diselesaikan. Berkas aslinya disimpan tanpa perubahan di <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-lcdefpme=\"\">folder legacy</a> repositori, dan versi 2016 masih bisa dimainkan, dipindahkan apa adanya."
+ },
+ "367d87ef3bd4": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Things behind you:</strong> mosquitoes catch up whenever you slow down. Tigers wait on the floor: jump over one and it chases you, and only a farting power of 2 or more scares it away. Or take the high road on the ledges.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Yang ada di belakangmu:</strong> nyamuk menyusul setiap kali kamu melambat. Harimau menunggu di tanah: lompati satu dan ia akan mengejarmu, dan hanya kekuatan kentut 2 atau lebih yang bisa mengusirnya. Atau ambil jalan atas di tepian."
+ },
+ "46c03227c103": {
+  "en": "From 2014 to now",
+  "t": "Dari 2014 sampai sekarang"
+ },
+ "473bd4087262": {
+  "en": "World 2, Earth – Desert: the donkey on a sandstone ledge above the cactus.",
+  "t": "Dunia 2, Earth – Desert: keledai di atas tepian batu pasir di atas kaktus."
+ },
+ "496b7f0af277": {
+  "en": "This website and the game have no cookies, no analytics, no ads and no accounts. The site is hosted on GitHub Pages, so <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\" data-astro-cid-lcdefpme=\"\">GitHub</a> sees your IP address when it sends you the page. Questions go to <a href=\"https://github.com/Deovandski/gassy-donkey/issues\" data-astro-cid-lcdefpme=\"\">GitHub issues</a>.",
+  "t": "Situs web dan gim ini tidak memakai kuki, analitik, iklan, ataupun akun. Situs ini di-hosting di GitHub Pages, jadi <a href=\"https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement\" data-astro-cid-lcdefpme=\"\">GitHub</a> melihat alamat IP-mu saat mengirim halamannya. Pertanyaan bisa diajukan di <a href=\"https://github.com/Deovandski/gassy-donkey/issues\" data-astro-cid-lcdefpme=\"\">issue GitHub</a>."
+ },
+ "4da8d20c25cb": {
+  "en": "Play the 2016 original",
+  "t": "Mainkan versi asli 2016"
+ },
+ "4ec00394908f": {
+  "en": "How to play",
+  "t": "Cara bermain"
+ },
+ "52a659382dd5": {
+  "en": "Brought to you by Deovandski, author of the #HusbandOutWorld series and CEO/Founder of Wizard Deo Solutions. Have fun! If you want to support me, buy the eBooks on Amazon. <a href=\"https://www.amazon.com/dp/B0BT5XM4QC\" data-astro-cid-lcdefpme=\"\">The eBooks on Amazon</a> · <a href=\"https://husbandoutworld.com/\" data-astro-cid-lcdefpme=\"\">#HusbandOutWorld</a>",
+  "t": "Dipersembahkan oleh Deovandski, penulis seri #HusbandOutWorld dan CEO/Pendiri Wizard Deo Solutions. Selamat bersenang-senang! Kalau ingin mendukung saya, belilah e-book di Amazon. <a href=\"https://www.amazon.com/dp/B0BT5XM4QC\" data-astro-cid-lcdefpme=\"\">E-book di Amazon</a> · <a href=\"https://husbandoutworld.com/\" data-astro-cid-lcdefpme=\"\">#HusbandOutWorld</a>"
+ },
+ "5a201187a164": {
+  "en": "The game saves your progress (level, stats, stages, achievements and sound settings) in this browser's storage, so you can carry on next time. It never leaves your device; clearing the site's data wipes it, and so does Settings › Reset all progress in the game.",
+  "t": "Gim menyimpan kemajuanmu (level, statistik, level yang selesai, pencapaian, dan pengaturan suara) di penyimpanan peramban ini, supaya kamu bisa melanjutkan lain kali. Data itu tidak pernah keluar dari perangkatmu; menghapus data situs akan menghapusnya, begitu juga Settings › Reset all progress di dalam gim."
+ },
+ "5b8bb36b1ade": {
+  "en": "Running through World 1, Earth – Amazon: hearts, gas, distance and level at the top, the fart and headbutt buttons on the left.",
+  "t": "Berlari di Dunia 1, Earth – Amazon: hati, gas, jarak, dan level di atas, tombol kentut dan seruduk di kiri."
+ },
+ "660251a2f72c": {
+  "en": "Gassy Donkey",
+  "t": "Gassy Donkey"
+ },
+ "6662c40bac78": {
+  "en": "Keyboard",
+  "t": "Papan ketik"
+ },
+ "66e105b13cc0": {
+  "en": "A side-scrolling runner made for touch screens and keyboards. The donkey runs on its own; you jump, double jump up a level, swipe down a level, fart away whatever chases you and headbutt whatever stands in the way. It plays right here in the browser and can be installed as an app.",
+  "t": "Gim lari bergulir ke samping untuk layar sentuh dan papan ketik. Keledai berlari sendiri; kamu melompat, lompat ganda untuk naik satu lantai, menggeser untuk turun satu lantai, mengusir dengan kentut apa pun yang mengejarmu, dan menyeruduk apa pun yang menghalangi. Bisa langsung dimainkan di peramban ini dan dipasang sebagai aplikasi."
+ },
+ "6b2d726e2aff": {
+  "en": "What's in the game",
+  "t": "Isi gimnya"
+ },
+ "6b6d85ffea8b": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> atau <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> untuk turun satu lantai."
+ },
+ "70c9afeb7702": {
+  "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
+  "t": "Setiap level adalah lari sampai bendera finis. Keledai makin cepat setiap 200 meter. Hati berkurang saat kamu menabrak sesuatu atau digigit; kalau habis, larinya berakhir, tetapi XP yang kamu dapat tetap ada, jadi kamu kembali lebih kuat."
+ },
+ "78bd47823cb7": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">A</kbd>, <kbd data-astro-cid-lcdefpme=\"\">←</kbd> or <kbd data-astro-cid-lcdefpme=\"\">Z</kbd> fart; <kbd data-astro-cid-lcdefpme=\"\">D</kbd>, <kbd data-astro-cid-lcdefpme=\"\">→</kbd> or <kbd data-astro-cid-lcdefpme=\"\">X</kbd> headbutt.",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">A</kbd>, <kbd data-astro-cid-lcdefpme=\"\">←</kbd>, atau <kbd data-astro-cid-lcdefpme=\"\">Z</kbd> untuk kentut; <kbd data-astro-cid-lcdefpme=\"\">D</kbd>, <kbd data-astro-cid-lcdefpme=\"\">→</kbd>, atau <kbd data-astro-cid-lcdefpme=\"\">X</kbd> untuk menyeruduk."
+ },
+ "7cb18874958e": {
+  "en": "Started in 2016 · finished in 2026",
+  "t": "Dimulai pada 2016 · selesai pada 2026"
+ },
+ "858751a3253a": {
+  "en": "Your Language and Text size choices on this website are saved in this browser only. To open without a connection, the site and the game save copies of their pages and files in your browser's storage. The copies stay on your device and are never sent anywhere; clearing the site's data removes them.",
+  "t": "Pilihan Bahasa dan Ukuran teks-mu di situs ini hanya disimpan di peramban ini. Agar bisa dibuka tanpa koneksi, situs dan gim menyimpan salinan halaman dan berkasnya di penyimpanan peramban-mu. Salinan itu tetap di perangkatmu dan tidak pernah dikirim ke mana pun; menghapus data situs akan menghapusnya."
+ },
+ "870a742c6a78": {
+  "en": "Swipe down on the right side to drop down a level.",
+  "t": "Geser ke bawah di sisi kanan untuk turun satu lantai."
+ },
+ "935edbe91f7d": {
+  "en": "Pictures",
+  "t": "Gambar"
+ },
+ "a4e513a8f990": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Gas:</strong> eat corn in the Amazon and beans in the desert to fill the gas tank. A fart pushes the donkey forward and scares off whatever is behind it; with a full tank you get a super fart. Collect every one in a stage for a little fanfare.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Gas:</strong> makan jagung di Amazon dan kacang di gurun untuk mengisi tangki gas. Kentut mendorong keledai ke depan dan mengusir apa pun di belakangnya; dengan tangki penuh kamu mendapat kentut super. Kumpulkan semuanya dalam satu level untuk mendengar fanfare kecil."
+ },
+ "aa4776245257": {
+  "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert.",
+  "t": "Seekor keledai kentut berlari, melompat, menyeruduk, dan kentut melintasi Amazon dan gurun."
+ },
+ "ab9ea3db367e": {
+  "en": "Picking a world and a stage, with \"Level 1 recommended\" under the planet.",
+  "t": "Memilih dunia dan level, dengan \"Level 1 recommended\" di bawah planet."
+ },
+ "b4eabb4d8952": {
+  "en": "The Character menu: one point per level for health, farting power, jump power and headbutt power.",
+  "t": "Menu karakter: satu poin per level untuk kesehatan, kekuatan kentut, kekuatan lompat, dan kekuatan seruduk."
+ },
+ "b7ae1d8072ff": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Two worlds, three stages each:</strong> Earth – Amazon and Earth – Desert, the first phase of the 2016 plan. The other planets say \"Coming soon!\", as they did in 2016.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Dua dunia, masing-masing tiga level:</strong> Earth – Amazon dan Earth – Desert, fase pertama rencana 2016. Planet lain bertuliskan \"Coming soon!\", seperti pada 2016."
+ },
+ "ba409f8fe9b0": {
+  "en": "<kbd data-astro-cid-lcdefpme=\"\">Space</kbd>, <kbd data-astro-cid-lcdefpme=\"\">W</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↑</kbd> jump (twice to double jump).",
+  "t": "<kbd data-astro-cid-lcdefpme=\"\">Space</kbd>, <kbd data-astro-cid-lcdefpme=\"\">W</kbd>, atau <kbd data-astro-cid-lcdefpme=\"\">↑</kbd> untuk melompat (dua kali untuk lompatan ganda)."
+ },
+ "c7a2e44a3186": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Levels instead of waiting:</strong> every level gives a point for health, farting power, jump power or headbutt power. Later stages pull harder, so jumps get lower. Each stage shows the level it recommends, but nothing is locked behind a level.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Level, bukan menunggu:</strong> setiap level memberi satu poin untuk kesehatan, kekuatan kentut, kekuatan lompat, atau kekuatan seruduk. Level-level akhir menarik lebih kuat, jadi lompatan makin rendah. Setiap level menunjukkan level yang disarankan, tetapi tidak ada yang dikunci oleh level."
+ },
+ "cf8e121fb104": {
+  "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert. Started in Unity in 2016, finished in Godot: play it in the browser, or play the 2016 original.",
+  "t": "Seekor keledai kentut berlari, melompat, menyeruduk, dan kentut melintasi Amazon dan gurun. Dimulai di Unity pada 2016, diselesaikan di Godot: mainkan di peramban, atau mainkan versi asli 2016."
+ },
+ "dab43aac694b": {
+  "en": "The 2016 Unity main menu, ported to Godot.",
+  "t": "Menu utama Unity 2016, dipindahkan ke Godot."
+ },
+ "e18534f74df5": {
+  "en": "Achievements, progress saved on your device, no ads, no purchases.",
+  "t": "Pencapaian, kemajuan tersimpan di perangkatmu, tanpa iklan, tanpa pembelian."
+ },
+ "e34bf47f744e": {
+  "en": "The main menu, over the 2016 sky with the Sun and the flying vessel.",
+  "t": "Menu utama, di atas langit 2016 dengan Matahari dan pesawat yang terbang."
+ },
+ "e3f139abb7a5": {
+  "en": "Touch",
+  "t": "Sentuh"
+ },
+ "e7df95bc36a0": {
+  "en": "The buttons on the left fart and headbutt.",
+  "t": "Tombol di kiri untuk kentut dan menyeruduk."
+ },
+ "f32d5a3b17e6": {
+  "en": "Support",
+  "t": "Dukungan"
+ },
+ "fe69971aca91": {
+  "en": "Play Gassy Donkey",
+  "t": "Mainkan Gassy Donkey"
  }
 }

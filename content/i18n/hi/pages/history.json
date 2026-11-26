@@ -1,0 +1,134 @@
+{
+ "077e4be0ec4c": {
+  "en": "World Development phases This would allow to release a few worlds, and only develop the others if the audience enjoyed the app.",
+  "t": "दुनियाओं के विकास के चरण। इससे कुछ दुनियाएँ पहले जारी की जा सकेंगी, और बाकी तभी बनेंगी जब लोगों को ऐप पसंद आए।"
+ },
+ "095aaf2c5781": {
+  "en": "The 2016 main menu, ported to Godot from the Unity scene.",
+  "t": "2016 का मुख्य मेनू, Unity सीन से Godot में लाया गया।"
+ },
+ "0cc7408cee7f": {
+  "en": "2016 game-idea overview, page 3: Control Overlay idea for the game",
+  "t": "2016 के गेम-विचार सारांश का पन्ना 3: गेम के स्क्रीन पर कंट्रोल का विचार"
+ },
+ "1bf2997a0e0d": {
+  "en": "The Unity 5.3.5 project got as far as the main menu (the logo, Select World, Character, Achievements and Credits buttons over a turning starfield, with the Sun below and a vessel flying past) and the world selection, where you swipe between the planets. Its README said it \"will not be finished\", since it was a way to learn Unity and polish up C#.",
+  "t": "Unity 5.3.5 प्रोजेक्ट मुख्य मेनू (घूमते तारों भरे आसमान पर लोगो और Select World, Character, Achievements और Credits बटन, नीचे सूरज और पास से उड़ता एक यान) और दुनिया चुनने वाली स्क्रीन तक पहुँचा, जहाँ आप ग्रहों के बीच स्वाइप करते हैं। इसके README में लिखा था कि यह \"पूरा नहीं होगा\", क्योंकि यह Unity सीखने और C# निखारने का एक तरीका था।"
+ },
+ "1cf109b954ec": {
+  "en": "The 2016 world selection, ported to Godot: swipe between the planets.",
+  "t": "2016 की दुनिया चुनने वाली स्क्रीन, Godot में लाई गई: ग्रहों के बीच स्वाइप करें।"
+ },
+ "22d007e8c793": {
+  "en": "BIDU song 5",
+  "t": "बीडू गाना 5"
+ },
+ "2878a76a47c0": {
+  "en": "The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets \"Coming soon!\"). It keeps the 2016 donkey, vessel, planets, platforms and logo, plays the 2014 BIDU songs, and adds what was missing. The repository's <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">design notes</a> list which choices came from the originals and which were made while finishing it. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play Gassy Donkey</a>.",
+  "t": "पूरा गेम 2016 के नोट्स पर चलता है: बाईं ओर पाद और सिर की टक्कर, दाईं ओर छलाँग, डबल जंप से ऊपर वाला स्तर, नीचे स्वाइप करके एक स्तर नीचे, दूसरे रास्तों के लिए पानी, वह बाघ जिसके लिए पाद की ताकत 2 चाहिए, हर लेवल में गैस वाली चीज़ें, हर लेवल पर चार क्षमताओं के लिए एक पॉइंट, बाद में ज़्यादा गुरुत्व, और दुनियाओं के चरण (पहले Earth – Amazon और Earth – Desert, बाकी ग्रहों पर \"Coming soon!\")। इसमें 2016 का गधा, यान, ग्रह, प्लेटफ़ॉर्म और लोगो वैसे ही हैं, 2014 के बीडू के गाने बजते हैं, और जो कमी थी वह जोड़ी गई है। रिपॉज़िटरी के <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">डिज़ाइन नोट्स</a> बताते हैं कि कौन-से फ़ैसले मूल से आए और कौन-से इसे पूरा करते समय लिए गए। <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Gassy Donkey खेलें</a>।"
+ },
+ "33449d831120": {
+  "en": "Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
+  "t": "किरदार मेनू: हर लेवल खिलाड़ी को एक पॉइंट देता है जिसे सेहत, पाद की ताकत, छलाँग की ताकत (ज़्यादा गुरुत्व वाले बाद के लेवल के लिए) और सिर की टक्कर की ताकत पर लगाया जा सकता है।"
+ },
+ "33ef45a977ea": {
+  "en": "2016 game-idea overview, page 1: Main Menu Idea. The backbone for it has been implemented.",
+  "t": "2016 के गेम-विचार सारांश का पन्ना 1: मुख्य मेनू का विचार। इसका ढाँचा बन चुका है।"
+ },
+ "3767552b1864": {
+  "en": "2016: the game idea",
+  "t": "2016: गेम का विचार"
+ },
+ "43d08e6bca23": {
+  "en": "How Gassy Donkey grew from a 2014 sketch called BIDU, the farting donkey, into a 2016 Unity project and then a finished Godot game.",
+  "t": "Gassy Donkey कैसे 2014 के \"बीडू, पादने वाला गधा\" नाम के एक स्केच से 2016 के Unity प्रोजेक्ट और फिर एक पूरे Godot गेम तक पहुँचा।"
+ },
+ "6873577ad58d": {
+  "en": "2026: finished",
+  "t": "2026: पूरा हुआ"
+ },
+ "86a139ab17c0": {
+  "en": "The BIDU songs",
+  "t": "बीडू के गाने"
+ },
+ "8c902839ca64": {
+  "en": "2016 game-idea overview, page 2: How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",
+  "t": "2016 के गेम-विचार सारांश का पन्ना 2: मैंने सोचा था गेम ऐसे चलेगा: \"पाद\" और \"सिर की टक्कर\" के बटन बाईं ओर, दाईं ओर कहीं भी छलाँग (इसीलिए सिर्फ़ लैंडस्केप); डबल जंप ऊपर वाले स्तर पर ले जाता है; दाएँ हाथ की उँगली नीचे स्वाइप करने पर एक स्तर नीचे; कई रास्तों के लिए पानी वाले लेवल; एक बाघ जिसे भगाने के लिए पाद का लेवल 2 चाहिए; हर लेवल में गैस भरने वाली चीज़ें; इंतज़ार या पैसे की दीवारों की जगह लेवल की बदलती दीवार।"
+ },
+ "8eea2cfc69d1": {
+  "en": "From BIDU to Gassy Donkey",
+  "t": "बीडू से Gassy Donkey तक"
+ },
+ "9539d160234b": {
+  "en": "2016: the Unity project",
+  "t": "2016: Unity प्रोजेक्ट"
+ },
+ "acc78587683c": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is the author's original work, shown as it was made; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
+  "t": "बीडू, पादने वाला गधा, 2014 में एक स्केच के रूप में शुरू हुआ। 2016 में यह Gassy Donkey बना, एक Unity 5.3.5 प्रोजेक्ट जो अपने मुख्य मेनू तक पहुँचा। 2026 में इसे Godot में लाया गया और पूरा किया गया। नीचे सब कुछ लेखक का मूल काम है, जैसा बना था वैसा ही दिखाया गया है; फ़ाइलें रिपॉज़िटरी के <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy फ़ोल्डर</a> में हैं।"
+ },
+ "ad7e36642e3f": {
+  "en": "The 2014 concept sketch for BIDU, the farting donkey: the character, the enemies, Jungle and Desert, and corn power-ups.",
+  "t": "बीडू, पादने वाले गधे का 2014 का कॉन्सेप्ट स्केच: किरदार, दुश्मन, जंगल और रेगिस्तान, और पावर-अप के रूप में मक्का।"
+ },
+ "aeacfcebe1a1": {
+  "en": "2016 game-idea overview, page 5: World Development phases This would allow to release a few worlds, and only develop the others if the audience enjoyed the app.",
+  "t": "2016 के गेम-विचार सारांश का पन्ना 5: दुनियाओं के विकास के चरण। इससे कुछ दुनियाएँ पहले जारी की जा सकेंगी, और बाकी तभी बनेंगी जब लोगों को ऐप पसंद आए।"
+ },
+ "b3388130bcb4": {
+  "en": "In July 2016 the idea was written up as a five-page overview, scanned from notebook pages, with a typed note on each.",
+  "t": "जुलाई 2016 में विचार को पाँच पन्नों के सारांश में लिखा गया: नोटबुक के स्कैन किए गए पन्ने, हर पन्ने पर एक टाइप किया हुआ नोट।"
+ },
+ "b5421506fb0c": {
+  "en": "Control Overlay idea for the game",
+  "t": "गेम के स्क्रीन पर कंट्रोल का विचार"
+ },
+ "b55c7223e262": {
+  "en": "2014: BIDU, the farting donkey",
+  "t": "2014: बीडू, पादने वाला गधा"
+ },
+ "be5ca3c7f324": {
+  "en": "History · Gassy Donkey",
+  "t": "इतिहास · Gassy Donkey"
+ },
+ "beaa05cb9a2d": {
+  "en": "BIDU song 3",
+  "t": "बीडू गाना 3"
+ },
+ "c845cbcdfdf1": {
+  "en": "Main Menu Idea. The backbone for it has been implemented.",
+  "t": "मुख्य मेनू का विचार। इसका ढाँचा बन चुका है।"
+ },
+ "c9a63a5aaf6d": {
+  "en": "The first sketch already has most of the game: a farting donkey that needs to keep running to score points; a mosquito that follows the donkey when it isn't running; cactus, honey hives and rocks; snakes, bears and cowboys with guns; a Jungle and a Desert; and corn as the power-up, with a noise when you get all the corn.",
+  "t": "पहले स्केच में ही लगभग पूरा गेम है: एक पादने वाला गधा जिसे अंक पाने के लिए दौड़ते रहना है; एक मच्छर जो गधे के न दौड़ने पर उसका पीछा करता है; कैक्टस, मधुमक्खी के छत्ते और चट्टानें; साँप, भालू और बंदूक वाले काउबॉय; एक जंगल और एक रेगिस्तान; और पावर-अप के रूप में मक्का, जिसे पूरा इकट्ठा करने पर एक आवाज़ आती है।"
+ },
+ "ce4b52988e1a": {
+  "en": "That menu has been ported to Godot as it was: the same positions, sizes, colours and texts, read out of the Unity scene file, and each of the five C# scripts rewritten line for line. Only Select World does something, as in 2016. <a href=\"/gassy-donkey/play/#original-2016\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play the 2016 original</a>.",
+  "t": "वह मेनू Godot में वैसा ही लाया गया है जैसा था: वही जगहें, आकार, रंग और शब्द, Unity सीन फ़ाइल से पढ़े गए, और पाँचों C# स्क्रिप्ट लाइन-दर-लाइन फिर से लिखी गईं। 2016 की तरह सिर्फ़ Select World काम करता है। <a href=\"/gassy-donkey/play/#original-2016\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">2016 का मूल संस्करण खेलें</a>।"
+ },
+ "d0bc9e9099aa": {
+  "en": "BIDU song 2",
+  "t": "बीडू गाना 2"
+ },
+ "d186c8e12285": {
+  "en": "2016 game-idea overview, page 4: Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
+  "t": "2016 के गेम-विचार सारांश का पन्ना 4: किरदार मेनू: हर लेवल खिलाड़ी को एक पॉइंट देता है जिसे सेहत, पाद की ताकत, छलाँग की ताकत (ज़्यादा गुरुत्व वाले बाद के लेवल के लिए) और सिर की टक्कर की ताकत पर लगाया जा सकता है।"
+ },
+ "d1bd01cf4746": {
+  "en": "Five short songs Deovandski made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "Deovandski ने जुलाई 2014 में Audacity में बीडू के लिए पाँच छोटे गाने बनाए। यही पूरे गेम का संगीत है: हर गाना अपनी शुरुआत एक बार बजाता है और फिर दोहराता रहता है।"
+ },
+ "d501b574c13d": {
+  "en": "How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",
+  "t": "मैंने सोचा था गेम ऐसे चलेगा: \"पाद\" और \"सिर की टक्कर\" के बटन बाईं ओर, दाईं ओर कहीं भी छलाँग (इसीलिए सिर्फ़ लैंडस्केप); डबल जंप ऊपर वाले स्तर पर ले जाता है; दाएँ हाथ की उँगली नीचे स्वाइप करने पर एक स्तर नीचे; कई रास्तों के लिए पानी वाले लेवल; एक बाघ जिसे भगाने के लिए पाद का लेवल 2 चाहिए; हर लेवल में गैस भरने वाली चीज़ें; इंतज़ार या पैसे की दीवारों की जगह लेवल की बदलती दीवार।"
+ },
+ "e35f8295fbb7": {
+  "en": "BIDU song 4",
+  "t": "बीडू गाना 4"
+ },
+ "fff6f17aa3bc": {
+  "en": "BIDU song 1",
+  "t": "बीडू गाना 1"
+ }
+}
