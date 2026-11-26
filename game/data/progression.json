@@ -1,0 +1,13 @@
+{
+  "_about": "Levels, stat points and what each stat does. Every level after the first gives one point to spend in the Character menu (2016 design: health, farting power, jump power, headbutt power). Stats start at 1 and go to 5. xp_to_reach[n] is the total XP needed for level n + 1.",
+  "xp_to_reach": [0, 100, 250, 450, 700, 1000, 1350, 1750, 2200, 2700, 3250, 3850, 4500, 5200, 5950, 6750, 7600],
+  "stat_min": 1,
+  "stat_max": 5,
+  "stats": {
+    "health": {"name": "Health", "about": "More hearts.", "hearts_base": 2, "hearts_per_rank": 1},
+    "fart": {"name": "Farting power", "about": "Longer gas boosts, a bigger cloud, and enough stink to scare a tiger from rank 2.", "boost_base": 1.45, "boost_per_rank": 0.08, "radius_base": 260, "radius_per_rank": 60},
+    "jump": {"name": "Jump power", "about": "Higher jumps, for the later stages where gravity pulls harder.", "jump_per_rank": 0.055},
+    "headbutt": {"name": "Headbutt power", "about": "Breaks tougher things: rocks at rank 1, cactus and bears from rank 2.", "reach_base": 70, "reach_per_rank": 8}
+  },
+  "xp": {"per_10_m": 1, "corn": 5, "enemy": 15, "tiger_scared": 40, "all_corn": 50, "stage_finish": 100}
+}

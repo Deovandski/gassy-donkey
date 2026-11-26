@@ -1,0 +1,18 @@
+{
+  "_about": "Achievements. 'counter' names a lifetime counter in the save (SaveManager counters); 'goal' is how many are needed. Achievements without a counter are unlocked by the game when they happen.",
+  "achievements": [
+    {"id": "first_fart", "name": "First Toot", "about": "Fart for the first time.", "counter": "farts", "goal": 1},
+    {"id": "all_corn", "name": "Corn Collector", "about": "Collect every gas item in a stage."},
+    {"id": "tiger_scared", "name": "Tiger Tamer", "about": "Jump over a tiger, then fart it away.", "counter": "tigers", "goal": 1},
+    {"id": "bear_bonk", "name": "Bear Bonker", "about": "Knock over a bear with a headbutt.", "counter": "bears", "goal": 1},
+    {"id": "sheriff", "name": "Sheriff Donkey", "about": "Headbutt 10 cowboys.", "counter": "cowboys", "goal": 10},
+    {"id": "swatter", "name": "Mosquito Swatter", "about": "Fart away 25 mosquitoes.", "counter": "mosquitoes", "goal": 25},
+    {"id": "super_fart", "name": "Super Gas", "about": "Fart with a full gas tank for a super fart.", "counter": "super_farts", "goal": 1},
+    {"id": "untouchable", "name": "Untouchable", "about": "Finish a stage without losing a heart."},
+    {"id": "marathon", "name": "Marathon Donkey", "about": "Run 5,000 m in total.", "counter": "distance_m", "goal": 5000},
+    {"id": "level_5", "name": "Growing Donkey", "about": "Reach level 5.", "counter": "level", "goal": 5},
+    {"id": "level_max", "name": "Mighty Donkey", "about": "Reach level 17 and fill every stat.", "counter": "level", "goal": 17},
+    {"id": "amazon_done", "name": "Amazon Runner", "about": "Finish every stage of Earth – Amazon."},
+    {"id": "desert_done", "name": "Desert Runner", "about": "Finish every stage of Earth – Desert."}
+  ]
+}
