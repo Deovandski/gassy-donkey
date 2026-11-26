@@ -47,6 +47,10 @@
   "en": "How Gassy Donkey grew from a 2014 sketch called BIDU, the farting donkey, into a 2016 Unity project and then a finished Godot game.",
   "t": "كيف تحوّلت Gassy Donkey من رسم عام 2014 اسمه «بيدو، الحمار الذي يطلق الريح» إلى مشروع Unity عام 2016، ثم إلى لعبة مكتملة على Godot."
  },
+ "62fc102ffebb": {
+  "en": "Five short songs Deovandski's father, Deovandski Skibinski, made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "خمس أغانٍ قصيرة صنعها والد Deovandski، Deovandski Skibinski، لبيدو في يوليو 2014 ببرنامج Audacity. إنها موسيقى اللعبة المكتملة: كل أغنية تعزف بدايتها مرة واحدة ثم تتكرر."
+ },
  "6873577ad58d": {
   "en": "2026: finished",
   "t": "2026: اكتملت"
@@ -94,10 +98,6 @@
  "beaa05cb9a2d": {
   "en": "BIDU song 3",
   "t": "أغنية بيدو 3"
- },
- "c446d6b7cb5f": {
-  "en": "Five short songs Deovandski's father made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
-  "t": "خمس أغانٍ قصيرة صنعها والد Deovandski لبيدو في يوليو 2014 ببرنامج Audacity. إنها موسيقى اللعبة المكتملة: كل أغنية تعزف بدايتها مرة واحدة ثم تتكرر."
  },
  "c845cbcdfdf1": {
   "en": "Main Menu Idea. The backbone for it has been implemented.",

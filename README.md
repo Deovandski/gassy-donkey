@@ -12,7 +12,7 @@ A farting donkey runs, jumps, headbutts and farts through the Amazon and the des
 - **Gas.** Corn in the Amazon and beans in the desert fill the gas tank. A fart pushes you forward and scares off what's behind you; a full tank gives a super fart.
 - **Two worlds, three stages each:** Earth – Amazon and Earth – Desert (Phase I of the 2016 plan). Rocks, snakes, honey hives, bears, cactus and cowboys in the way; mosquitoes and tigers behind you. The other planets say "Coming soon!".
 - **Levels instead of waiting.** Every level gives a point for health, farting power, jump power or headbutt power. Later stages have higher gravity. Achievements, local saves.
-- **Music: the 2014 BIDU songs**, made by Deovandski's father, turned into seamless loops.
+- **Music: the 2014 BIDU songs**, made by Deovandski's father, Deovandski Skibinski (MIT, like the rest), turned into seamless loops.
 - **The 2016 original**, ported from the Unity scene as it was: the main menu and the planet carousel, with each C# script rewritten in GDScript.
 
 ## Repository layout

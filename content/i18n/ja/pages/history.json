@@ -47,6 +47,10 @@
   "en": "How Gassy Donkey grew from a 2014 sketch called BIDU, the farting donkey, into a 2016 Unity project and then a finished Godot game.",
   "t": "Gassy Donkey が、2014 年の「おならロバのビドゥ」というスケッチから、2016 年の Unity プロジェクトを経て、完成した Godot ゲームになるまで。"
  },
+ "62fc102ffebb": {
+  "en": "Five short songs Deovandski's father, Deovandski Skibinski, made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "Deovandski の父 Deovandski Skibinski が 2014 年 7 月に Audacity でビドゥのために作った 5 つの短い歌。完成したゲームの音楽で、どの曲も最初の部分を一度流してからループします。"
+ },
  "6873577ad58d": {
   "en": "2026: finished",
   "t": "2026 年：完成"
@@ -94,10 +98,6 @@
  "beaa05cb9a2d": {
   "en": "BIDU song 3",
   "t": "ビドゥの歌 3"
- },
- "c446d6b7cb5f": {
-  "en": "Five short songs Deovandski's father made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
-  "t": "Deovandski の父が 2014 年 7 月に Audacity でビドゥのために作った 5 つの短い歌。完成したゲームの音楽で、どの曲も最初の部分を一度流してからループします。"
  },
  "c845cbcdfdf1": {
   "en": "Main Menu Idea. The backbone for it has been implemented.",

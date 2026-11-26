@@ -4,7 +4,7 @@ This repository was finished with an AI assistant, **Claude** (by Anthropic), wo
 
 ## The short version
 - **The idea and the originals are human-made.** The 2014 *BIDU, the farting donkey* sketch, the 2016 game-idea notes, the 2016 Unity project (its C# scripts, scene and settings) and all its art (the donkey and space donkey frames, the vessel, the World 1 platforms, the logo, the GIMP sources) are Deovandski Skibinski Junior's. They are kept unchanged in `legacy/`.
-- **The music is human-made:** the five 2014 BIDU songs were made by Deovandski's father. Claude only mixed them from their Audacity projects and cut them into loops (`tools/make_bidu_music.py`); nothing was added to them.
+- **The music is human-made:** the five 2014 BIDU songs were made by Deovandski's father, Deovandski Skibinski. Claude only mixed them from their Audacity projects and cut them into loops (`tools/make_bidu_music.py`); nothing was added to them.
 - **The planet pictures** in the 2016 `Stars.png` sheet came with the 2016 project; where they were taken from isn't recorded, and the author's best guess is NASA.
 - **No AI image generator was used.** The new pictures (enemies, obstacles, pickups, backgrounds, buttons) were drawn by Claude *in code*, with shapes and colours in `tools/make_art.py`, as placeholders for an illustrator. The sound effects were synthesized the same way in `tools/make_audio.py`.
 - **The code is AI-written.** The Godot port of the 2016 menu, the finished game, its tests, the tools and the website.

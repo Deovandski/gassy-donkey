@@ -61,3 +61,4 @@ Where every part of the finished game comes from: the 2014 BIDU sketch (`legacy/
 | 2026-11 | Synthesized placeholder music | Claude | replaced | Deo confirmed the 2014 BIDU songs can be used (they are his father's): they are the music now, as seamless loops | `tools/make_bidu_music.py`, `game/data/music.json` |
 | 2026-11 | BIDU songs playable on the history page | Claude | kept | The songs are part of the game's history; the site plays them as they were mixed | `src/pages/history.astro`, `public/audio/bidu/` |
 | 2026-11 | Song credit corrected: the BIDU songs are by Deo's father | Deo | changed | Deo: his father made the songs, not him | `game/data/credits.json`, history and home pages, `LICENSE` |
+| 2026-11 | The songs are MIT, credited by name | Deo | changed | Deo: his father's songs can be MIT too; his name is Deovandski Skibinski (Deo's without "Junior") | `LICENSE`, `game/data/credits.json`, history page |
