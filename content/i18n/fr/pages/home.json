@@ -15,10 +15,6 @@
   "en": "Read the history, with the 2014 sketch and the 2016 notes",
   "t": "Lire l'histoire, avec le croquis de 2014 et les notes de 2016"
  },
- "297cd63e4c45": {
-  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski made for the game's first sketch in 2014, each looping after its opening.",
-  "t": "<strong data-astro-cid-lcdefpme=\"\">Musique :</strong> les cinq chansons de BIDU que Deovandski a faites pour le premier croquis du jeu en 2014, chacune en boucle après son début."
- },
  "29ae52b4b9ca": {
   "en": "<strong data-astro-cid-lcdefpme=\"\">Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.",
   "t": "<strong data-astro-cid-lcdefpme=\"\">Ce qui barre la route :</strong> rochers, serpents, ruches, ours, cactus et cow-boys armés. Sautez par-dessus ou donnez-leur un coup de tête, si votre coup de tête est assez fort."
@@ -138,6 +134,10 @@
  "cf8e121fb104": {
   "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert. Started in Unity in 2016, finished in Godot: play it in the browser, or play the 2016 original.",
   "t": "Un âne péteur court, saute, donne des coups de tête et pète à travers l'Amazonie et le désert. Commencé sur Unity en 2016, terminé sur Godot : jouez-y dans le navigateur, ou jouez à l'original de 2016."
+ },
+ "da69659a07bb": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski's father made for the game's first sketch in 2014, each looping after its opening.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Musique :</strong> les cinq chansons de BIDU que le père de Deovandski a faites pour le premier croquis du jeu en 2014, chacune en boucle après son début."
  },
  "dab43aac694b": {
   "en": "The 2016 Unity main menu, ported to Godot.",

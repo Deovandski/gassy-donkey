@@ -23,6 +23,10 @@
   "en": "BIDU song 5",
   "t": "Lagu BIDU 5"
  },
+ "260198b7e32e": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is original work, shown as it was made: Deovandski's sketch, notes and Unity project, and his father's songs; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
+  "t": "BIDU, keldai yang suka kentut, bermula sebagai lakaran pada 2014. Pada 2016 ia menjadi Gassy Donkey, projek Unity 5.3.5 yang sampai ke menu utamanya. Pada 2026 ia dipindahkan ke Godot dan disiapkan. Semua di bawah ialah karya asli, dipaparkan seperti yang dibuat: lakaran, nota dan projek Unity Deovandski, serta lagu-lagu bapanya; fail-failnya ada dalam <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">folder legacy</a> repositori."
+ },
  "2878a76a47c0": {
   "en": "The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets \"Coming soon!\"). It keeps the 2016 donkey, vessel, planets, platforms and logo, plays the 2014 BIDU songs, and adds what was missing. The repository's <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">design notes</a> list which choices came from the originals and which were made while finishing it. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play Gassy Donkey</a>.",
   "t": "Permainan yang siap mengikut nota 2016: kentut dan tandukan kepala di kiri, lompat di kanan, lompatan berganda ke aras lebih tinggi, leret ke bawah untuk turun satu aras, air untuk laluan lain, harimau yang memerlukan kuasa kentut 2, item gas dalam setiap peringkat, satu mata setiap tahap untuk empat statistik, graviti lebih tinggi kemudian, dan fasa dunia (Earth – Amazon dan Earth – Desert dahulu, planet lain \"Coming soon!\"). Ia mengekalkan keldai, kapal angkasa, planet, pelantar dan logo 2016, memainkan lagu-lagu BIDU 2014, dan menambah apa yang kurang. <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">Nota reka bentuk</a> repositori menyenaraikan pilihan yang datang daripada karya asal dan yang dibuat semasa menyiapkannya. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Main Gassy Donkey</a>."
@@ -63,10 +67,6 @@
   "en": "2016: the Unity project",
   "t": "2016: projek Unity"
  },
- "acc78587683c": {
-  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is the author's original work, shown as it was made; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
-  "t": "BIDU, keldai yang suka kentut, bermula sebagai lakaran pada 2014. Pada 2016 ia menjadi Gassy Donkey, projek Unity 5.3.5 yang sampai ke menu utamanya. Pada 2026 ia dipindahkan ke Godot dan disiapkan. Semua di bawah ialah karya asli pengarang, dipaparkan seperti yang dibuat; fail-failnya ada dalam <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">folder legacy</a> repositori."
- },
  "ad7e36642e3f": {
   "en": "The 2014 concept sketch for BIDU, the farting donkey: the character, the enemies, Jungle and Desert, and corn power-ups.",
   "t": "Lakaran konsep 2014 untuk BIDU, keldai yang suka kentut: watak, musuh, Hutan dan Gurun, dan jagung sebagai kuasa tambahan."
@@ -95,6 +95,10 @@
   "en": "BIDU song 3",
   "t": "Lagu BIDU 3"
  },
+ "c446d6b7cb5f": {
+  "en": "Five short songs Deovandski's father made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "Lima lagu pendek yang bapa Deovandski cipta untuk BIDU pada Julai 2014, dalam Audacity. Lagu-lagu ini ialah muzik permainan yang siap: setiap satu memainkan bahagian pembukaannya sekali, kemudian berulang."
+ },
  "c845cbcdfdf1": {
   "en": "Main Menu Idea. The backbone for it has been implemented.",
   "t": "Idea menu utama. Asasnya sudah dilaksanakan."
@@ -114,10 +118,6 @@
  "d186c8e12285": {
   "en": "2016 game-idea overview, page 4: Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
   "t": "Ringkasan idea permainan 2016, halaman 4: Menu watak: setiap tahap memberi pemain satu mata untuk dibelanjakan pada kesihatan, kuasa kentut, kuasa lompat (untuk peringkat akhir dengan graviti lebih tinggi) dan kuasa tandukan kepala."
- },
- "d1bd01cf4746": {
-  "en": "Five short songs Deovandski made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
-  "t": "Lima lagu pendek yang Deovandski cipta untuk BIDU pada Julai 2014, dalam Audacity. Lagu-lagu ini ialah muzik permainan yang siap: setiap satu memainkan bahagian pembukaannya sekali, kemudian berulang."
  },
  "d501b574c13d": {
   "en": "How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",

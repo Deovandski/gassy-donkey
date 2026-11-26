@@ -15,10 +15,6 @@
   "en": "Read the history, with the 2014 sketch and the 2016 notes",
   "t": "역사 읽기(2014년 스케치와 2016년 메모 포함)"
  },
- "297cd63e4c45": {
-  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski made for the game's first sketch in 2014, each looping after its opening.",
-  "t": "<strong data-astro-cid-lcdefpme=\"\">음악:</strong> Deovandski가 2014년 이 게임의 첫 스케치를 위해 만든 비두의 노래 다섯 곡. 각 곡은 도입부 뒤에 반복됩니다."
- },
  "29ae52b4b9ca": {
   "en": "<strong data-astro-cid-lcdefpme=\"\">Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.",
   "t": "<strong data-astro-cid-lcdefpme=\"\">길을 막는 것:</strong> 바위, 뱀, 벌집, 곰, 선인장, 총을 든 카우보이. 뛰어넘거나, 박치기가 충분히 세면 박치기로."
@@ -138,6 +134,10 @@
  "cf8e121fb104": {
   "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert. Started in Unity in 2016, finished in Godot: play it in the browser, or play the 2016 original.",
   "t": "방귀 당나귀가 아마존과 사막을 달리고, 뛰고, 박치기하고, 방귀를 뀝니다. 2016년 Unity에서 시작해 Godot에서 완성: 브라우저에서 플레이하거나 2016년 원작을 플레이하세요."
+ },
+ "da69659a07bb": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski's father made for the game's first sketch in 2014, each looping after its opening.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">음악:</strong> Deovandski의 아버지가 2014년 이 게임의 첫 스케치를 위해 만든 비두의 노래 다섯 곡. 각 곡은 도입부 뒤에 반복됩니다."
  },
  "dab43aac694b": {
   "en": "The 2016 Unity main menu, ported to Godot.",

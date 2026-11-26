@@ -15,10 +15,6 @@
   "en": "Read the history, with the 2014 sketch and the 2016 notes",
   "t": "อ่านประวัติ พร้อมภาพร่างปี 2014 และโน้ตปี 2016"
  },
- "297cd63e4c45": {
-  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski made for the game's first sketch in 2014, each looping after its opening.",
-  "t": "<strong data-astro-cid-lcdefpme=\"\">เพลง:</strong> เพลงของบีดูห้าเพลงที่ Deovandski ทำให้ภาพร่างแรกของเกมในปี 2014 แต่ละเพลงวนซ้ำหลังท่อนเปิด"
- },
  "29ae52b4b9ca": {
   "en": "<strong data-astro-cid-lcdefpme=\"\">Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.",
   "t": "<strong data-astro-cid-lcdefpme=\"\">สิ่งที่ขวางทาง:</strong> ก้อนหิน งู รังผึ้ง หมี กระบองเพชร และคาวบอยถือปืน กระโดดข้ามหรือโขกหัว ถ้าโขกหัวแรงพอ"
@@ -138,6 +134,10 @@
  "cf8e121fb104": {
   "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert. Started in Unity in 2016, finished in Godot: play it in the browser, or play the 2016 original.",
   "t": "ลาจอมตดวิ่ง กระโดด โขกหัว และตดไปทั่วแอมะซอนและทะเลทราย เริ่มบน Unity ในปี 2016 ทำเสร็จบน Godot: เล่นในเบราว์เซอร์ หรือเล่นต้นฉบับปี 2016"
+ },
+ "da69659a07bb": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski's father made for the game's first sketch in 2014, each looping after its opening.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">เพลง:</strong> เพลงของบีดูห้าเพลงที่พ่อของ Deovandski ทำให้ภาพร่างแรกของเกมในปี 2014 แต่ละเพลงวนซ้ำหลังท่อนเปิด"
  },
  "dab43aac694b": {
   "en": "The 2016 Unity main menu, ported to Godot.",

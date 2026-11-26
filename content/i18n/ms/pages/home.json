@@ -15,10 +15,6 @@
   "en": "Read the history, with the 2014 sketch and the 2016 notes",
   "t": "Baca sejarahnya, dengan lakaran 2014 dan nota 2016"
  },
- "297cd63e4c45": {
-  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski made for the game's first sketch in 2014, each looping after its opening.",
-  "t": "<strong data-astro-cid-lcdefpme=\"\">Muzik:</strong> lima lagu BIDU yang Deovandski cipta untuk lakaran pertama permainan ini pada 2014, setiap satu berulang selepas pembukaannya."
- },
  "29ae52b4b9ca": {
   "en": "<strong data-astro-cid-lcdefpme=\"\">Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.",
   "t": "<strong data-astro-cid-lcdefpme=\"\">Benda yang menghalang:</strong> batu, ular, sarang lebah, beruang, kaktus dan koboi bersenjata. Lompat atasnya atau tanduk, jika tandukan anda cukup kuat."
@@ -138,6 +134,10 @@
  "cf8e121fb104": {
   "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert. Started in Unity in 2016, finished in Godot: play it in the browser, or play the 2016 original.",
   "t": "Seekor keldai yang suka kentut berlari, melompat, menanduk dan kentut merentasi Amazon dan gurun. Dimulakan dalam Unity pada 2016, disiapkan dalam Godot: mainkannya dalam pelayar, atau main versi asal 2016."
+ },
+ "da69659a07bb": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski's father made for the game's first sketch in 2014, each looping after its opening.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Muzik:</strong> lima lagu BIDU yang bapa Deovandski cipta untuk lakaran pertama permainan ini pada 2014, setiap satu berulang selepas pembukaannya."
  },
  "dab43aac694b": {
   "en": "The 2016 Unity main menu, ported to Godot.",

@@ -23,6 +23,10 @@
   "en": "BIDU song 5",
   "t": "أغنية بيدو 5"
  },
+ "260198b7e32e": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is original work, shown as it was made: Deovandski's sketch, notes and Unity project, and his father's songs; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
+  "t": "بدأ «بيدو، الحمار الذي يطلق الريح» رسمًا في عام 2014. وفي عام 2016 صار Gassy Donkey، مشروع Unity 5.3.5 وصل إلى قائمته الرئيسية. وفي عام 2026 نُقل إلى Godot واكتمل. كل ما يلي عمل أصلي، معروض كما صُنع: رسم Deovandski وملاحظاته ومشروعه في Unity، وأغاني والده؛ والملفات في <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">مجلد legacy</a> في المستودع."
+ },
  "2878a76a47c0": {
   "en": "The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets \"Coming soon!\"). It keeps the 2016 donkey, vessel, planets, platforms and logo, plays the 2014 BIDU songs, and adds what was missing. The repository's <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">design notes</a> list which choices came from the originals and which were made while finishing it. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play Gassy Donkey</a>.",
   "t": "تتبع اللعبة المكتملة ملاحظات 2016: إطلاق الريح والنطح على اليسار، والقفز على اليمين، والقفزة المزدوجة إلى المستوى الأعلى، والسحب للأسفل للنزول مستوى، والماء لطرق أخرى، والنمر الذي يحتاج قوة إطلاق ريح 2، وعناصر الغاز في كل مرحلة، ونقطة لكل مستوى للقدرات الأربع، وجاذبية أعلى لاحقًا، ومراحل العوالم (أولًا Earth – Amazon وEarth – Desert، والكواكب الأخرى «Coming soon!»). وهي تحتفظ بحمار 2016 ومركبتها وكواكبها ومنصاتها وشعارها، وتعزف أغاني بيدو من 2014، وتضيف ما كان ناقصًا. وتذكر <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">ملاحظات التصميم</a> في المستودع أي الخيارات جاءت من الأصل وأيها اتُّخذ عند إكمالها. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">العب Gassy Donkey</a>."
@@ -63,10 +67,6 @@
   "en": "2016: the Unity project",
   "t": "2016: مشروع Unity"
  },
- "acc78587683c": {
-  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is the author's original work, shown as it was made; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
-  "t": "بدأ «بيدو، الحمار الذي يطلق الريح» رسمًا في عام 2014. وفي عام 2016 صار Gassy Donkey، مشروع Unity 5.3.5 وصل إلى قائمته الرئيسية. وفي عام 2026 نُقل إلى Godot واكتمل. كل ما يلي عمل أصلي للمؤلف، معروض كما صُنع؛ والملفات في <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">مجلد legacy</a> في المستودع."
- },
  "ad7e36642e3f": {
   "en": "The 2014 concept sketch for BIDU, the farting donkey: the character, the enemies, Jungle and Desert, and corn power-ups.",
   "t": "رسم الفكرة الأولى لبيدو، الحمار الذي يطلق الريح، عام 2014: الشخصية والأعداء والغابة والصحراء والذرة كمعزّز."
@@ -95,6 +95,10 @@
   "en": "BIDU song 3",
   "t": "أغنية بيدو 3"
  },
+ "c446d6b7cb5f": {
+  "en": "Five short songs Deovandski's father made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "خمس أغانٍ قصيرة صنعها والد Deovandski لبيدو في يوليو 2014 ببرنامج Audacity. إنها موسيقى اللعبة المكتملة: كل أغنية تعزف بدايتها مرة واحدة ثم تتكرر."
+ },
  "c845cbcdfdf1": {
   "en": "Main Menu Idea. The backbone for it has been implemented.",
   "t": "فكرة القائمة الرئيسية. أساسها مُنفّذ بالفعل."
@@ -114,10 +118,6 @@
  "d186c8e12285": {
   "en": "2016 game-idea overview, page 4: Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
   "t": "ملخص فكرة اللعبة لعام 2016، الصفحة 4: قائمة الشخصية: كل مستوى يمنح اللاعب نقطة يصرفها على الصحة وقوة إطلاق الريح وقوة القفز (للمراحل المتأخرة ذات الجاذبية الأعلى) وقوة النطح."
- },
- "d1bd01cf4746": {
-  "en": "Five short songs Deovandski made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
-  "t": "خمس أغانٍ قصيرة صنعها Deovandski لبيدو في يوليو 2014 ببرنامج Audacity. إنها موسيقى اللعبة المكتملة: كل أغنية تعزف بدايتها مرة واحدة ثم تتكرر."
  },
  "d501b574c13d": {
   "en": "How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",

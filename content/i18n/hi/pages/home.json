@@ -15,10 +15,6 @@
   "en": "Read the history, with the 2014 sketch and the 2016 notes",
   "t": "इतिहास पढ़ें, 2014 के स्केच और 2016 के नोट्स के साथ"
  },
- "297cd63e4c45": {
-  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski made for the game's first sketch in 2014, each looping after its opening.",
-  "t": "<strong data-astro-cid-lcdefpme=\"\">संगीत:</strong> बीडू के वे पाँच गाने जो Deovandski ने 2014 में गेम के पहले स्केच के लिए बनाए, हर एक अपनी शुरुआत के बाद दोहराता है।"
- },
  "29ae52b4b9ca": {
   "en": "<strong data-astro-cid-lcdefpme=\"\">Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.",
   "t": "<strong data-astro-cid-lcdefpme=\"\">रास्ते की रुकावटें:</strong> चट्टानें, साँप, मधुमक्खी के छत्ते, भालू, कैक्टस और बंदूक वाले काउबॉय। उनके ऊपर से कूदें या, अगर आपकी टक्कर काफ़ी ताकतवर है, सिर से टक्कर मारें।"
@@ -138,6 +134,10 @@
  "cf8e121fb104": {
   "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert. Started in Unity in 2016, finished in Godot: play it in the browser, or play the 2016 original.",
   "t": "एक पादने वाला गधा अमेज़न और रेगिस्तान में दौड़ता, कूदता, सिर से टक्कर मारता और पादता है। 2016 में Unity में शुरू हुआ, Godot में पूरा हुआ: ब्राउज़र में खेलें, या 2016 का मूल संस्करण खेलें।"
+ },
+ "da69659a07bb": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski's father made for the game's first sketch in 2014, each looping after its opening.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">संगीत:</strong> बीडू के वे पाँच गाने जो Deovandski के पिता ने 2014 में गेम के पहले स्केच के लिए बनाए, हर एक अपनी शुरुआत के बाद दोहराता है।"
  },
  "dab43aac694b": {
   "en": "The 2016 Unity main menu, ported to Godot.",

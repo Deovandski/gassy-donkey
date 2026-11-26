@@ -23,6 +23,10 @@
   "en": "BIDU song 5",
   "t": "Bài hát BIDU 5"
  },
+ "260198b7e32e": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is original work, shown as it was made: Deovandski's sketch, notes and Unity project, and his father's songs; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
+  "t": "BIDU, chú lừa hay xì hơi, bắt đầu là một bản phác thảo năm 2014. Năm 2016 nó thành Gassy Donkey, một dự án Unity 5.3.5 làm được tới menu chính. Năm 2026 nó được chuyển sang Godot và hoàn thành. Mọi thứ bên dưới là tác phẩm gốc, giữ nguyên như khi được làm ra: bản phác thảo, ghi chú và dự án Unity của Deovandski, cùng những bài hát của bố anh; các tệp nằm trong <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">thư mục legacy</a> của kho mã."
+ },
  "2878a76a47c0": {
   "en": "The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets \"Coming soon!\"). It keeps the 2016 donkey, vessel, planets, platforms and logo, plays the 2014 BIDU songs, and adds what was missing. The repository's <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">design notes</a> list which choices came from the originals and which were made while finishing it. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play Gassy Donkey</a>.",
   "t": "Trò chơi hoàn chỉnh làm theo ghi chú năm 2016: xì hơi và húc đầu bên trái, nhảy bên phải, nhảy đôi lên tầng cao hơn, vuốt xuống để xuống một tầng, nước cho những đường khác, con hổ cần sức xì hơi 2, vật phẩm khí ở mọi màn, mỗi cấp một điểm cho bốn chỉ số, trọng lực mạnh hơn về sau, và các giai đoạn thế giới (trước tiên là Earth – Amazon và Earth – Desert, các hành tinh khác hiện \"Coming soon!\"). Nó giữ chú lừa, phi thuyền, các hành tinh, các bục và logo của năm 2016, phát những bài hát BIDU năm 2014, và thêm những gì còn thiếu. <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">Ghi chú thiết kế</a> trong kho mã liệt kê lựa chọn nào đến từ bản gốc và lựa chọn nào được đưa ra khi hoàn thành nó. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Chơi Gassy Donkey</a>."
@@ -63,10 +67,6 @@
   "en": "2016: the Unity project",
   "t": "2016: dự án Unity"
  },
- "acc78587683c": {
-  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is the author's original work, shown as it was made; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
-  "t": "BIDU, chú lừa hay xì hơi, bắt đầu là một bản phác thảo năm 2014. Năm 2016 nó thành Gassy Donkey, một dự án Unity 5.3.5 làm được tới menu chính. Năm 2026 nó được chuyển sang Godot và hoàn thành. Mọi thứ bên dưới là tác phẩm gốc của tác giả, giữ nguyên như khi được làm ra; các tệp nằm trong <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">thư mục legacy</a> của kho mã."
- },
  "ad7e36642e3f": {
   "en": "The 2014 concept sketch for BIDU, the farting donkey: the character, the enemies, Jungle and Desert, and corn power-ups.",
   "t": "Bản phác thảo ý tưởng năm 2014 cho BIDU, chú lừa hay xì hơi: nhân vật, kẻ thù, Rừng rậm và Sa mạc, và bắp ngô làm vật phẩm tăng sức mạnh."
@@ -95,6 +95,10 @@
   "en": "BIDU song 3",
   "t": "Bài hát BIDU 3"
  },
+ "c446d6b7cb5f": {
+  "en": "Five short songs Deovandski's father made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "Năm bài hát ngắn bố của Deovandski làm cho BIDU vào tháng 7 năm 2014, bằng Audacity. Đây là nhạc của trò chơi hoàn chỉnh: mỗi bài phát đoạn mở đầu một lần rồi lặp lại."
+ },
  "c845cbcdfdf1": {
   "en": "Main Menu Idea. The backbone for it has been implemented.",
   "t": "Ý tưởng menu chính. Phần khung của nó đã được làm xong."
@@ -114,10 +118,6 @@
  "d186c8e12285": {
   "en": "2016 game-idea overview, page 4: Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
   "t": "Tổng quan ý tưởng trò chơi 2016, trang 4: Menu nhân vật: mỗi cấp cho người chơi một điểm để cộng vào máu, sức xì hơi, sức nhảy (cho các màn sau có trọng lực mạnh hơn) và sức húc đầu."
- },
- "d1bd01cf4746": {
-  "en": "Five short songs Deovandski made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
-  "t": "Năm bài hát ngắn Deovandski làm cho BIDU vào tháng 7 năm 2014, bằng Audacity. Đây là nhạc của trò chơi hoàn chỉnh: mỗi bài phát đoạn mở đầu một lần rồi lặp lại."
  },
  "d501b574c13d": {
   "en": "How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",

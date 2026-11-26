@@ -23,6 +23,10 @@
   "en": "BIDU song 5",
   "t": "比杜之歌 5"
  },
+ "260198b7e32e": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is original work, shown as it was made: Deovandski's sketch, notes and Unity project, and his father's songs; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
+  "t": "放屁驴比杜最早是 2014 年的一张草图。2016 年它变成了 Gassy Donkey，一个做到主菜单的 Unity 5.3.5 项目。2026 年它被移植到 Godot 并完成。下面的一切都是原作，按原样展示：Deovandski 的草图、笔记和 Unity 项目，以及他父亲的歌；文件都在仓库的<a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy 文件夹</a>里。"
+ },
  "2878a76a47c0": {
   "en": "The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets \"Coming soon!\"). It keeps the 2016 donkey, vessel, planets, platforms and logo, plays the 2014 BIDU songs, and adds what was missing. The repository's <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">design notes</a> list which choices came from the originals and which were made while finishing it. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play Gassy Donkey</a>.",
   "t": "完成版游戏遵循 2016 年的笔记：左边放屁和头撞，右边跳跃，二段跳到更高一层，向下滑降一层，水提供其他路线，老虎需要放屁威力 2，每个关卡都有气体道具，每级一点分给四项能力，后期重力更大，以及世界阶段（先做 Earth – Amazon 和 Earth – Desert，其他星球显示“Coming soon!”）。它保留了 2016 年的驴、飞船、星球、平台和标志，播放 2014 年的比杜之歌，并补上了缺少的部分。仓库里的<a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">设计笔记</a>列出了哪些选择来自原作，哪些是在完成时做出的。<a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">玩 Gassy Donkey</a>。"
@@ -63,10 +67,6 @@
   "en": "2016: the Unity project",
   "t": "2016 年：Unity 项目"
  },
- "acc78587683c": {
-  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is the author's original work, shown as it was made; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
-  "t": "放屁驴比杜最早是 2014 年的一张草图。2016 年它变成了 Gassy Donkey，一个做到主菜单的 Unity 5.3.5 项目。2026 年它被移植到 Godot 并完成。下面的一切都是作者的原作，按原样展示；文件都在仓库的<a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy 文件夹</a>里。"
- },
  "ad7e36642e3f": {
   "en": "The 2014 concept sketch for BIDU, the farting donkey: the character, the enemies, Jungle and Desert, and corn power-ups.",
   "t": "2014 年放屁驴比杜的概念草图：角色、敌人、丛林和沙漠，以及能量道具玉米。"
@@ -95,6 +95,10 @@
   "en": "BIDU song 3",
   "t": "比杜之歌 3"
  },
+ "c446d6b7cb5f": {
+  "en": "Five short songs Deovandski's father made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "Deovandski 的父亲在 2014 年 7 月用 Audacity 为比杜做的五首短歌。它们就是完成版游戏的音乐：每首先完整播放一次开头，然后循环。"
+ },
  "c845cbcdfdf1": {
   "en": "Main Menu Idea. The backbone for it has been implemented.",
   "t": "主菜单构想。它的骨架已经实现。"
@@ -114,10 +118,6 @@
  "d186c8e12285": {
   "en": "2016 game-idea overview, page 4: Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
   "t": "2016 年游戏构想概述第 4 页：角色菜单：每升一级，玩家获得一点，可加到生命、放屁威力、跳跃力（用于重力更大的后期关卡）和头撞威力上。"
- },
- "d1bd01cf4746": {
-  "en": "Five short songs Deovandski made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
-  "t": "Deovandski 在 2014 年 7 月用 Audacity 为比杜做的五首短歌。它们就是完成版游戏的音乐：每首先完整播放一次开头，然后循环。"
  },
  "d501b574c13d": {
   "en": "How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",

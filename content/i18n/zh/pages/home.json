@@ -15,10 +15,6 @@
   "en": "Read the history, with the 2014 sketch and the 2016 notes",
   "t": "阅读历史，附 2014 年的草图和 2016 年的笔记"
  },
- "297cd63e4c45": {
-  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski made for the game's first sketch in 2014, each looping after its opening.",
-  "t": "<strong data-astro-cid-lcdefpme=\"\">音乐：</strong>Deovandski 在 2014 年为这个游戏的第一张草图做的五首比杜之歌，每首在开头之后循环播放。"
- },
  "29ae52b4b9ca": {
   "en": "<strong data-astro-cid-lcdefpme=\"\">Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.",
   "t": "<strong data-astro-cid-lcdefpme=\"\">挡路的东西：</strong>石头、蛇、蜂窝、熊、仙人掌和带枪的牛仔。跳过去，或者在头撞够强时撞开它们。"
@@ -138,6 +134,10 @@
  "cf8e121fb104": {
   "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert. Started in Unity in 2016, finished in Godot: play it in the browser, or play the 2016 original.",
   "t": "一头放屁驴在亚马孙和沙漠里奔跑、跳跃、头撞、放屁。2016 年在 Unity 中开始，在 Godot 中完成：在浏览器里玩，或者玩 2016 年的原版。"
+ },
+ "da69659a07bb": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski's father made for the game's first sketch in 2014, each looping after its opening.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">音乐：</strong>Deovandski 的父亲在 2014 年为这个游戏的第一张草图做的五首比杜之歌，每首在开头之后循环播放。"
  },
  "dab43aac694b": {
   "en": "The 2016 Unity main menu, ported to Godot.",

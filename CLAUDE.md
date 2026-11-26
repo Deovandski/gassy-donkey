@@ -22,7 +22,7 @@ Three parts:
 - **Saves:** any change to save data bumps `SaveManager.VERSION`, adds a `_migrate()` step, and updates `docs/SAVE_FORMAT.md` and the tests.
 - **Never commit secrets:** keystores, `export_credentials.cfg`, passwords, service-account JSON, `.env`. CI builds debug APKs only.
 - Keep the support text and the Amazon link (`https://www.amazon.com/dp/B0BT5XM4QC`) wherever the credits appear; they come from `game/data/credits.json`.
-- **The music is Deo's 2014 BIDU songs** (`legacy/2014-bidu-concept/BIDU songs/`, his own, cleared for the game and the site). `tools/make_bidu_music.py` makes the game's loops (`game/audio/music/bidu_NN.ogg`, loop starts in `game/data/music.json`) and the website's MP3s (`public/audio/bidu/`). Which song plays where is data: `music.json` (menus) and `"music"` in `worlds.json`.
+- **The music is the 2014 BIDU songs, made by Deo's father** (`legacy/2014-bidu-concept/BIDU songs/`; Deo has cleared them for the game and the site). Credit them to his father, never to Deo. `tools/make_bidu_music.py` makes the game's loops (`game/audio/music/bidu_NN.ogg`, loop starts in `game/data/music.json`) and the website's MP3s (`public/audio/bidu/`). Which song plays where is data: `music.json` (menus) and `"music"` in `worlds.json`.
 
 ## Game commands
 ```

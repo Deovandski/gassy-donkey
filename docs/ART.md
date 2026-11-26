@@ -74,7 +74,7 @@ Two-frame animations are `<name>_1.png` and `<name>_2.png`. The background layer
 Sound effects are synthesized by `tools/make_audio.py` (mono 22,050 Hz WAV).
 
 - Effects (`sfx/`): `achievement.wav`, `all_corn.wav`, `beans.wav`, `bonk.wav`, `break.wav`, `buzz.wav`, `click.wav`, `corn.wav`, `double_jump.wav`, `fart_1.wav`, `fart_2.wav`, `fart_3.wav`, `fart_4.wav`, `fart_fizzle.wav`, `finish.wav`, `growl.wav`, `gunshot.wav`, `headbutt.wav`, `hurt.wav`, `jump.wav`, `land.wav`, `level_up.wav`, `splash.wav`, `super_fart.wav`.
-- Music (`music/`): `bidu_01.ogg` to `bidu_05.ogg`, Deovandski's 2014 BIDU songs, made by `tools/make_bidu_music.py` from the Audacity projects in `legacy/2014-bidu-concept/BIDU songs/`. Each file ends at its loop point; `game/data/music.json` says where it loops back to (the opening plays once). To use a different mix of a song, replace the file and set its `loop_start` (seconds) by hand, or re-run the script. The website's copies, start to finish, are in `public/audio/bidu/`.
+- Music (`music/`): `bidu_01.ogg` to `bidu_05.ogg`, the 2014 BIDU songs by Deovandski's father, made by `tools/make_bidu_music.py` from the Audacity projects in `legacy/2014-bidu-concept/BIDU songs/`. Each file ends at its loop point; `game/data/music.json` says where it loops back to (the opening plays once). To use a different mix of a song, replace the file and set its `loop_start` (seconds) by hand, or re-run the script. The website's copies, start to finish, are in `public/audio/bidu/`.
 
 ## Fonts (`game/fonts/`)
 

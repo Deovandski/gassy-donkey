@@ -23,6 +23,10 @@
   "en": "BIDU song 5",
   "t": "Música do BIDU 5"
  },
+ "260198b7e32e": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is original work, shown as it was made: Deovandski's sketch, notes and Unity project, and his father's songs; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
+  "t": "BIDU, o burro peidão, começou como um desenho em 2014. Em 2016 virou Gassy Donkey, um projeto em Unity 5.3.5 que chegou até o menu principal. Em 2026 foi portado para o Godot e terminado. Tudo abaixo é obra original, mostrada como foi feita: o desenho, as notas e o projeto em Unity do Deovandski, e as músicas do pai dele; os arquivos estão na <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">pasta legacy</a> do repositório."
+ },
  "2878a76a47c0": {
   "en": "The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets \"Coming soon!\"). It keeps the 2016 donkey, vessel, planets, platforms and logo, plays the 2014 BIDU songs, and adds what was missing. The repository's <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">design notes</a> list which choices came from the originals and which were made while finishing it. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play Gassy Donkey</a>.",
   "t": "O jogo terminado segue as notas de 2016: peido e cabeçada à esquerda, pulo à direita, pulos duplos para o nível de cima, deslizar para baixo para descer um nível, água para outros caminhos, o tigre que exige poder do peido 2, itens de gás em todas as fases, um ponto por nível para os quatro atributos, gravidade maior mais adiante, e as fases de mundos (primeiro Earth – Amazon e Earth – Desert, os outros planetas com \"Coming soon!\"). Ele mantém o burro, a nave, os planetas, as plataformas e o logo de 2016, toca as músicas do BIDU de 2014 e acrescenta o que faltava. As <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">notas de design</a> do repositório dizem quais escolhas vieram dos originais e quais foram feitas ao terminá-lo. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Jogar Gassy Donkey</a>."
@@ -63,10 +67,6 @@
   "en": "2016: the Unity project",
   "t": "2016: o projeto em Unity"
  },
- "acc78587683c": {
-  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is the author's original work, shown as it was made; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
-  "t": "BIDU, o burro peidão, começou como um desenho em 2014. Em 2016 virou Gassy Donkey, um projeto em Unity 5.3.5 que chegou até o menu principal. Em 2026 foi portado para o Godot e terminado. Tudo abaixo é obra original do autor, mostrada como foi feita; os arquivos estão na <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">pasta legacy</a> do repositório."
- },
  "ad7e36642e3f": {
   "en": "The 2014 concept sketch for BIDU, the farting donkey: the character, the enemies, Jungle and Desert, and corn power-ups.",
   "t": "O desenho de conceito de 2014 do BIDU, o burro peidão: o personagem, os inimigos, Selva e Deserto, e o milho como power-up."
@@ -95,6 +95,10 @@
   "en": "BIDU song 3",
   "t": "Música do BIDU 3"
  },
+ "c446d6b7cb5f": {
+  "en": "Five short songs Deovandski's father made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "Cinco músicas curtas que o pai do Deovandski fez para o BIDU em julho de 2014, no Audacity. Elas são a música do jogo terminado: cada uma toca a abertura uma vez e depois repete em loop."
+ },
  "c845cbcdfdf1": {
   "en": "Main Menu Idea. The backbone for it has been implemented.",
   "t": "Ideia do menu principal. A base dele já foi implementada."
@@ -114,10 +118,6 @@
  "d186c8e12285": {
   "en": "2016 game-idea overview, page 4: Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
   "t": "Resumo da ideia do jogo de 2016, página 4: Menu do personagem: cada nível dá ao jogador um ponto para gastar em vida, poder do peido, força do pulo (para as fases mais avançadas, com gravidade maior) e poder da cabeçada."
- },
- "d1bd01cf4746": {
-  "en": "Five short songs Deovandski made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
-  "t": "Cinco músicas curtas que o Deovandski fez para o BIDU em julho de 2014, no Audacity. Elas são a música do jogo terminado: cada uma toca a abertura uma vez e depois repete em loop."
  },
  "d501b574c13d": {
   "en": "How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",

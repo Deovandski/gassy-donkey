@@ -23,6 +23,10 @@
   "en": "BIDU song 5",
   "t": "Canzone di BIDU 5"
  },
+ "260198b7e32e": {
+  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is original work, shown as it was made: Deovandski's sketch, notes and Unity project, and his father's songs; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
+  "t": "BIDU, l'asino scoreggione, è nato come schizzo nel 2014. Nel 2016 è diventato Gassy Donkey, un progetto Unity 5.3.5 arrivato fino al menu principale. Nel 2026 è stato portato su Godot e completato. Tutto ciò che segue è opera originale, mostrata così com'è stata fatta: lo schizzo, gli appunti e il progetto Unity di Deovandski, e le canzoni di suo padre; i file sono nella <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">cartella legacy</a> del repository."
+ },
  "2878a76a47c0": {
   "en": "The finished game follows the 2016 notes: fart and headbutt on the left, jump on the right, double jumps to the higher level, swipe down a level, water for other paths, the tiger that needs farting power 2, gas items in every level, one point per level for the four stats, higher gravity later on, and the world phases (Earth – Amazon and Earth – Desert first, the other planets \"Coming soon!\"). It keeps the 2016 donkey, vessel, planets, platforms and logo, plays the 2014 BIDU songs, and adds what was missing. The repository's <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">design notes</a> list which choices came from the originals and which were made while finishing it. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Play Gassy Donkey</a>.",
   "t": "Il gioco finito segue le note del 2016: scoreggia e testata a sinistra, salto a destra, doppio salto al livello più alto, scorrere verso il basso per scendere di un livello, acqua per altri percorsi, la tigre che richiede potenza della scoreggia 2, oggetti di gas in ogni livello, un punto per livello per le quattro statistiche, gravità più alta più avanti e le fasi dei mondi (prima Earth – Amazon ed Earth – Desert, gli altri pianeti con \"Coming soon!\"). Mantiene l'asino, l'astronave, i pianeti, le piattaforme e il logo del 2016, suona le canzoni di BIDU del 2014 e aggiunge ciò che mancava. Le <a href=\"https://github.com/Deovandski/gassy-donkey/blob/master/docs/DESIGN.md\" data-astro-cid-siyyvcrl=\"\">note di design</a> del repository indicano quali scelte vengono dagli originali e quali sono state fatte per completarlo. <a href=\"/gassy-donkey/play/\" data-lang-keep=\"\" data-astro-cid-siyyvcrl=\"\">Gioca a Gassy Donkey</a>."
@@ -63,10 +67,6 @@
   "en": "2016: the Unity project",
   "t": "2016: il progetto Unity"
  },
- "acc78587683c": {
-  "en": "BIDU, the farting donkey, started as a sketch in 2014. In 2016 it became Gassy Donkey, a Unity 5.3.5 project that got as far as its main menu. In 2026 it was ported to Godot and finished. Everything below is the author's original work, shown as it was made; the files are in the repository's <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">legacy folder</a>.",
-  "t": "BIDU, l'asino scoreggione, è nato come schizzo nel 2014. Nel 2016 è diventato Gassy Donkey, un progetto Unity 5.3.5 arrivato fino al menu principale. Nel 2026 è stato portato su Godot e completato. Tutto ciò che segue è opera originale dell'autore, mostrata così com'è stata fatta; i file sono nella <a href=\"https://github.com/Deovandski/gassy-donkey/tree/master/legacy\" data-astro-cid-siyyvcrl=\"\">cartella legacy</a> del repository."
- },
  "ad7e36642e3f": {
   "en": "The 2014 concept sketch for BIDU, the farting donkey: the character, the enemies, Jungle and Desert, and corn power-ups.",
   "t": "Lo schizzo di concept del 2014 per BIDU, l'asino scoreggione: il personaggio, i nemici, Giungla e Deserto, e il mais come potenziamento."
@@ -95,6 +95,10 @@
   "en": "BIDU song 3",
   "t": "Canzone di BIDU 3"
  },
+ "c446d6b7cb5f": {
+  "en": "Five short songs Deovandski's father made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
+  "t": "Cinque brevi canzoni che il padre di Deovandski ha fatto per BIDU nel luglio 2014, con Audacity. Sono la musica del gioco finito: ognuna suona la sua apertura una volta e poi va in loop."
+ },
  "c845cbcdfdf1": {
   "en": "Main Menu Idea. The backbone for it has been implemented.",
   "t": "Idea del menu principale. La sua base è già stata realizzata."
@@ -114,10 +118,6 @@
  "d186c8e12285": {
   "en": "2016 game-idea overview, page 4: Character Menu: Each level gives the player one point to spend in health, farting power, jump power (for later levels with higher gravity), and head attack power.",
   "t": "Panoramica dell'idea del gioco 2016, pagina 4: Menu del personaggio: ogni livello dà al giocatore un punto da spendere in salute, potenza della scoreggia, forza del salto (per i livelli avanzati con gravità più alta) e potenza della testata."
- },
- "d1bd01cf4746": {
-  "en": "Five short songs Deovandski made for BIDU in July 2014, in Audacity. They are the finished game's music: each one plays its opening once and then loops.",
-  "t": "Cinque brevi canzoni che Deovandski ha fatto per BIDU nel luglio 2014, con Audacity. Sono la musica del gioco finito: ognuna suona la sua apertura una volta e poi va in loop."
  },
  "d501b574c13d": {
   "en": "How I thought the game would work: \"Fart\" and \"head attack\" buttons on the left, jump anywhere on the right (hence landscape only); double jumps go to the higher level; a right-finger swipe down goes one level lower; water levels for multiple paths; a tiger that needs farting at level 2 to scare away; gas-filling items in every level; a dynamic leveling wall instead of wait times or money walls.",

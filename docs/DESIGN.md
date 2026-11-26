@@ -11,7 +11,7 @@ Where every part of the finished game comes from: the 2014 BIDU sketch (`legacy/
 | Cactus, honey hive, rocks; snake, bear, cowboys (gun) | 2014 sketch | `game/data/worlds.json` "things" |
 | Jungle and Desert | 2014 sketch; 2016 phases ("Earth – Amazon", "Earth – Desert") | the two worlds |
 | Corn power-up; "make noise when getting all corn" | 2014 sketch | corn fills gas; collecting all of a stage's gas items plays a fart fanfare and gives XP |
-| The BIDU songs | 2014 Audacity projects (Deo's own) | all the music: menus `bidu_01`; Amazon stages `bidu_03`, `bidu_02`, `bidu_04`; desert stages `bidu_02`, `bidu_04`, `bidu_05` (quietest song for the menus, the loudest and fastest for the last stages) |
+| The BIDU songs | 2014 Audacity projects (made by Deo's father) | all the music: menus `bidu_01`; Amazon stages `bidu_03`, `bidu_02`, `bidu_04`; desert stages `bidu_02`, `bidu_04`, `bidu_05` (quietest song for the menus, the loudest and fastest for the last stages) |
 | Main menu: logo, Select World, Character, Achievements, Credits | 2016 notes p.1, Unity scene | main menu (same layout, same sky) |
 | Credits: "thanks for playing my 1st game" | 2016 notes p.1 | Credits screen |
 | World select: planet, "Recommended LVL X", Play | 2016 notes p.1, Unity scene ("Level X recommended") | world select |
@@ -58,5 +58,6 @@ Where every part of the finished game comes from: the 2014 BIDU sketch (`legacy/
 | 2026-11 | Super fart on a full tank | Claude | kept | Gives saving gas a reward *(inferred from the "super power" boxes)* | `run.gd` `do_fart()` |
 | 2026-11 | Third world on Mars with the space donkey and low gravity | Claude | cut | The 2016 plan says later levels have *higher* gravity, and Phase II wasn't designed; the space donkey floats on the world select instead | — |
 | 2026-11 | A bot that plays each stage, in CI | Claude | kept | Catches stages that can't be finished after a tuning change | `run.gd` `_autoplay()`, `ci.yml` |
-| 2026-11 | Synthesized placeholder music | Claude | replaced | Deo confirmed the 2014 BIDU songs are his own: they are the music now, as seamless loops | `tools/make_bidu_music.py`, `game/data/music.json` |
+| 2026-11 | Synthesized placeholder music | Claude | replaced | Deo confirmed the 2014 BIDU songs can be used (they are his father's): they are the music now, as seamless loops | `tools/make_bidu_music.py`, `game/data/music.json` |
 | 2026-11 | BIDU songs playable on the history page | Claude | kept | The songs are part of the game's history; the site plays them as they were mixed | `src/pages/history.astro`, `public/audio/bidu/` |
+| 2026-11 | Song credit corrected: the BIDU songs are by Deo's father | Deo | changed | Deo: his father made the songs, not him | `game/data/credits.json`, history and home pages, `LICENSE` |

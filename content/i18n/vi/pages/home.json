@@ -15,10 +15,6 @@
   "en": "Read the history, with the 2014 sketch and the 2016 notes",
   "t": "Đọc lịch sử, kèm bản phác thảo năm 2014 và ghi chú năm 2016"
  },
- "297cd63e4c45": {
-  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski made for the game's first sketch in 2014, each looping after its opening.",
-  "t": "<strong data-astro-cid-lcdefpme=\"\">Âm nhạc:</strong> năm bài hát BIDU mà Deovandski làm cho bản phác thảo đầu tiên của trò chơi năm 2014, mỗi bài lặp lại sau đoạn mở đầu."
- },
  "29ae52b4b9ca": {
   "en": "<strong data-astro-cid-lcdefpme=\"\">Things in the way:</strong> rocks, snakes, honey hives, bears, cactus and cowboys with guns. Jump over them or headbutt them, if your headbutt is strong enough.",
   "t": "<strong data-astro-cid-lcdefpme=\"\">Những thứ cản đường:</strong> đá, rắn, tổ ong, gấu, xương rồng và cao bồi cầm súng. Nhảy qua hoặc húc đầu, nếu cú húc của bạn đủ mạnh."
@@ -138,6 +134,10 @@
  "cf8e121fb104": {
   "en": "A farting donkey runs, jumps, headbutts and farts through the Amazon and the desert. Started in Unity in 2016, finished in Godot: play it in the browser, or play the 2016 original.",
   "t": "Một chú lừa hay xì hơi chạy, nhảy, húc đầu và xì hơi khắp Amazon và sa mạc. Bắt đầu trên Unity năm 2016, hoàn thành trên Godot: chơi ngay trong trình duyệt, hoặc chơi bản gốc năm 2016."
+ },
+ "da69659a07bb": {
+  "en": "<strong data-astro-cid-lcdefpme=\"\">Music:</strong> the five BIDU songs Deovandski's father made for the game's first sketch in 2014, each looping after its opening.",
+  "t": "<strong data-astro-cid-lcdefpme=\"\">Âm nhạc:</strong> năm bài hát BIDU mà bố của Deovandski làm cho bản phác thảo đầu tiên của trò chơi năm 2014, mỗi bài lặp lại sau đoạn mở đầu."
  },
  "dab43aac694b": {
   "en": "The 2016 Unity main menu, ported to Godot.",
