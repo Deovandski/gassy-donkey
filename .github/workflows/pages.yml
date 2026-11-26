@@ -22,11 +22,8 @@ env:
   GODOT_VERSION: "4.7.2"
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v7
 
@@ -107,5 +104,14 @@ jobs:
         with:
           path: _site
 
+  # A job of its own, as in Sinoi the Fisherman: deploying in the same job as the upload can run before
+  # GitHub has registered the artifact ("No artifacts named github-pages were found").
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v5
