@@ -12,8 +12,12 @@ interface Props {
   description: string;
   /** Shown in the browser tab after the title; leave out on the home page. */
   section?: string;
+  /** Keep this page out of search engines, the sitemap and llms.txt (tools/llms.ts skips noindex pages). */
+  noindex?: boolean;
+  /** A class on <body>, for a page that looks different (the black /debug/ page uses "page-terminal"). */
+  bodyClass?: string;
 }
-const { title, description, section } = Astro.props;
+const { title, description, section, noindex = false, bodyClass } = Astro.props;
 const fullTitle = section ? `${title} · ${section}` : title;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 // Every page at <path>/ has a Markdown copy at <path>/index.md, written by tools/llms.ts (the 404 page doesn't).
@@ -26,6 +30,7 @@ const markdownTwin = Astro.url.pathname.endsWith('/') && !/\/404\/?$/.test(Astro
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{fullTitle}</title>
   <meta name="description" content={description}>
+  {noindex && <meta name="robots" content="noindex, nofollow">}
   <meta property="og:title" content={fullTitle}>
   <meta property="og:description" content={description}>
   <link rel="icon" href={url('icon.svg')} type="image/svg+xml">
@@ -63,7 +68,7 @@ const markdownTwin = Astro.url.pathname.endsWith('/') && !/\/404\/?$/.test(Astro
     } catch (e) { /* private mode: no saved settings */ }
   </script>
 </head>
-<body>
+<body class={bodyClass}>
   <a class="skip" href="#main">Skip to content</a>
   <div class="wrap">
     <header class="top">

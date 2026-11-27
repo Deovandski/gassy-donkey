@@ -78,6 +78,9 @@ jobs:
           grep -q "Gassy Donkey: network first" _site/play/index.service.worker.js || { echo "::error::the game's worker isn't network first"; exit 1; }
           grep -q 'src="index.js?v=' _site/play/index.html || { echo "::error::index.js isn't versioned"; exit 1; }
 
+      - name: Stats for nerds again, with the game (_site/stats.json, read by /debug/)
+        run: node tools/stats.ts
+
       - name: Fake-deploy check (new page and script on the first visit, offline still works)
         run: |
           pip install --quiet playwright

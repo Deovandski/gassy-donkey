@@ -1,8 +1,10 @@
 ---
-// The Settings menu the gear opens: Language, "Want a language added?", Text size and App (the Install app
-// button, reusable/InstallApp.astro, #1).
+// The Settings menu the gear opens: Language, "Want a language added?", Text size, App (the Install app
+// button, reusable/InstallApp.astro, #1) and Stats for nerds (the DEBUG button, which opens /debug/, #2).
+// The × at the top right closes it (a submit button in a method="dialog" form), and so does Esc.
+// From Deovandski-repo-template (#19, merged in #20).
 // The Language list is read from content/i18n/<code>/meta.json, in the order of site.config.json.
-import { REPO_URL, site } from '../lib/site';
+import { REPO_URL, site, url } from '../lib/site';
 import InstallApp from './reusable/InstallApp.astro';
 
 interface LanguageMeta { name: string; html_lang?: string }
@@ -12,7 +14,10 @@ const languages = site.languages.filter((c) => byCode.has(c)).map((code) => ({ c
 ---
 <dialog id="site-settings" class="site-settings" aria-labelledby="site-settings-title">
   <form method="dialog">
-    <h2 id="site-settings-title">Settings</h2>
+    <div class="settings-head">
+      <h2 id="site-settings-title">Settings</h2>
+      <button class="settings-close" value="close" aria-label="Close" title="Close"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M6.4 5 12 10.6 17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19 5 17.6l5.6-5.6L5 6.4 6.4 5Z"/></svg></button>
+    </div>
     <label class="setting"><span>Language</span>
       <select data-setting="lang" translate="no">
         <option value="en" lang="en">English</option>
@@ -22,6 +27,6 @@ const languages = site.languages.filter((c) => byCode.has(c)).map((code) => ({ c
     <p class="setting-link"><a href={`${REPO_URL}/issues/new?template=language-request.yml`} rel="noopener">Want a language added?</a></p>
     <label class="setting"><span>Text size</span><input data-setting="size" type="range" min="13" max="26" step="1" value="17"></label>
     <div class="setting setting-app"><span>App</span><InstallApp class="settings-install" /></div>
-    <div class="done"><button value="close">Done</button></div>
+    <div class="setting setting-debug"><span>Stats for nerds</span><a class="debug-btn" href={url('debug/')} translate="no">DEBUG</a></div>
   </form>
 </dialog>

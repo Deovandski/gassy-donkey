@@ -73,7 +73,11 @@ footer p { margin: 4px 0; max-width: 52rem; }
 .gear:hover { border-color: var(--accent); }
 .site-settings { border: 1px solid var(--rule); border-radius: 14px; background: var(--paper); color: var(--ink); width: min(26rem, calc(100vw - 32px)); padding: 22px 24px; font: 16px/1.5 var(--sans); }
 .site-settings::backdrop { background: rgba(5, 8, 9, .65); backdrop-filter: blur(3px); }
-.site-settings h2 { font-size: 24px; margin: 0 0 8px; }
+.site-settings .settings-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 0 0 8px; }
+.site-settings h2 { font-size: 24px; margin: 0; }
+.site-settings .settings-close { display: grid; place-items: center; width: 36px; height: 36px; margin-inline-end: -8px; border: 0; border-radius: 50%; background: transparent; color: var(--ink); cursor: pointer; }
+.site-settings .settings-close:hover { background: var(--paper-2); }
+.site-settings .settings-close:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 .site-settings .setting { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--rule); }
 .site-settings select { font: inherit; padding: 4px 8px; border-radius: 6px; border: 1px solid var(--rule); background: var(--paper-2); color: var(--ink); max-width: 60%; }
 .site-settings input[type="range"] { accent-color: var(--accent-2); width: 9rem; }
@@ -81,8 +85,11 @@ footer p { margin: 4px 0; max-width: 52rem; }
 /* App row: the Install app button (src/components/reusable/InstallApp.astro); its hint can be a few lines long */
 .site-settings .setting-app { align-items: flex-start; }
 .site-settings .settings-install { --install-accent: var(--accent); --install-ink: #140c02; --install-muted: var(--ink-soft); max-width: 15rem; font-size: 14px; }
-.site-settings .done { margin-top: 18px; display: flex; justify-content: flex-end; }
-.site-settings .done button { font: 700 15px var(--sans); padding: 9px 20px; border-radius: 10px; border: 0; background: var(--ink); color: var(--paper); cursor: pointer; }
+.site-settings .setting-debug { border-bottom: 0; }
+/* The DEBUG button looks like the terminal it opens (src/pages/debug.astro): black, green, monospace. From Deovandski-repo-template#20. */
+.site-settings .debug-btn { font: 700 14px/1 ui-monospace, "Cascadia Mono", Consolas, monospace; letter-spacing: .12em; padding: 9px 16px; border-radius: 8px; background: #000; color: #39ff14; text-decoration: none; text-shadow: 0 0 6px rgba(57, 255, 20, .6); border: 1px solid #1f6f12; }
+.site-settings .debug-btn:hover { box-shadow: 0 0 10px rgba(57, 255, 20, .35); }
+.site-settings .debug-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 
 /* ---------- Translations (tools/i18n.ts) ---------- */
 .i18n-banner { background: var(--paper-2); color: var(--ink-soft); border: 1px solid var(--rule); border-radius: 10px; text-align: center; font-size: calc(13.5px * var(--scale)); line-height: 1.45; padding: 7px 14px; margin: 0 0 18px; }
@@ -117,3 +124,10 @@ html[lang^="zh"] body, html[lang="ja"] body, html[lang="ko"] body, html[lang="th
 .cards a { display: grid; gap: 2px; text-decoration: none; }
 .cards a span { color: var(--ink-soft); font-size: calc(15px * var(--scale)); }
 .cards time { color: var(--ink-soft); font-size: calc(14px * var(--scale)); white-space: nowrap; }
+
+/* ---------- Stats for nerds (/debug/, src/pages/debug.astro, from Deovandski-repo-template#20) ----------
+   The whole page turns black; the header and footer switch to the dark colours so they stay readable. */
+.page-terminal { --paper: #000; --paper-2: #0b0f0b; --rule: #1d2a1d; --ink: #d8e6d8; --ink-soft: #8fa58f; color-scheme: dark; background: #000; color: var(--ink); }
+.page-terminal .debug-terminal { margin: 8px 0 32px; --term-size: calc(15px * var(--scale)); --term-size-phone: calc(13px * var(--scale)); }
+.page-terminal .debug-noscript { color: #39ff14; font-family: ui-monospace, Consolas, monospace; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }

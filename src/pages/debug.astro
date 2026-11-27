@@ -1,0 +1,88 @@
+---
+// "Stats for nerds" (#2): Settings › DEBUG opens this page. A terminal types out what the build and the browser know:
+// Code, Site, Game, Runtime, Network, Performance and Languages. From Deovandski-repo-template (src/pages/debug.astro,
+// #19, merged in #20); the GAME section is this repo's own. Build facts come from stats.json (written by tools/stats.ts
+// at the end of `npm run build`); everything else is read in the browser by src/scripts/debug.ts, which fills each
+// [data-v] value, then starts the typing. Nothing is saved or sent anywhere.
+// Not indexed: noindex keeps it out of search engines, sitemap.xml and llms.txt.
+// The terminal is translate="no": it's machine output, like sample code. The page title and description are translated.
+import Base from '../layouts/Base.astro';
+import TerminalScreen from '../components/reusable/TerminalScreen.astro';
+import { SITE_NAME } from '../lib/site';
+
+type Row = [label: string, key: string];
+/** "== CODE =================", every heading the same width. */
+const heading = (title: string): string => `== ${title} ${'='.repeat(Math.max(3, 26 - title.length))}`;
+const sections: { title: string; rows: Row[] }[] = [
+  { title: 'CODE', rows: [
+    ['Repository', 'repo'], ['Visibility', 'visibility'], ['Build', 'build'], ['Built at', 'builtAt'], ['Branch', 'branch'],
+    ['Commit', 'commit'], ['Committed', 'commitDate'], ['Pull request', 'pr'], ['Workflow run', 'run'], ['Tools', 'tools'],
+  ] },
+  { title: 'SITE', rows: [
+    ['Address', 'siteUrl'], ['This page', 'path'], ['Pages', 'pages'], ['Deployed', 'deployed'], ['Biggest types', 'types'],
+    ['Page language', 'pageLang'], ['Ready langs', 'readyLangs'], ['Settings key', 'storeKey'], ['Saved settings', 'saved'],
+    ['Offline worker', 'sw'], ['Saved copies', 'caches'], ['App mode', 'display'],
+  ] },
+  { title: 'GAME', rows: [
+    ['Game', 'gameName'], ['Godot', 'godot'], ['Web export', 'gameExport'], ['Engine, data', 'gameParts'], ['Exported at', 'gameExportedAt'],
+  ] },
+  { title: 'RUNTIME', rows: [
+    ['Browser', 'browser'], ['Platform', 'platform'], ['CPU threads', 'cpu'], ['Device memory', 'deviceMemory'],
+    ['JS heap', 'heap'], ['Storage', 'storage'], ['Cookies', 'cookies'], ['Local storage', 'local'], ['Session storage', 'session'],
+    ['Screen', 'screen'], ['Viewport', 'viewport'], ['Pixel ratio', 'dpr'], ['Colour scheme', 'scheme'], ['Motion', 'motion'],
+    ['Input', 'input'], ['GPU', 'gpu'], ['WebGPU', 'webgpu'], ['Battery', 'battery'], ['Time zone', 'tz'],
+    ['Languages', 'langs'], ['Local time', 'clock'], ['Uptime', 'uptime'], ['Frame rate', 'fps'], ['User agent', 'ua'],
+  ] },
+  { title: 'NETWORK', rows: [
+    ['Status', 'online'], ['Connection', 'connection'], ['Downlink', 'downlink'], ['Round trip', 'rtt'], ['Data saver', 'saveData'],
+    ['Protocol', 'protocol'], ['Served from', 'servedFrom'], ['Server', 'server'], ['CDN node', 'cdn'], ['Cache', 'cdnCache'],
+    ['Ping', 'ping'], ['Secure context', 'secure'], ['Isolated', 'isolated'],
+  ] },
+  { title: 'PERFORMANCE', rows: [
+    ['DNS', 'dns'], ['Connect', 'connect'], ['TLS', 'tls'], ['First byte', 'ttfb'], ['Download', 'download'],
+    ['DOM ready', 'domReady'], ['Load', 'load'], ['First paint', 'fcp'], ['Largest paint', 'lcp'], ['Layout shift', 'cls'],
+    ['Page transfer', 'transfer'], ['Resources', 'resources'], ['DOM nodes', 'nodes'],
+  ] },
+];
+---
+<Base title="Stats for nerds" section={SITE_NAME} description="Build, device, network and translation details for this site, typed out like an old computer terminal." noindex bodyClass="page-terminal">
+  <h1 class="visually-hidden">Stats for nerds</h1>
+  <noscript><p class="debug-noscript">Stats for nerds needs JavaScript: the browser fills in every value.</p></noscript>
+
+  <TerminalScreen label="Stats for nerds" title="stats-for-nerds" wait class="debug-terminal">
+    <div class="term-hi">{SITE_NAME.toUpperCase()} DIAGNOSTICS</div>
+    <div class="term-dim">Memory test <span data-v="memtest">...</span> OK · <span data-v="now">...</span></div>
+    <div class="term-dim">Click or press any key to skip the typing.</div>
+    {sections.map((s) => (
+      <>
+        <div class="term-gap"></div>
+        <div class="term-h">{heading(s.title)}</div>
+        {s.rows.map(([label, key]) => (
+          <div class="term-row" data-row={key}><span class="term-k">{label}</span><span class="term-v" data-v={key}>...</span></div>
+        ))}
+      </>
+    ))}
+    <div class="term-gap"></div>
+    <div class="term-h">{heading('LANGUAGES')}</div>
+    <div class="term-dim" data-v="i18nSummary">...</div>
+    <div data-langs-list hidden></div>
+    <div class="term-gap"></div>
+    <div class="term-hi">READY.</div>
+  </TerminalScreen>
+  <!-- Words src/scripts/debug.ts writes into the terminal (kept in the page, per "Translations" in CLAUDE.md). -->
+  <div class="debug-words" hidden translate="no" data-llms-skip>
+    <span data-k="na">n/a</span><span data-k="local">local build</span><span data-k="public">public</span><span data-k="private">private (hidden)</span>
+    <span data-k="online">online</span><span data-k="offline">offline</span><span data-k="yes">yes</span><span data-k="no">no</span>
+    <span data-k="none">none</span><span data-k="network">network</span><span data-k="worker">offline worker (saved copy)</span>
+    <span data-k="memcache">browser cache</span><span data-k="charging">charging</span><span data-k="unplugged">on battery</span>
+    <span data-k="standalone">installed app</span><span data-k="tab">browser tab</span><span data-k="noStats">stats.json not found (run npm run build)</span>
+    <span data-k="controlled">active, controlling this page</span><span data-k="notControlled">not controlling this page yet</span>
+    <span data-k="noWorker">not supported</span><span data-k="reduce">reduced</span><span data-k="full">full</span>
+    <span data-k="indexed">indexed</span><span data-k="current">← this page</span>
+    <span data-k="notExported">not exported in this build (the Website workflow exports it)</span>
+  </div>
+</Base>
+
+<script>
+  import '../scripts/debug.ts';
+</script>

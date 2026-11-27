@@ -31,6 +31,10 @@
   "en": "No install button? Open this page in Chrome (⋮ → Open in Chrome), then ⋮ → Install app.",
   "t": "설치 버튼이 없나요? 이 페이지를 Chrome에서 열고(⋮ → Chrome에서 열기), ⋮ → 앱 설치."
  },
+ "b5608ea73b86": {
+  "en": "Stats for nerds",
+  "t": "전문가용 통계"
+ },
  "b7ac1c49db50": {
   "en": "Enlarge",
   "t": "크게 보기"
@@ -78,10 +82,6 @@
  "e5f79aa13bd5": {
   "en": "Install app",
   "t": "앱 설치"
- },
- "e9b450d14bc2": {
-  "en": "Done",
-  "t": "완료"
  },
  "fc4a695f02a8": {
   "en": "App",

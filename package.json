@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "astro dev",
     "check": "astro check",
-    "build": "astro build && node tools/prune-originals.ts && node tools/i18n.ts build && node tools/llms.ts",
+    "build": "astro build && node tools/prune-originals.ts && node tools/i18n.ts build && node tools/llms.ts && node tools/stats.ts",
     "preview": "node tools/i18n.ts serve",
     "i18n": "node tools/i18n.ts",
     "init": "node tools/init.ts"

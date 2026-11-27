@@ -31,6 +31,10 @@
   "en": "No install button? Open this page in Chrome (⋮ → Open in Chrome), then ⋮ → Install app.",
   "t": "Non vedi il pulsante per installare? Apri questa pagina in Chrome (⋮ → Apri in Chrome), poi ⋮ → Installa app."
  },
+ "b5608ea73b86": {
+  "en": "Stats for nerds",
+  "t": "Statistiche per nerd"
+ },
  "b7ac1c49db50": {
   "en": "Enlarge",
   "t": "Ingrandisci"
@@ -78,10 +82,6 @@
  "e5f79aa13bd5": {
   "en": "Install app",
   "t": "Installa app"
- },
- "e9b450d14bc2": {
-  "en": "Done",
-  "t": "Fatto"
  },
  "fc4a695f02a8": {
   "en": "App",

@@ -285,6 +285,39 @@ function cmdBuild(): void {
 
 // ---------------------------------------------------------------- command line
 
+/** What's translated, per language, for stats.json (tools/stats.ts) and the /debug/ page. Same counting as `status`:
+ *  words of the English segments that have a translation. A page counts as indexed once INDEX_COVERAGE of its words are. */
+export function languageStats() {
+  const segs = inventory();
+  const pages = builtPages();
+  const words = [...segs.values()].reduce((n, s) => n + s.words, 0);
+  const pageWords = new Map<string, number>();
+  for (const s of segs.values()) for (const p of s.pages) pageWords.set(p, (pageWords.get(p) ?? 0) + s.words);
+  return {
+    english: { pages: pages.length, segments: segs.size, words },
+    indexCoverage: INDEX_COVERAGE,
+    languages: languages().map((code) => {
+      const meta = loadMeta(code);
+      const st = loadStore(code);
+      let doneWords = 0;
+      let doneSegs = 0;
+      const pageDone = new Map<string, number>();
+      for (const [h, s] of segs) {
+        if (!st.has(h)) continue;
+        doneWords += s.words;
+        doneSegs++;
+        for (const p of s.pages) pageDone.set(p, (pageDone.get(p) ?? 0) + s.words);
+      }
+      const indexed = pages.filter((p) => (pageDone.get(p) ?? 0) >= INDEX_COVERAGE * (pageWords.get(p) ?? 0)).length;
+      return {
+        code, name: meta.name ?? code, dir: meta.dir ?? 'ltr',
+        percent: Math.round((1000 * doneWords) / Math.max(1, words)) / 10,
+        words: doneWords, segments: doneSegs, pagesIndexed: indexed,
+      };
+    }),
+  };
+}
+
 function cmdStatus(): void {
   const segs = inventory();
   const words = [...segs.values()].reduce((n, s) => n + s.words, 0);

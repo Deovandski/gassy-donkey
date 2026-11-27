@@ -8,6 +8,8 @@ The Settings menu (the gear, top right) saves your Language and Text size choice
 
 **Offline copies.** So the site opens without a connection, a service worker saves copies of the home page and of every page you open, with their styles, scripts and fonts, in your browser's Cache Storage. Images and anything from other websites are never saved. The copies stay on your device and are never sent anywhere; clearing the site's data removes them.
 
+**Stats for nerds.** The debug page (Settings › DEBUG, `/debug/`) shows what your browser tells the page about itself: browser and device, screen, storage use, connection, page timings. It reads this only to show it to you on that page. Nothing is saved and nothing is sent anywhere; the page only asks this website for its build file (`stats.json`) and times three small requests to it.
+
 The website is also offered in other languages. Those versions were translated ahead of time by AI (Claude) from the English original and say so in a banner at the top.
 
 ## The game (in the browser, installed from the browser, or on Android)

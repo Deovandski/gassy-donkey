@@ -31,6 +31,10 @@
   "en": "No install button? Open this page in Chrome (⋮ → Open in Chrome), then ⋮ → Install app.",
   "t": "Không thấy nút cài đặt? Mở trang này bằng Chrome (⋮ → Mở trong Chrome), rồi ⋮ → Cài đặt ứng dụng."
  },
+ "b5608ea73b86": {
+  "en": "Stats for nerds",
+  "t": "Thống kê cho dân kỹ thuật"
+ },
  "b7ac1c49db50": {
   "en": "Enlarge",
   "t": "Phóng to"
@@ -78,10 +82,6 @@
  "e5f79aa13bd5": {
   "en": "Install app",
   "t": "Cài đặt ứng dụng"
- },
- "e9b450d14bc2": {
-  "en": "Done",
-  "t": "Xong"
  },
  "fc4a695f02a8": {
   "en": "App",
