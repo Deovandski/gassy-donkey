@@ -79,6 +79,10 @@
   "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
   "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> 또는 <kbd data-astro-cid-lcdefpme=\"\">↓</kbd>로 한 층 아래로."
  },
+ "6bbc6327f335": {
+  "en": "The Stats for nerds page (Settings › DEBUG) shows what your browser tells the page about itself, such as your browser, screen, connection and page timings. It only shows this to you: nothing is saved and nothing is sent anywhere.",
+  "t": "전문가용 통계 페이지(설정 › DEBUG)는 브라우저가 페이지에 알려 주는 자기 정보, 예를 들어 브라우저, 화면, 연결, 페이지 로딩 시간을 보여 줍니다. 이 정보는 여러분에게 보여 주기만 할 뿐, 아무것도 저장하거나 어디로도 보내지 않습니다."
+ },
  "70c9afeb7702": {
   "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
   "t": "각 스테이지는 결승 깃발까지 달리는 한 판입니다. 당나귀는 200미터마다 빨라집니다. 무언가에 부딪히거나 물리면 하트가 줄고, 다 떨어지면 그 판은 끝나지만 얻은 XP는 남아서 더 강해져 돌아올 수 있습니다."

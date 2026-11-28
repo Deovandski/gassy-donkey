@@ -79,6 +79,10 @@
   "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
   "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> या <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> से एक स्तर नीचे।"
  },
+ "6bbc6327f335": {
+  "en": "The Stats for nerds page (Settings › DEBUG) shows what your browser tells the page about itself, such as your browser, screen, connection and page timings. It only shows this to you: nothing is saved and nothing is sent anywhere.",
+  "t": "तकनीकी आँकड़े पेज (सेटिंग्स › DEBUG) वह दिखाता है जो आपका ब्राउज़र पेज को अपने बारे में बताता है, जैसे ब्राउज़र, स्क्रीन, कनेक्शन और पेज लोड होने का समय। यह सिर्फ़ आपको दिखाता है: न कुछ सेव होता है और न कहीं कुछ भेजा जाता है।"
+ },
  "70c9afeb7702": {
   "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
   "t": "हर लेवल फ़िनिश झंडे तक की एक दौड़ है। गधा हर 200 मीटर पर तेज़ होता है। किसी चीज़ से टकराने या काटे जाने पर दिल कम होते हैं; दिल ख़त्म होने पर दौड़ ख़त्म हो जाती है, पर कमाया हुआ XP बना रहता है, तो आप और मज़बूत होकर लौटते हैं।"

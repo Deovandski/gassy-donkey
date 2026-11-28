@@ -6,5 +6,13 @@
  "517ad1c4e5c3": {
   "en": "Build, device, network and translation details for this site, typed out like an old computer terminal.",
   "t": "このサイトのビルド、端末、ネットワーク、翻訳の詳細を、昔のコンピューター端末のように打ち出して表示します。"
+ },
+ "8f26c6520d61": {
+  "en": "Loading",
+  "t": "読み込み中"
+ },
+ "b9cb8c5b1ef0": {
+  "en": "Please wait a sec<span class=\"pixel-loader__dots\" aria-hidden=\"true\" data-astro-cid-hhoghhnw=\"\"><i data-astro-cid-hhoghhnw=\"\">.</i><i data-astro-cid-hhoghhnw=\"\">.</i><i data-astro-cid-hhoghhnw=\"\">.</i></span>",
+  "t": "ちょっと待ってね<span class=\"pixel-loader__dots\" aria-hidden=\"true\" data-astro-cid-hhoghhnw=\"\"><i data-astro-cid-hhoghhnw=\"\">.</i><i data-astro-cid-hhoghhnw=\"\">.</i><i data-astro-cid-hhoghhnw=\"\">.</i></span>"
  }
 }

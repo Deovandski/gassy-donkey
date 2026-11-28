@@ -79,6 +79,10 @@
   "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
   "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> o <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> per scendere di un livello."
  },
+ "6bbc6327f335": {
+  "en": "The Stats for nerds page (Settings › DEBUG) shows what your browser tells the page about itself, such as your browser, screen, connection and page timings. It only shows this to you: nothing is saved and nothing is sent anywhere.",
+  "t": "La pagina Statistiche per nerd (Impostazioni › DEBUG) mostra ciò che il tuo browser dice alla pagina su sé stesso, come browser, schermo, connessione e tempi della pagina. Lo mostra solo a te: non viene salvato nulla e non viene inviato nulla da nessuna parte."
+ },
  "70c9afeb7702": {
   "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
   "t": "Ogni livello è una corsa fino alla bandiera d'arrivo. L'asino accelera ogni 200 metri. Perdi cuori quando urti qualcosa o vieni morso; quando finiscono la corsa termina, ma i PE guadagnati restano, così torni più forte."

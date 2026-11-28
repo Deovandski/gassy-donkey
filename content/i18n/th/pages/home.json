@@ -79,6 +79,10 @@
   "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
   "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> หรือ <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> ลงหนึ่งชั้น"
  },
+ "6bbc6327f335": {
+  "en": "The Stats for nerds page (Settings › DEBUG) shows what your browser tells the page about itself, such as your browser, screen, connection and page timings. It only shows this to you: nothing is saved and nothing is sent anywhere.",
+  "t": "หน้าสถิติสำหรับคนเนิร์ด (การตั้งค่า › DEBUG) แสดงสิ่งที่เบราว์เซอร์ของคุณบอกหน้าเว็บเกี่ยวกับตัวมันเอง เช่น เบราว์เซอร์ หน้าจอ การเชื่อมต่อ และเวลาโหลดหน้า โดยแสดงให้คุณเห็นเท่านั้น ไม่มีการบันทึกและไม่มีการส่งข้อมูลไปที่ใด"
+ },
  "70c9afeb7702": {
   "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
   "t": "แต่ละด่านคือการวิ่งไปถึงธงเส้นชัย ลาจะเร็วขึ้นทุก 200 เมตร หัวใจจะหายเมื่อชนสิ่งของหรือถูกกัด ถ้าหมด การวิ่งรอบนั้นจะจบ แต่ XP ที่ได้ยังอยู่ คุณจึงกลับมาได้อย่างแข็งแกร่งขึ้น"
