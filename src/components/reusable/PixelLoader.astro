@@ -1,0 +1,239 @@
+---
+/**
+ * PixelLoader: a full-screen "one moment" cover shown while a page finishes loading (#337), so visitors never see
+ * the half-laid-out page. A pixel-art sprite (the same 32 x 32 shapes PixelPet takes) stands under a speech bubble.
+ * It lifts itself once the page's scripts have run and its fonts are in (at most 1.5 s of waiting for fonts, and
+ * never more than 8 s in all). Without JavaScript it never shows.
+ *
+ * The sprite is turned into pixels when the site builds (no image file, no canvas), with PixelPet's black outline.
+ *
+ * Reusable on purpose: no imports, no site CSS needed. Put it once, first thing in <body>.
+ * Copied unchanged from Deovandski/Deovandski (src/components/reusable/PixelLoader.astro, Deovandski#337) for
+ * gassy-donkey#3; the issue numbers above are Deovandski/Deovandski's.
+ *
+ *   ---
+ *   import { PIXEL_PETS } from '../lib/pixelPets';
+ *   ---
+ *   <PixelLoader shapes={PIXEL_PETS.peeta.shapes} text="Please wait a sec" label="Loading" />
+ *
+ * Props:
+ *   shapes   the drawing: ellipse { cx, cy, rx, ry }, rect { x, y, w, h }, poly { pts }, px { pts }, each with a
+ *            colour `c`; later shapes paint over earlier ones. Coordinates 0-31 (as in PixelPet).
+ *   text     what the bubble says.
+ *   label    what screen readers hear while it shows. Default "Loading".
+ *   outline  outline colour, or "none". Default #111.
+ *
+ * Theming (CSS custom properties): --loader-bg (the cover, default #0b1230), --loader-bubble (#f4f4f4),
+ * --loader-ink (#111), --loader-px (one pixel's size, default 5px).
+ *
+ * Accessible: role="status" with the label while it shows, then removed; the page under it isn't hidden from
+ * screen readers. The sprite bobs and the dots blink only without prefers-reduced-motion; it never flashes.
+ */
+type Pt = [number, number];
+type Shape =
+  | { t: 'ellipse'; cx: number; cy: number; rx: number; ry: number; c: string }
+  | { t: 'rect'; x: number; y: number; w: number; h: number; c: string }
+  | { t: 'poly'; pts: Pt[]; c: string }
+  | { t: 'px'; pts: Pt[]; c: string };
+interface Props {
+  shapes: Shape[];
+  text: string;
+  label?: string;
+  outline?: string;
+}
+const { shapes, text, label = 'Loading', outline = '#111' } = Astro.props;
+
+// The same rasterizing as PixelPet.astro, done once at build time.
+const g: (string | null)[][] = Array.from({ length: 32 }, () => Array(32).fill(null));
+const set = (x: number, y: number, c: string) => {
+  if (x >= 0 && y >= 0 && x < 32 && y < 32) g[y][x] = c;
+};
+const inPoly = (x: number, y: number, pts: Pt[]) => {
+  let inside = false;
+  for (let i = 0, j = pts.length - 1; i < pts.length; j = i++) {
+    const [xi, yi] = pts[i];
+    const [xj, yj] = pts[j];
+    if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) inside = !inside;
+  }
+  return inside;
+};
+for (const s of shapes) {
+  if (s.t === 'rect') for (let y = s.y; y < s.y + s.h; y++) for (let x = s.x; x < s.x + s.w; x++) set(x, y, s.c);
+  if (s.t === 'px') for (const [x, y] of s.pts) set(x, y, s.c);
+  if (s.t === 'ellipse')
+    for (let y = 0; y < 32; y++) for (let x = 0; x < 32; x++) if (((x - s.cx) / (s.rx + 0.5)) ** 2 + ((y - s.cy) / (s.ry + 0.5)) ** 2 <= 1) set(x, y, s.c);
+  if (s.t === 'poly') for (let y = 0; y < 32; y++) for (let x = 0; x < 32; x++) if (inPoly(x + 0.5, y + 0.5, s.pts)) set(x, y, s.c);
+}
+const grid = g.map((row) => row.slice());
+if (outline !== 'none')
+  for (let y = 0; y < 32; y++)
+    for (let x = 0; x < 32; x++) {
+      if (g[y][x]) continue;
+      if ([g[y - 1]?.[x], g[y + 1]?.[x], g[y]?.[x - 1], g[y]?.[x + 1]].some(Boolean)) grid[y][x] = outline;
+    }
+// One <rect> per run of same-coloured pixels in a row, and the sprite cropped to what's drawn.
+const runs: { x: number; y: number; w: number; c: string }[] = [];
+let minX = 32, maxX = 0, minY = 32, maxY = 0;
+grid.forEach((row, y) => {
+  for (let x = 0; x < 32; ) {
+    const c = row[x];
+    if (!c) {
+      x++;
+      continue;
+    }
+    let w = 1;
+    while (row[x + w] === c) w++;
+    runs.push({ x, y, w, c });
+    minX = Math.min(minX, x);
+    maxX = Math.max(maxX, x + w);
+    minY = Math.min(minY, y);
+    maxY = Math.max(maxY, y + 1);
+    x += w;
+  }
+});
+const vw = Math.max(1, maxX - minX), vh = Math.max(1, maxY - minY);
+---
+
+<div class="pixel-loader" role="status" aria-label={label} data-pixel-loader data-llms-skip>
+  <div class="pixel-loader__stage">
+    <p class="pixel-loader__bubble">{text}<span class="pixel-loader__dots" aria-hidden="true"><i>.</i><i>.</i><i>.</i></span></p>
+    <svg class="pixel-loader__sprite" viewBox={`${minX} ${minY} ${vw} ${vh}`} width={vw} height={vh} shape-rendering="crispEdges" aria-hidden="true">
+      {runs.map((r) => <rect x={r.x} y={r.y} width={r.w} height="1" fill={r.c} />)}
+    </svg>
+    <span class="pixel-loader__shadow" aria-hidden="true" />
+  </div>
+</div>
+<script is:inline>
+  (function () {
+    var el = document.querySelector('[data-pixel-loader]');
+    if (!el) return;
+    var done = false;
+    function lift() {
+      if (done) return;
+      done = true;
+      el.classList.add('is-done');
+      setTimeout(function () {
+        el.remove();
+      }, 400);
+    }
+    function ready() {
+      var fonts = document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve();
+      Promise.race([fonts, new Promise(function (r) { setTimeout(r, 1500); })]).then(function () {
+        // Two frames: the page's own scripts have laid it out and it has painted once.
+        requestAnimationFrame(function () {
+          requestAnimationFrame(lift);
+        });
+      });
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ready);
+    else ready();
+    setTimeout(lift, 8000);
+    // Coming back with the Back button: nothing to wait for.
+    addEventListener('pageshow', function (e) {
+      if (e.persisted) lift();
+    });
+  })();
+</script>
+<noscript><style>[data-pixel-loader]{display:none!important}</style></noscript>
+
+<style>
+  .pixel-loader {
+    --_px: var(--loader-px, 5px);
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: grid;
+    place-items: center;
+    background: var(--loader-bg, #0b1230);
+    transition: opacity 0.35s ease;
+  }
+  .pixel-loader.is-done {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .pixel-loader__stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pixel-loader__bubble {
+    position: relative;
+    margin: 0 0 calc(var(--_px) * 4);
+    padding: 10px 16px;
+    max-width: min(80vw, 22rem);
+    background: var(--loader-bubble, #f4f4f4);
+    color: var(--loader-ink, #111);
+    font: 700 16px/1.3 ui-monospace, 'Courier New', monospace;
+    text-align: center;
+    /* Square, stepped corners, like a pixel-art speech bubble. */
+    box-shadow:
+      0 calc(var(--_px) * -1) 0 0 var(--loader-bubble, #f4f4f4),
+      0 var(--_px) 0 0 var(--loader-bubble, #f4f4f4),
+      calc(var(--_px) * -1) 0 0 0 var(--loader-bubble, #f4f4f4),
+      var(--_px) 0 0 0 var(--loader-bubble, #f4f4f4);
+  }
+  /* The tail, two steps down towards the sprite. */
+  .pixel-loader__bubble::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: calc(var(--_px) * -3);
+    width: calc(var(--_px) * 2);
+    height: calc(var(--_px) * 2);
+    margin-left: calc(var(--_px) * -1);
+    background: var(--loader-bubble, #f4f4f4);
+    box-shadow: calc(var(--_px) * -1) calc(var(--_px) * 1) 0 0 var(--loader-bubble, #f4f4f4);
+  }
+  .pixel-loader__dots i {
+    font-style: normal;
+  }
+  .pixel-loader__sprite {
+    display: block;
+    width: calc(var(--_px) * 26);
+    height: auto;
+    image-rendering: pixelated;
+  }
+  .pixel-loader__shadow {
+    display: block;
+    width: calc(var(--_px) * 16);
+    height: var(--_px);
+    margin-top: var(--_px);
+    background: rgba(0, 0, 0, 0.35);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .pixel-loader__sprite {
+      animation: pixel-loader-bob 0.9s steps(2, jump-none) infinite alternate;
+    }
+    .pixel-loader__dots i {
+      animation: pixel-loader-dot 1.2s steps(1, end) infinite;
+    }
+    .pixel-loader__dots i:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+    .pixel-loader__dots i:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+  }
+  @keyframes pixel-loader-bob {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(calc(var(--_px) * -2));
+    }
+  }
+  @keyframes pixel-loader-dot {
+    0%,
+    100% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .pixel-loader {
+      transition: none;
+    }
+  }
+</style>

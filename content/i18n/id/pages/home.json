@@ -79,6 +79,10 @@
   "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
   "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> atau <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> untuk turun satu lantai."
  },
+ "6bbc6327f335": {
+  "en": "The Stats for nerds page (Settings › DEBUG) shows what your browser tells the page about itself, such as your browser, screen, connection and page timings. It only shows this to you: nothing is saved and nothing is sent anywhere.",
+  "t": "Halaman Statistik untuk nerd (Pengaturan › DEBUG) menampilkan apa yang diberitahukan peramban Anda kepada halaman tentang dirinya, seperti peramban, layar, koneksi, dan waktu muat halaman. Halaman ini hanya menampilkannya untuk Anda: tidak ada yang disimpan dan tidak ada yang dikirim ke mana pun."
+ },
  "70c9afeb7702": {
   "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
   "t": "Setiap level adalah lari sampai bendera finis. Keledai makin cepat setiap 200 meter. Hati berkurang saat kamu menabrak sesuatu atau digigit; kalau habis, larinya berakhir, tetapi XP yang kamu dapat tetap ada, jadi kamu kembali lebih kuat."

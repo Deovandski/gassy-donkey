@@ -79,6 +79,10 @@
   "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
   "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> o <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> bajan un nivel."
  },
+ "6bbc6327f335": {
+  "en": "The Stats for nerds page (Settings › DEBUG) shows what your browser tells the page about itself, such as your browser, screen, connection and page timings. It only shows this to you: nothing is saved and nothing is sent anywhere.",
+  "t": "La página Estadísticas para nerds (Ajustes › DEBUG) muestra lo que tu navegador le cuenta a la página sobre sí mismo, como el navegador, la pantalla, la conexión y los tiempos de la página. Solo te lo muestra a ti: no se guarda nada ni se envía nada a ningún sitio."
+ },
  "70c9afeb7702": {
   "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
   "t": "Cada nivel es una carrera hasta la bandera de meta. El burro acelera cada 200 metros. Pierdes corazones al chocar con algo o al recibir un mordisco; si se acaban, la carrera termina, pero conservas la XP ganada y vuelves más fuerte."

@@ -79,6 +79,10 @@
   "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
   "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> oder <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> geht eine Ebene tiefer."
  },
+ "6bbc6327f335": {
+  "en": "The Stats for nerds page (Settings › DEBUG) shows what your browser tells the page about itself, such as your browser, screen, connection and page timings. It only shows this to you: nothing is saved and nothing is sent anywhere.",
+  "t": "Die Seite „Statistiken für Nerds“ (Einstellungen › DEBUG) zeigt, was dein Browser der Seite über sich selbst verrät, etwa Browser, Bildschirm, Verbindung und Ladezeiten der Seite. Sie zeigt das nur dir: Nichts wird gespeichert und nichts wird irgendwohin gesendet."
+ },
  "70c9afeb7702": {
   "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
   "t": "Jedes Level ist ein Lauf bis zur Zielflagge. Der Esel wird alle 200 Meter schneller. Du verlierst Herzen, wenn du irgendwo gegenstößt oder gebissen wirst; sind sie weg, endet der Lauf, aber die verdienten EP bleiben, also kommst du stärker zurück."

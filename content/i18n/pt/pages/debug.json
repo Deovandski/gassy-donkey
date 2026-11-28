@@ -6,5 +6,13 @@
  "517ad1c4e5c3": {
   "en": "Build, device, network and translation details for this site, typed out like an old computer terminal.",
   "t": "Detalhes de build, dispositivo, rede e tradução deste site, digitados como num terminal de computador antigo."
+ },
+ "8f26c6520d61": {
+  "en": "Loading",
+  "t": "Carregando"
+ },
+ "b9cb8c5b1ef0": {
+  "en": "Please wait a sec<span class=\"pixel-loader__dots\" aria-hidden=\"true\" data-astro-cid-hhoghhnw=\"\"><i data-astro-cid-hhoghhnw=\"\">.</i><i data-astro-cid-hhoghhnw=\"\">.</i><i data-astro-cid-hhoghhnw=\"\">.</i></span>",
+  "t": "Espera um segundinho<span class=\"pixel-loader__dots\" aria-hidden=\"true\" data-astro-cid-hhoghhnw=\"\"><i data-astro-cid-hhoghhnw=\"\">.</i><i data-astro-cid-hhoghhnw=\"\">.</i><i data-astro-cid-hhoghhnw=\"\">.</i></span>"
  }
 }

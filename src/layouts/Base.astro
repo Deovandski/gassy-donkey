@@ -6,6 +6,8 @@ import Gear from '../components/Gear.astro';
 import SettingsDialog from '../components/SettingsDialog.astro';
 import PhotoViewer from '../components/reusable/PhotoViewer.astro';
 import { BASE, NAV, REPO_URL, SITE_NAME, STORAGE_KEY, THEME_COLOR, url } from '../lib/site';
+import PixelLoader from '../components/reusable/PixelLoader.astro';
+import { PIXEL_PETS } from '../lib/pixelPets';
 
 interface Props {
   title: string;
@@ -69,6 +71,8 @@ const markdownTwin = Astro.url.pathname.endsWith('/') && !/\/404\/?$/.test(Astro
   </script>
 </head>
 <body class={bodyClass}>
+  <!-- Covers the page until its scripts have laid it out (#3, from deovandski.com): Peeta, from Deovandski/Deovandski's pixel art. -->
+  <PixelLoader shapes={PIXEL_PETS.peeta.shapes} text="Please wait a sec" label="Loading" />
   <a class="skip" href="#main">Skip to content</a>
   <div class="wrap">
     <header class="top">

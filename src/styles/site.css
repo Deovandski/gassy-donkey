@@ -7,6 +7,7 @@
   --ink: #15191b;
   --ink-soft: #4f5a5e;
   --night: #000000; /* THEME_COLOR in src/lib/site.ts: change both */
+  --loader-bg: var(--night); /* the page-load cover (PixelLoader, #3) */
   --accent: #ffa608; /* the 2016 title orange (game/scripts/ui/ui_theme.gd ORANGE): change both */
   --accent-2: #36bfd2; /* the 2016 planet-name cyan (ui_theme.gd CYAN): change both */
   --focus: #2f7df6;

@@ -79,6 +79,10 @@
   "en": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> or <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> drop down a level.",
   "t": "<kbd data-astro-cid-lcdefpme=\"\">S</kbd> ou <kbd data-astro-cid-lcdefpme=\"\">↓</kbd> pour descendre d'un niveau."
  },
+ "6bbc6327f335": {
+  "en": "The Stats for nerds page (Settings › DEBUG) shows what your browser tells the page about itself, such as your browser, screen, connection and page timings. It only shows this to you: nothing is saved and nothing is sent anywhere.",
+  "t": "La page Statistiques pour les geeks (Paramètres › DEBUG) affiche ce que ton navigateur dit de lui-même à la page, comme le navigateur, l’écran, la connexion et les temps de chargement. Elle te le montre seulement : rien n’est enregistré et rien n’est envoyé nulle part."
+ },
  "70c9afeb7702": {
   "en": "Each stage is a run to the finish flag. The donkey speeds up every 200 metres. Hearts go when you bump into things or get bitten; run out and the run ends, but the XP you earned is kept, so you come back stronger.",
   "t": "Chaque niveau est une course jusqu'au drapeau d'arrivée. L'âne accélère tous les 200 mètres. Vous perdez des cœurs quand vous heurtez quelque chose ou vous faites mordre ; quand il n'y en a plus, la course s'arrête, mais les XP gagnés restent, et vous revenez plus fort."
